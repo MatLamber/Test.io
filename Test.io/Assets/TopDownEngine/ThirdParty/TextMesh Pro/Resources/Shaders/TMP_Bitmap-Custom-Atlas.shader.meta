@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 48bb5f55d8670e349b6e614913f9d910
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89636
+  packageName: TopDown Engine
+  packageVersion: 4.1
+  assetPath: Assets/TopDownEngine/ThirdParty/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  uploadId: 695648

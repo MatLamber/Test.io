@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1e3b057af24249748ff873be7fafee47
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89636
+  packageName: TopDown Engine
+  packageVersion: 4.1
+  assetPath: Assets/TopDownEngine/ThirdParty/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader
+  uploadId: 695648

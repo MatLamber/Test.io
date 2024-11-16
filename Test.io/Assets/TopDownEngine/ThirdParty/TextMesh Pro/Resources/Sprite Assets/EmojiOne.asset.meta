@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c41005c129ba4d66911b75229fd70b45
+timeCreated: 1480316912
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89636
+  packageName: TopDown Engine
+  packageVersion: 4.1
+  assetPath: Assets/TopDownEngine/ThirdParty/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  uploadId: 695648
