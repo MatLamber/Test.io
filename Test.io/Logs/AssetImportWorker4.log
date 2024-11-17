@@ -6342,3 +6342,1637 @@ Memory consumption went from 339.2 MB to 331.0 MB.
 Total: 11.535600 ms (FindLiveObjects: 0.827600 ms CreateObjectMapping: 0.483800 ms MarkObjects: 6.090900 ms  DeleteObjects: 4.132200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1011.397600 seconds.
+  path: Assets/LowPolyFPS/Scenes
+  artifactKey: Guid(642bb0ebd70255a489081be123be9955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Scenes using Guid(642bb0ebd70255a489081be123be9955) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96709616da8bdd70d66552887c361dda') in 0.0092785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.090699 seconds.
+  path: Assets/LowPolyFPS/Scenes/LowPolyFPS_Overview.unity
+  artifactKey: Guid(2b701028e7a9b044f9b768cdf41b5e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Scenes/LowPolyFPS_Overview.unity using Guid(2b701028e7a9b044f9b768cdf41b5e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de9949c5a1ab477b61be9cf3a256a804') in 0.0005052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.837165 seconds.
+  path: Assets/LowPolyFPS/Scenes/LowPolyFPS_Map1.unity
+  artifactKey: Guid(5a07bb21c6c36644ab97f66e5843af8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Scenes/LowPolyFPS_Map1.unity using Guid(5a07bb21c6c36644ab97f66e5843af8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3291226162197e7722450736d445b28c') in 0.0007564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.392524 seconds.
+  path: Assets/_Test.io/Scenes/LevelTest.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Scenes/LevelTest.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '499669a2cb0867e841dade8b44aee7d2') in 0.0006453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3965.055254 seconds.
+  path: Assets/LowPolyFPS/Models/Pallet_02.fbx
+  artifactKey: Guid(b69ca4cd9ddf5bf41abc8a726dfa4121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/Pallet_02.fbx using Guid(b69ca4cd9ddf5bf41abc8a726dfa4121) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38bfd39987bb1c4ee358ca2573478abf') in 0.0853321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowPolyFPS/Models/PowerLines_01.fbx
+  artifactKey: Guid(b4fb45bf4915bf24d8fdb2b0922ea631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/PowerLines_01.fbx using Guid(b4fb45bf4915bf24d8fdb2b0922ea631) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '574019525391c35eebec00c67df84769') in 0.0382452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LowPolyFPS/Models/Road_04.fbx
+  artifactKey: Guid(111f27e1555a9024c9ace96a12928ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/Road_04.fbx using Guid(111f27e1555a9024c9ace96a12928ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29a6c2eed30becbc5e1bec7c8d4dad10') in 0.0285811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyFPS/Models/Stairs_01.fbx
+  artifactKey: Guid(aba308e61e35f9e4d9d4fc60ee0e2f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/Stairs_01.fbx using Guid(aba308e61e35f9e4d9d4fc60ee0e2f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4959c0347e289eaefbec0b7dc92635e') in 0.0372424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LowPolyFPS/Models/RoadPart_04.fbx
+  artifactKey: Guid(845d65946dab53d4589f91f3a156d83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/RoadPart_04.fbx using Guid(845d65946dab53d4589f91f3a156d83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d6b6550bd896d574278a530f705f848') in 0.0391927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyFPS/Models/Road_06.fbx
+  artifactKey: Guid(a961b7cb9ef81fe4d8856f1d0d42fab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/Road_06.fbx using Guid(a961b7cb9ef81fe4d8856f1d0d42fab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77d5ca6eed109e3fa6481580c0b5548e') in 0.0193824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowPolyFPS/Models/Trash_02.fbx
+  artifactKey: Guid(7755fef5c89fe8a41b2762b64d0900ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/Trash_02.fbx using Guid(7755fef5c89fe8a41b2762b64d0900ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f6e04429b0a44014983fe299c58767f') in 0.0226286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowPolyFPS/Models/Road_01.fbx
+  artifactKey: Guid(16e36bdba61e97643bab4e4de6fa44c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/Road_01.fbx using Guid(16e36bdba61e97643bab4e4de6fa44c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '967c93ae0c214c72fae608daad7717ce') in 0.015457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyFPS/Models/Road_02.fbx
+  artifactKey: Guid(d2590f8650315a94a96d8534181da150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/Road_02.fbx using Guid(d2590f8650315a94a96d8534181da150) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bdcf020f3010c719f5e74a8d2d36e26') in 0.0236821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LowPolyFPS/Models/PowerLines_02.fbx
+  artifactKey: Guid(5c4202b0048d7b1448e888bf76337566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/PowerLines_02.fbx using Guid(5c4202b0048d7b1448e888bf76337566) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f942349fda584fa9be907e5b993e0a45') in 0.0200921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LowPolyFPS/Models/Parking_01_2.fbx
+  artifactKey: Guid(570ec79f911634c44b1282a2ebe1e9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/Parking_01_2.fbx using Guid(570ec79f911634c44b1282a2ebe1e9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fecbe8ab921d5d69e9e3d4a9ce11e5a') in 0.0225243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LowPolyFPS/Models/Rock_01.fbx
+  artifactKey: Guid(83692c88a2799cf4f913a3ffd1b89aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/Rock_01.fbx using Guid(83692c88a2799cf4f913a3ffd1b89aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '480506a73d1533183d8f4f6c1c8ee640') in 0.0204441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyFPS/Models/Road_07.fbx
+  artifactKey: Guid(b402911b3cd6635499d10d8744b4ed66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/Road_07.fbx using Guid(b402911b3cd6635499d10d8744b4ed66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b7fd9fa9c4c502ff0a747c1569c5f17') in 0.0152297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LowPolyFPS/Models/Roof_01.fbx
+  artifactKey: Guid(1e0879fa21963c345b2603191a8cd2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/Roof_01.fbx using Guid(1e0879fa21963c345b2603191a8cd2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13d9a293615d8eca108a39fe66cb0bcc') in 0.0186834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LowPolyFPS/Models/ParkingBG_01.fbx
+  artifactKey: Guid(b7771b5615116b24abf7f36341b2284a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/ParkingBG_01.fbx using Guid(b7771b5615116b24abf7f36341b2284a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11b859dcbc35b9894c35722ab592c56b') in 0.0198401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LowPolyFPS/Models/RoadPart_01.fbx
+  artifactKey: Guid(448e473b87148e44abe44085b9bf7439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/RoadPart_01.fbx using Guid(448e473b87148e44abe44085b9bf7439) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e11bd47e63f7541d60ff60374a4cf5e0') in 0.0131822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LowPolyFPS/Models/Plant_01.fbx
+  artifactKey: Guid(5a01556cd54c0cf44bd39bb8083b8019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/Plant_01.fbx using Guid(5a01556cd54c0cf44bd39bb8083b8019) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ae4371360115d6e0d20c7bad6fe3045') in 0.0141985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LowPolyFPS/Models/RoadPart_06.fbx
+  artifactKey: Guid(d4b40a14ff57d5a468d350113e223c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/RoadPart_06.fbx using Guid(d4b40a14ff57d5a468d350113e223c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e9a6240404e4e000a4b4dac41b4003c') in 0.0159118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LowPolyFPS/Models/Road_03.fbx
+  artifactKey: Guid(272865094cf22794488a11c85b0330e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/Road_03.fbx using Guid(272865094cf22794488a11c85b0330e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f0ea2a71ef1ce080dc06fd502152db9') in 0.015565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/LowPolyFPS/Models/RoadSign_02.fbx
+  artifactKey: Guid(fd29bbac6229cac46b388e3a43eec1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/RoadSign_02.fbx using Guid(fd29bbac6229cac46b388e3a43eec1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e837101f5945b8e0e9aefd0d013d1dd') in 0.0135433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyFPS/Models/Trash_01.fbx
+  artifactKey: Guid(3a31c78c02d26934ea3250ef7074cc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/Trash_01.fbx using Guid(3a31c78c02d26934ea3250ef7074cc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b98f408f3ef1aef29db6994f7b5ecc5') in 0.0143036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LowPolyFPS/Models/Road_05.fbx
+  artifactKey: Guid(16b244895f71bec41a0404644e5e1fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/Road_05.fbx using Guid(16b244895f71bec41a0404644e5e1fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc8f1321bef9e6404779346713043b2d') in 0.0167607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LowPolyFPS/Models/RoadPart_02.fbx
+  artifactKey: Guid(c627e03fe4c08724f96316a07ac14a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/RoadPart_02.fbx using Guid(c627e03fe4c08724f96316a07ac14a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f1359b26175251e8f1b34258c7812de') in 0.0146725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyFPS/Models/RoadPart_05.fbx
+  artifactKey: Guid(e37e2fb1410c09d4db04aa34015aea1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/RoadPart_05.fbx using Guid(e37e2fb1410c09d4db04aa34015aea1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '968c2c011848399a9dd41446d2f0a12b') in 0.0143939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowPolyFPS/Models/RoadPart_07.fbx
+  artifactKey: Guid(3d34eeb773a533943b0f1edcf9a5900c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/RoadPart_07.fbx using Guid(3d34eeb773a533943b0f1edcf9a5900c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0aac6190cef23d5b4de69ae3e70d12e7') in 0.0140389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LowPolyFPS/Models/RoadPart_03.fbx
+  artifactKey: Guid(17250bcdfe8bb5d4985ff4574c0faff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/RoadPart_03.fbx using Guid(17250bcdfe8bb5d4985ff4574c0faff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c024906fd2bbb39a5a575b70cad2fdec') in 0.0170746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyFPS/Models/RoadSign_01.fbx
+  artifactKey: Guid(5c91378b63098114fb26c0bea42d901b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/RoadSign_01.fbx using Guid(5c91378b63098114fb26c0bea42d901b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27028ff1b6053d085401b486b3a5b438') in 0.0143041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.621760 seconds.
+  path: Assets/LowPolyFPS/Prefabs/Particles_Fire_01.prefab
+  artifactKey: Guid(3ce7704754c7f694cb93706e03f4272c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Prefabs/Particles_Fire_01.prefab using Guid(3ce7704754c7f694cb93706e03f4272c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3607e02cea35e8b6cddf0bc4df8f074c') in 0.0174819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyFPS/Prefabs/RoadPart_04.prefab
+  artifactKey: Guid(2409d1ced782bf246836f53bc07308f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Prefabs/RoadPart_04.prefab using Guid(2409d1ced782bf246836f53bc07308f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46b773ec8c5ffbbe56cefab8fb49c4f0') in 0.0596566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LowPolyFPS/Prefabs/RoadPart_02.prefab
+  artifactKey: Guid(061da36b4cde1024ebacf1d6a8e33848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Prefabs/RoadPart_02.prefab using Guid(061da36b4cde1024ebacf1d6a8e33848) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2deb52251bbca3f2a7be63c41826fa9') in 0.0551632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LowPolyFPS/Prefabs/Rock_01.prefab
+  artifactKey: Guid(335ca574a3234f54099761e81f14084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Prefabs/Rock_01.prefab using Guid(335ca574a3234f54099761e81f14084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1eb457b0efaf17f621d5b51dc2ea59e') in 0.058736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowPolyFPS/Prefabs/Road_02.prefab
+  artifactKey: Guid(1f3397adeac41f84b80b700ee560a41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Prefabs/Road_02.prefab using Guid(1f3397adeac41f84b80b700ee560a41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66d3b66c013d91f172cc4c184d0d4764') in 0.0717634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/LowPolyFPS/Prefabs/RoadPart_07.prefab
+  artifactKey: Guid(a73cb5459fcedae4fa49925a430fbbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Prefabs/RoadPart_07.prefab using Guid(a73cb5459fcedae4fa49925a430fbbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08d1c6e56dc910bed2a2b3e66365207e') in 0.0647292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LowPolyFPS/Prefabs/Road_06.prefab
+  artifactKey: Guid(724a63feefa37b849a1928bbc7731895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Prefabs/Road_06.prefab using Guid(724a63feefa37b849a1928bbc7731895) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e46948c8ab39caa177c64e9dc278af7c') in 0.0863348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LowPolyFPS/Prefabs/Road_04.prefab
+  artifactKey: Guid(ea29e4c3425fc6d4cb10aaf6cfb9031d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Prefabs/Road_04.prefab using Guid(ea29e4c3425fc6d4cb10aaf6cfb9031d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eaf877fc2ca4b823ea520b238bfb9cc9') in 0.035627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyFPS/Prefabs/Road_03.prefab
+  artifactKey: Guid(0a42ccb8d748e0049b1f7108323b089a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Prefabs/Road_03.prefab using Guid(0a42ccb8d748e0049b1f7108323b089a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3679105a84c704af33297f937e42ae5d') in 0.0455478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LowPolyFPS/Prefabs/PowerLines_02.prefab
+  artifactKey: Guid(ff813ac6025a19e43875eaadcf7a4efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Prefabs/PowerLines_02.prefab using Guid(ff813ac6025a19e43875eaadcf7a4efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f08d49efdbe7f0e015253996336405e') in 0.039467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.314459 seconds.
+  path: Assets/LowPolyFPS/Prefabs/OldCar_04.prefab
+  artifactKey: Guid(09831a8f324c1a845841c40e02ce694b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Prefabs/OldCar_04.prefab using Guid(09831a8f324c1a845841c40e02ce694b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb1deea1bc8fb3355ca39f65a39b1117') in 0.0274677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/LowPolyFPS/Prefabs/Pallet_02.prefab
+  artifactKey: Guid(5344d6b71276163418376ef890b373a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Prefabs/Pallet_02.prefab using Guid(5344d6b71276163418376ef890b373a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d59f9e186509e64a9cd3639d907b7c8') in 0.0307352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyFPS/Prefabs/ParkingBG_01.prefab
+  artifactKey: Guid(d071ec07ccb595344b92c91f13b8dd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Prefabs/ParkingBG_01.prefab using Guid(d071ec07ccb595344b92c91f13b8dd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f469491d8f38863f851c5eb2e204873a') in 0.0309271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.629302 seconds.
+  path: Assets/LowPolyFPS/Prefabs/Luke_01.prefab
+  artifactKey: Guid(52315b9fc7fc0f545a2397eef0f40db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Prefabs/Luke_01.prefab using Guid(52315b9fc7fc0f545a2397eef0f40db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '030e56ffec5b12987aa05367e854f536') in 0.0269138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/LowPolyFPS/Prefabs/OldCar_01.prefab
+  artifactKey: Guid(ca84231cd22d16949820e47e213665e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Prefabs/OldCar_01.prefab using Guid(ca84231cd22d16949820e47e213665e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bad300f63a030a6ecb80748ed3a5ae00') in 0.0287777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.510610 seconds.
+  path: Assets/LowPolyFPS/Prefabs/House_04.prefab
+  artifactKey: Guid(f1b164e4d75474543a59a4e010802efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Prefabs/House_04.prefab using Guid(f1b164e4d75474543a59a4e010802efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57dec687467312d6af27e4776ae66c2e') in 0.0373297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/LowPolyFPS/Prefabs/House_07.prefab
+  artifactKey: Guid(3a62d6ac10141ce4297fac8c809c8a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Prefabs/House_07.prefab using Guid(3a62d6ac10141ce4297fac8c809c8a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e0ac37e37cc55ffc14f1d55f752784e') in 0.0466989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.251514 seconds.
+  path: Assets/LowPolyFPS/Prefabs/FlowerBed_01.prefab
+  artifactKey: Guid(4f6d0b6afc417314fb6a803312662e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Prefabs/FlowerBed_01.prefab using Guid(4f6d0b6afc417314fb6a803312662e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d47ad02ecfdf14aee7fbe5a2268026e') in 0.0212379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyFPS/Prefabs/House_01.prefab
+  artifactKey: Guid(eacc64b8a993afa48a98fd92d8fcad85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Prefabs/House_01.prefab using Guid(eacc64b8a993afa48a98fd92d8fcad85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a46f5d976f624b35a411dd229736724') in 0.0204749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.578053 seconds.
+  path: Assets/LowPolyFPS/Prefabs/CityHall_01.prefab
+  artifactKey: Guid(bda37e7d7a644cf4e88994bfc7b9f6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Prefabs/CityHall_01.prefab using Guid(bda37e7d7a644cf4e88994bfc7b9f6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '557e799316da62d2af3cc1c858989636') in 0.021042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LowPolyFPS/Prefabs/Fence_04.prefab
+  artifactKey: Guid(4d1e49ecfa0730b47973897814cf37e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Prefabs/Fence_04.prefab using Guid(4d1e49ecfa0730b47973897814cf37e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce0d262359e6ad3bd23695ea52f41838') in 0.0178757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.250176 seconds.
+  path: Assets/LowPolyFPS/Prefabs/BG_01.prefab
+  artifactKey: Guid(3883eb798fef6794080cab0237ec66f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Prefabs/BG_01.prefab using Guid(3883eb798fef6794080cab0237ec66f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca9ec5939e627a8e8cfc3bb965ac64a5') in 0.0186279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/LowPolyFPS/Prefabs/Box_02.prefab
+  artifactKey: Guid(af440db26e5acf447b48567c812e8d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Prefabs/Box_02.prefab using Guid(af440db26e5acf447b48567c812e8d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea31ab2f26e52d104440904a14db2c21') in 0.0210797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.301480 seconds.
+  path: Assets/LowPolyFPS/Prefabs/AmoBox_01.prefab
+  artifactKey: Guid(d714687a61fd67a46be151682bd29a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Prefabs/AmoBox_01.prefab using Guid(d714687a61fd67a46be151682bd29a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f6ab815e80b5bea83c9ce6d857bd2eb') in 0.0189539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LowPolyFPS/Prefabs/Bank_01.prefab
+  artifactKey: Guid(33cb8b4747dda0f4b9293221ada50d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Prefabs/Bank_01.prefab using Guid(33cb8b4747dda0f4b9293221ada50d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a717670461883c47fba4e1bae4b7bc5') in 0.0272725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.314916 seconds.
+  path: Assets/LowPolyFPS/Models/AmoBox_01.fbx
+  artifactKey: Guid(5c87ca95556fc3f4ba9eb8dbd92ca18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/AmoBox_01.fbx using Guid(5c87ca95556fc3f4ba9eb8dbd92ca18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '504cffd170f1056b833963d665cd3058') in 0.092844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowPolyFPS/Models/Barrel_02.fbx
+  artifactKey: Guid(05f0841c8b03df443b40ce66a424dcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/Barrel_02.fbx using Guid(05f0841c8b03df443b40ce66a424dcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89316cc3108aa352e26f1e92c4c065eb') in 0.0760009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LowPolyFPS/Models/Box_03.fbx
+  artifactKey: Guid(c19d55906694f794e9ad0b47065a8fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/Box_03.fbx using Guid(c19d55906694f794e9ad0b47065a8fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b7d232b981ec92a8a1069a9baa8498a') in 0.0490188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/LowPolyFPS/Models/CityHall_01.fbx
+  artifactKey: Guid(96a4d5bfec9be144687e1da6206a0252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/CityHall_01.fbx using Guid(96a4d5bfec9be144687e1da6206a0252) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '277716c956d091f5d0b09d8a7be76215') in 0.1196112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/LowPolyFPS/Models/Barrier_01.fbx
+  artifactKey: Guid(6c3ad6d369fcd1e4a83e04e716b83cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/Barrier_01.fbx using Guid(6c3ad6d369fcd1e4a83e04e716b83cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '843d54c5dd4aada018aa74f83125628d') in 0.0142398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowPolyFPS/Models/Box_02.fbx
+  artifactKey: Guid(3e040dbed2b16a140a3bc917b90406a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/Box_02.fbx using Guid(3e040dbed2b16a140a3bc917b90406a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '499ca1be3a412bf204983143c0a80c42') in 0.0130302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LowPolyFPS/Models/Fence_01.fbx
+  artifactKey: Guid(e6d7522a1f8ba104f999ac433e793945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/Fence_01.fbx using Guid(e6d7522a1f8ba104f999ac433e793945) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3d5e82b7c97685e69f3c2f43bf7eb52') in 0.0142446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LowPolyFPS/Models/House_01.fbx
+  artifactKey: Guid(96a167dc9d4fe144ea812113e8a71a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/House_01.fbx using Guid(96a167dc9d4fe144ea812113e8a71a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47211a99a9a07bb7b54d45497b99ec2a') in 0.0117535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/LowPolyFPS/Models/Construction_01.fbx
+  artifactKey: Guid(1ebe8aa20390d634e806d2aae1879e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Models/Construction_01.fbx using Guid(1ebe8aa20390d634e806d2aae1879e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00e65b5c2a9d9a281b23921bcebf2d15') in 0.0141809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.574407 seconds.
+  path: Assets/LowPolyFPS/Texture/LowPolyFPS_Texture.png
+  artifactKey: Guid(893b884025a0b3a4b8c333a713ee0a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPS/Texture/LowPolyFPS_Texture.png using Guid(893b884025a0b3a4b8c333a713ee0a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '736956e932554c0fc6be6926d931505c') in 0.0212467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.776012 seconds.
+  path: Assets/_Test.io/Prefab/Weapons/Rifle.prefab
+  artifactKey: Guid(5d39bdceea059514b874f19bab4ca71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Prefab/Weapons/Rifle.prefab using Guid(5d39bdceea059514b874f19bab4ca71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '772e87e8026fd73ff2c632efb394f808') in 0.3455496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 255
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.253835 seconds.
+  path: Assets/_Test.io/Scenes/LevelTest.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Scenes/LevelTest.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eab4ad68b40bd3396bb226ebcce7b16b') in 0.0005292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.711 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.112 seconds
+Domain Reload Profiling: 1825ms
+	BeginReloadAssembly (187ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (463ms)
+		LoadAssemblies (340ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (205ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (174ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1112ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (898ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (648ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7974 unused Assets / (8.2 MB). Loaded Objects now: 8862.
+Memory consumption went from 339.2 MB to 331.0 MB.
+Total: 11.742100 ms (FindLiveObjects: 0.824000 ms CreateObjectMapping: 0.446600 ms MarkObjects: 5.986200 ms  DeleteObjects: 4.483800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.663 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.068 seconds
+Domain Reload Profiling: 1734ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (429ms)
+		LoadAssemblies (312ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (200ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (171ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1068ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (848ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (162ms)
+			ProcessInitializeOnLoadAttributes (597ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7971 unused Assets / (8.1 MB). Loaded Objects now: 8864.
+Memory consumption went from 339.2 MB to 331.1 MB.
+Total: 10.285800 ms (FindLiveObjects: 0.779100 ms CreateObjectMapping: 0.465100 ms MarkObjects: 5.209700 ms  DeleteObjects: 3.830900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.658 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.076 seconds
+Domain Reload Profiling: 1736ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (427ms)
+		LoadAssemblies (306ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (201ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (172ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1076ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (860ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (613ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7971 unused Assets / (9.0 MB). Loaded Objects now: 8866.
+Memory consumption went from 339.1 MB to 330.2 MB.
+Total: 12.825400 ms (FindLiveObjects: 1.074500 ms CreateObjectMapping: 0.678600 ms MarkObjects: 6.055600 ms  DeleteObjects: 5.015800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.663 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.89 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.207 seconds
+Domain Reload Profiling: 1873ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (430ms)
+		LoadAssemblies (314ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (200ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (171ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1208ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (974ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (207ms)
+			ProcessInitializeOnLoadAttributes (673ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7971 unused Assets / (8.0 MB). Loaded Objects now: 8868.
+Memory consumption went from 339.3 MB to 331.2 MB.
+Total: 9.850800 ms (FindLiveObjects: 0.875500 ms CreateObjectMapping: 0.501300 ms MarkObjects: 4.986600 ms  DeleteObjects: 3.486600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.698 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.108 seconds
+Domain Reload Profiling: 1809ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (456ms)
+		LoadAssemblies (317ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (226ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (179ms)
+			ResolveRequiredComponents (36ms)
+	FinalizeReload (1108ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (886ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (193ms)
+			ProcessInitializeOnLoadAttributes (591ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7971 unused Assets / (8.1 MB). Loaded Objects now: 8870.
+Memory consumption went from 339.3 MB to 331.2 MB.
+Total: 10.303200 ms (FindLiveObjects: 0.867000 ms CreateObjectMapping: 0.478900 ms MarkObjects: 5.301700 ms  DeleteObjects: 3.654900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 633.997074 seconds.
+  path: Assets/Polygon-NewYork/Prefabs
+  artifactKey: Guid(49326120b5cd7b34dac4c2859a05a1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon-NewYork/Prefabs using Guid(49326120b5cd7b34dac4c2859a05a1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d8fbb8ae8415cb8d03386598282ba12') in 0.0493719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 195.636462 seconds.
+  path: Assets/CartoonLowPolyCityLite/Prefabs
+  artifactKey: Guid(7bd72cc63c2c32343a95dd65dd7936f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Prefabs using Guid(7bd72cc63c2c32343a95dd65dd7936f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ec194fe974905a69b0d87e35ccc6296') in 0.0005561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065259 seconds.
+  path: Assets/CartoonLowPolyCityLite/Prefabs/BG.prefab
+  artifactKey: Guid(eda928f79ba6b9549ae9bb8ed004f92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Prefabs/BG.prefab using Guid(eda928f79ba6b9549ae9bb8ed004f92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c98a9297d90eb3e7255252080fc28e4') in 0.1198715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CartoonLowPolyCityLite/Prefabs/Road_10.prefab
+  artifactKey: Guid(332ef6a447c3b94489f35ad845e8b7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Prefabs/Road_10.prefab using Guid(332ef6a447c3b94489f35ad845e8b7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7f2cf2a570635b6d629c7d714e36f4a') in 0.0228516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CartoonLowPolyCityLite/Prefabs/Light_01.prefab
+  artifactKey: Guid(cf29fabe5be425d4fa58702a405410ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Prefabs/Light_01.prefab using Guid(cf29fabe5be425d4fa58702a405410ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10c7d9c778b4c69cec7f11a5dc331c2e') in 0.0582822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CartoonLowPolyCityLite/Prefabs/Road_02.prefab
+  artifactKey: Guid(0fe65fec31a96cc49a3146a03f035c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Prefabs/Road_02.prefab using Guid(0fe65fec31a96cc49a3146a03f035c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e57f625058aaf00e5ef49a214339fa74') in 0.0215019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CartoonLowPolyCityLite/Prefabs/House_01.prefab
+  artifactKey: Guid(2557362e4e8bcfe4486030fd8a78182a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonLowPolyCityLite/Prefabs/House_01.prefab using Guid(2557362e4e8bcfe4486030fd8a78182a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '645c5e9193c6188d47794f80804d9556') in 0.0218838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.879942 seconds.
+  path: Assets/Viuletti City low poly/Prefabs
+  artifactKey: Guid(801d90e3411dd524eb9cabf0cff1f8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Prefabs using Guid(801d90e3411dd524eb9cabf0cff1f8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9de6d6211924746e649ebc4b13e0d49') in 0.0005277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.033092 seconds.
+  path: Assets/Viuletti City low poly/Prefabs/Roads
+  artifactKey: Guid(e00fdcd3994ec764c86b1ebcb55ce891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Prefabs/Roads using Guid(e00fdcd3994ec764c86b1ebcb55ce891) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2efd5922f5eaf1cb451d442b269f10c') in 0.0004764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035951 seconds.
+  path: Assets/Viuletti City low poly/Prefabs/Roads/Crossing.prefab
+  artifactKey: Guid(45dcbc0d02a319949b685e7d70deacb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Prefabs/Roads/Crossing.prefab using Guid(45dcbc0d02a319949b685e7d70deacb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a0e73cd7549b854b31e727435d04ced') in 0.0120641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Viuletti City low poly/Prefabs/Roads/Turn.prefab
+  artifactKey: Guid(f79ac4e821519164194463f7fa336938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Prefabs/Roads/Turn.prefab using Guid(f79ac4e821519164194463f7fa336938) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa12846785fe3638410fdaf1420d8b87') in 0.0109888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Viuletti City low poly/Prefabs/Roads/Road 8 tiles.prefab
+  artifactKey: Guid(9cbe114ded05b77408703dd681924e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viuletti City low poly/Prefabs/Roads/Road 8 tiles.prefab using Guid(9cbe114ded05b77408703dd681924e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2107a497162320a5db77b21531992843') in 0.0108809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 212.687985 seconds.
+  path: Assets/Simple city plain/Prefabs
+  artifactKey: Guid(9b3f41c9510b3cd43a8766a508dc6635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs using Guid(9b3f41c9510b3cd43a8766a508dc6635) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '170996d4310ebf1b767b957d70320c46') in 0.0005278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078910 seconds.
+  path: Assets/Simple city plain/Prefabs/bench prefab.prefab
+  artifactKey: Guid(80c5916b9606ce646be16611d9a06d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/bench prefab.prefab using Guid(80c5916b9606ce646be16611d9a06d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a986650b8db64bd9b542da4aa45badf7') in 0.0137824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Simple city plain/Prefabs/Building_I_2_Prefab.prefab
+  artifactKey: Guid(1e198ff9400b5064c816d8f779eff296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Building_I_2_Prefab.prefab using Guid(1e198ff9400b5064c816d8f779eff296) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76327f40c2d294d2a55d1a4077a96f8f') in 0.0183842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Simple city plain/Prefabs/Building_I_1_prefab.prefab
+  artifactKey: Guid(931ecb32d754b3f40afc9a688c8cea66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Building_I_1_prefab.prefab using Guid(931ecb32d754b3f40afc9a688c8cea66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea68e8118bcc06615d3bb8261e4e1eda') in 0.0148966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Simple city plain/Prefabs/Building_M_prefab.prefab
+  artifactKey: Guid(84bb406b82cecb24cb1ffe5d4359339d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Building_M_prefab.prefab using Guid(84bb406b82cecb24cb1ffe5d4359339d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5d0065f1be0af8b17e38a72a02c6207') in 0.01464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Simple city plain/Prefabs/Building_A1_prefab.prefab
+  artifactKey: Guid(562df8355904213468a690c4ce6740b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Building_A1_prefab.prefab using Guid(562df8355904213468a690c4ce6740b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45519f06f3167ebd11618c52f6f6102c') in 0.0153155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Simple city plain/Prefabs/Building_N_Prefab.prefab
+  artifactKey: Guid(bbad862e7e06efe4a8ad0346a53e3cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Building_N_Prefab.prefab using Guid(bbad862e7e06efe4a8ad0346a53e3cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82fbaefbc258823983e6cf73e5496f15') in 0.0166556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Simple city plain/Prefabs/Grass Prefab.prefab
+  artifactKey: Guid(7446a392a730ac14d9cc70d21cf7ace0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Grass Prefab.prefab using Guid(7446a392a730ac14d9cc70d21cf7ace0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4cf5a3e5ffe4237b207fcb8e6acef404') in 0.0115178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Simple city plain/Prefabs/street_lamp 1 prefab.prefab
+  artifactKey: Guid(6825a3fe8a1605f42a0d0589e582ac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/street_lamp 1 prefab.prefab using Guid(6825a3fe8a1605f42a0d0589e582ac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49b1a025e10f5e7b0cf0cf48001d828e') in 0.0132156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Simple city plain/Prefabs/ColaMachine prefab.prefab
+  artifactKey: Guid(2bf7da734f1a8224fb14055902b5b343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/ColaMachine prefab.prefab using Guid(2bf7da734f1a8224fb14055902b5b343) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e841d1374d5343af51989ce767bb0e83') in 0.0144495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Simple city plain/Prefabs/Shop_B_prefab.prefab
+  artifactKey: Guid(9a52ba64c3a0abf49ad9515917ade04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple city plain/Prefabs/Shop_B_prefab.prefab using Guid(9a52ba64c3a0abf49ad9515917ade04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe669ac79ada48b88dbedc3d4f827366') in 0.1357356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 702.028542 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack
+  artifactKey: Guid(1792e29f65c650d46b1b7315663b841d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack using Guid(1792e29f65c650d46b1b7315663b841d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ae8461bdc5a83456153d4cd04717ccf') in 0.0008086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.109797 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Aspen_Tree_01.fbx
+  artifactKey: Guid(42453724d1ed43543b1e5e8754c22a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Aspen_Tree_01.fbx using Guid(42453724d1ed43543b1e5e8754c22a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6662ae90b2ebecb61218b9de4c7a396') in 0.0399547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Buiding_Prop_07.fbx
+  artifactKey: Guid(9569a205aef8c554d9b39e03f458008c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Buiding_Prop_07.fbx using Guid(9569a205aef8c554d9b39e03f458008c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65a74fa0dfdcd7807fdfe9279fd33382') in 0.0591221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Buiding_Prop_02.fbx
+  artifactKey: Guid(42e32e12289ae0840834637c345a0f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Buiding_Prop_02.fbx using Guid(42e32e12289ae0840834637c345a0f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a813297a160e4bc2fa8d3c23e37210d') in 0.0366438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Bush_02.fbx
+  artifactKey: Guid(3392396f55ac1ae4cad6619901f34731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Bush_02.fbx using Guid(3392396f55ac1ae4cad6619901f34731) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '119cb9f4d398e9f0213895bea809a4af') in 0.0133616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Bush_03.fbx
+  artifactKey: Guid(8b6df54cd50ccb441ae1ddaa6590386f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Bush_03.fbx using Guid(8b6df54cd50ccb441ae1ddaa6590386f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e05ea447ef16021a8e644477c7b98b53') in 0.0153053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Destroyed_Wall_03.fbx
+  artifactKey: Guid(fea7c121a576d234e82d460818d08828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Destroyed_Wall_03.fbx using Guid(fea7c121a576d234e82d460818d08828) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fff477dd34812bf2a5719a0f3650441') in 0.0124945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Buiding_Prop_01.fbx
+  artifactKey: Guid(39225e3bbb4b91047ac8d9ea48870915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Buiding_Prop_01.fbx using Guid(39225e3bbb4b91047ac8d9ea48870915) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f7158bfa824dbe3412f0b8654b65d22') in 0.0136403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Bottle_02.fbx
+  artifactKey: Guid(e65e211e1cd62874ab0aef32129b268f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Bottle_02.fbx using Guid(e65e211e1cd62874ab0aef32129b268f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3abc8d42fa24cc755bc11f0fb0a7a336') in 0.0335383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Buiding_Prop_06.fbx
+  artifactKey: Guid(878ee54efb258ff4b8e74b43b4fe1c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Buiding_Prop_06.fbx using Guid(878ee54efb258ff4b8e74b43b4fe1c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aac769b344101e8d8940fe2982a6e09b') in 0.0137711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Buiding_Prop_08.fbx
+  artifactKey: Guid(5064096cdb0a5de4bacbfe11c75c85d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Buiding_Prop_08.fbx using Guid(5064096cdb0a5de4bacbfe11c75c85d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8dee51055b60b98802fcddc555e1508') in 0.0157235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Buiding_Prop_11.fbx
+  artifactKey: Guid(3088912ba5fa2df4c9288b022a395c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Buiding_Prop_11.fbx using Guid(3088912ba5fa2df4c9288b022a395c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '710cdf54ef8a1afa112235b3d0953a0f') in 0.0142926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Destroyed_Wall_02.fbx
+  artifactKey: Guid(daaaab909d692b64583991834059f7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Destroyed_Wall_02.fbx using Guid(daaaab909d692b64583991834059f7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53443bfbdab7ab02f3a84fef70e73387') in 0.0126575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Fir_Tree_03.fbx
+  artifactKey: Guid(e704025636cc4994c9930b3a92b48d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Fir_Tree_03.fbx using Guid(e704025636cc4994c9930b3a92b48d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64cad01af41e5f64def8dfd37cfbac4f') in 0.0257193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Buiding_Prop_09.fbx
+  artifactKey: Guid(ea3f31c7abad06a429caa905f3d98539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Buiding_Prop_09.fbx using Guid(ea3f31c7abad06a429caa905f3d98539) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3386a22cdcf62ff1f7f18c1728bca8fe') in 0.0131135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Fir_Tree_02.fbx
+  artifactKey: Guid(52e105fb0efee834295666c59c42db23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Fir_Tree_02.fbx using Guid(52e105fb0efee834295666c59c42db23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'babae195cabfe62cbc1c770bc6d5f6cd') in 0.0259901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Buiding_Prop_03.fbx
+  artifactKey: Guid(b05f50e5de32cd84db7fb0162c15d8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Buiding_Prop_03.fbx using Guid(b05f50e5de32cd84db7fb0162c15d8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b88f95cfe84de554506bbbfd8535c04') in 0.0129549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.747490 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Fir_Tree_04.fbx
+  artifactKey: Guid(22b27a6259895604190ac0f4c0de417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Fir_Tree_04.fbx using Guid(22b27a6259895604190ac0f4c0de417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1debfe6fd0d5b0bbeaba34094f08ce30') in 0.0216115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Flare.fbx
+  artifactKey: Guid(dbf0234269ba6194fae616d66c7f48f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Flare.fbx using Guid(dbf0234269ba6194fae616d66c7f48f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bce22ef46963fb09dac05e52d705be6') in 0.0249746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/House_01.fbx
+  artifactKey: Guid(5e0ac1f3e38a6b24f85f50f3a937b900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/House_01.fbx using Guid(5e0ac1f3e38a6b24f85f50f3a937b900) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84da0f0ba51210935bd9688a59d2f305') in 0.0656308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Octahedron.fbx
+  artifactKey: Guid(9b138e3d85fc7c04fa19c86cc18a0736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Octahedron.fbx using Guid(9b138e3d85fc7c04fa19c86cc18a0736) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd46c6d62c6db6bd542debea639971a7') in 0.0168189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/House_02.fbx
+  artifactKey: Guid(3bcaaba4aabcce14e8c176ae3031d3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/House_02.fbx using Guid(3bcaaba4aabcce14e8c176ae3031d3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f520ee85a6d1c5399731b92725f4d453') in 0.0704865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Metal_Sheet_02.fbx
+  artifactKey: Guid(e4514304d46eb65429d5c09d30e82054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Metal_Sheet_02.fbx using Guid(e4514304d46eb65429d5c09d30e82054) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92f04553fe309467d56b25ad8918d57d') in 0.0168881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Jerry_Can.fbx
+  artifactKey: Guid(8d838baacee13cb4d98726ed821a52d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Jerry_Can.fbx using Guid(8d838baacee13cb4d98726ed821a52d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a2d4a95fed5dbee447549f005ef427e') in 0.0196594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/House_02_Merged.fbx
+  artifactKey: Guid(5b11f4a9dcccbd44da500920f92e6404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/House_02_Merged.fbx using Guid(5b11f4a9dcccbd44da500920f92e6404) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '005dd7de557cfb7c4aa7bd648ea8e82d') in 0.0750435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Hunting_Knife.fbx
+  artifactKey: Guid(6b9f83eef3e042941a60e5355247d867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Hunting_Knife.fbx using Guid(6b9f83eef3e042941a60e5355247d867) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04cfa47b2299b3661721540a8f4481b5') in 0.0244097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.619027 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Pine_Tree_01.fbx
+  artifactKey: Guid(eff1f401a28050743bc2b1eb4622b8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Pine_Tree_01.fbx using Guid(eff1f401a28050743bc2b1eb4622b8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3167692684bb3934da343057ce89b31a') in 0.014509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Pine_Tree_04.fbx
+  artifactKey: Guid(552525ed0a95a79409098d9d8446f928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Pine_Tree_04.fbx using Guid(552525ed0a95a79409098d9d8446f928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'adf960b5e04c0d835746ff3dea9a675b') in 0.0148744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Pine_Tree_06.fbx
+  artifactKey: Guid(40a8757d7391f794aa74f0e15083fbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Pine_Tree_06.fbx using Guid(40a8757d7391f794aa74f0e15083fbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '138a5606f75957c91e0fdd0511fa3d31') in 0.0168358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Pine_Tree_03.fbx
+  artifactKey: Guid(80a2bf046b12c1d47b59d8794a427d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Pine_Tree_03.fbx using Guid(80a2bf046b12c1d47b59d8794a427d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '909a183fd845a46b6ad052cf7bac2f42') in 0.0170591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Pyramid_01.fbx
+  artifactKey: Guid(8391a1651a30fa34d8aed6a77c7def69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Pyramid_01.fbx using Guid(8391a1651a30fa34d8aed6a77c7def69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9ccf82c4676ce6c8397f5bfd6a32557') in 0.0140692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Rock_02.fbx
+  artifactKey: Guid(0c500f94ed4af0b4a97285717243e38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Rock_02.fbx using Guid(0c500f94ed4af0b4a97285717243e38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08e38b37667020761669120a379468d2') in 0.0284112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Rock_03.fbx
+  artifactKey: Guid(7bc8533c41f646542b4c36c16c29cd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Rock_03.fbx using Guid(7bc8533c41f646542b4c36c16c29cd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b37545b54e8cc59a10f611d74cd9f7b') in 0.0255823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Rock_04.fbx
+  artifactKey: Guid(44dec0d91f8e47e41a59127e7d65f176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Rock_04.fbx using Guid(44dec0d91f8e47e41a59127e7d65f176) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4928c9da3df22bc3c8af3e577c8a6325') in 0.0216963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Rock_08.fbx
+  artifactKey: Guid(e990696bc55d46a4081141bedd4c4f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Rock_08.fbx using Guid(e990696bc55d46a4081141bedd4c4f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6a6a18cfe6942604f85af8a8824a7c5') in 0.0142537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Rock_05.fbx
+  artifactKey: Guid(78570e3e0ba9bd942917280e1ca0d41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Rock_05.fbx using Guid(78570e3e0ba9bd942917280e1ca0d41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1799f47fa0229db2016285e34223f289') in 0.0146366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Pyramid_03.fbx
+  artifactKey: Guid(2869fa4b8e2bfc9498e67ccc7fc280fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Pyramid_03.fbx using Guid(2869fa4b8e2bfc9498e67ccc7fc280fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6ce0f8fe9de69ba64ae9f00aa36d104') in 0.0159853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.155691 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Rock_11.fbx
+  artifactKey: Guid(3479fb2781de8f645b95414bf503320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Rock_11.fbx using Guid(3479fb2781de8f645b95414bf503320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '929ef6ff32362239a680588e01dee9b3') in 0.0150325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Rock_16.fbx
+  artifactKey: Guid(dcac983966ac62246b07ec3d0afef93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Rock_16.fbx using Guid(dcac983966ac62246b07ec3d0afef93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2045f5d3ae0c547dfcb420521c8e1ab1') in 0.0142903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Rock_15.fbx
+  artifactKey: Guid(ee6a78b23d339ce448bac80a4408ba06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Rock_15.fbx using Guid(ee6a78b23d339ce448bac80a4408ba06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6be1a6a7f72731e7fcfa9f613e63a85') in 0.0136338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Rock_14.fbx
+  artifactKey: Guid(9597d13f12f4b8c4180ea2a642e17484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Rock_14.fbx using Guid(9597d13f12f4b8c4180ea2a642e17484) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c69636cbb998bd20f1263521c4acb0c') in 0.0145663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Terrain_02.fbx
+  artifactKey: Guid(7862f5be42c7ad148a8af1bca93e1204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Terrain_02.fbx using Guid(7862f5be42c7ad148a8af1bca93e1204) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3c985b937bb99dbb96d8da4709c9ceb') in 0.0297414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Terrain_06.fbx
+  artifactKey: Guid(f156e288a0b4a0a4eb5a2a8ad3ceaea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Terrain_06.fbx using Guid(f156e288a0b4a0a4eb5a2a8ad3ceaea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad54f57910a80d944071ab56c3d1733d') in 0.0196553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Terrain_01.fbx
+  artifactKey: Guid(ef1ec8cbe9fa1d24791015884d878448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Terrain_01.fbx using Guid(ef1ec8cbe9fa1d24791015884d878448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31c4e351724cfceb1bafe9ce5f950d45') in 0.0286222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Terrain_04.fbx
+  artifactKey: Guid(8ad0b8063310867459308796c103a44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Terrain_04.fbx using Guid(8ad0b8063310867459308796c103a44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75ebb187361f43338842857bf7aae34f') in 0.0208898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Rock_21.fbx
+  artifactKey: Guid(b5938d9c91f933c4885cc4e679f16c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Rock_21.fbx using Guid(b5938d9c91f933c4885cc4e679f16c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb5ae95a64e38083fc4ae973967d61ca') in 0.0182348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Soda.fbx
+  artifactKey: Guid(b5012b6b68415dd4e81edb6ebbc28d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Soda.fbx using Guid(b5012b6b68415dd4e81edb6ebbc28d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd30e224f1099ee0499020dd9cffc76eb') in 0.0250219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Rock_22.fbx
+  artifactKey: Guid(936d4ace7c101fd4bad834716067b1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Rock_22.fbx using Guid(936d4ace7c101fd4bad834716067b1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd13dfed9f8c9bab949c29373e8aec6b1') in 0.0147651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Terrain_10.fbx
+  artifactKey: Guid(6a81def1f7375d543a69de472644a9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Terrain_10.fbx using Guid(6a81def1f7375d543a69de472644a9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce08fa212fdb591b75168e2f0cb360e8') in 0.028475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Tent.fbx
+  artifactKey: Guid(c355ef7051a0c5f4ab93897e6cea51be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Tent.fbx using Guid(c355ef7051a0c5f4ab93897e6cea51be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51a35b4bf57ec8b2a3bb31a105cf4179') in 0.0135237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Terrain_09.fbx
+  artifactKey: Guid(ed34d924976192c4d9ed93bc422b98f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Terrain_09.fbx using Guid(ed34d924976192c4d9ed93bc422b98f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5e850214934443869aefcb5d3edb61e') in 0.0250209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.196950 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Torch.fbx
+  artifactKey: Guid(a7f5ea2da02f03f4cac17c62986568ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Torch.fbx using Guid(a7f5ea2da02f03f4cac17c62986568ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34d21cad6a9368d5f3e60ee7b7dcc713') in 0.020474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Tree_03.fbx
+  artifactKey: Guid(04567ccb7774ff947bd74b66cee424a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Tree_03.fbx using Guid(04567ccb7774ff947bd74b66cee424a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad13a270dc0cc64436615e18b1d0e126') in 0.023848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Wall_02.fbx
+  artifactKey: Guid(86621275031fc9a4c85940ce2f803ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Wall_02.fbx using Guid(86621275031fc9a4c85940ce2f803ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fede2795355b253cc74cc8e3caf5be4e') in 0.0172003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Wall_06.fbx
+  artifactKey: Guid(4754c85da4da0984ea41366b983b0003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Wall_06.fbx using Guid(4754c85da4da0984ea41366b983b0003) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4221c6b830ef35275374ba85527e154c') in 0.018409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Wooden_Barrel_01.fbx
+  artifactKey: Guid(5296228db453c544eaa652f6a31253ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Wooden_Barrel_01.fbx using Guid(5296228db453c544eaa652f6a31253ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46b42694449d1aa58a0579f791170b4f') in 0.0206277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Wall_03.fbx
+  artifactKey: Guid(30e6b669e9bb76745a4f077351751830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Wall_03.fbx using Guid(30e6b669e9bb76745a4f077351751830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1143a36431182d7f83a6d13075b93749') in 0.0154112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Trunk_01.fbx
+  artifactKey: Guid(a7a5d6840e1504c4c8a39900ff228a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Trunk_01.fbx using Guid(a7a5d6840e1504c4c8a39900ff228a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cda3e397dc14cda7a4f45d08ff2e7128') in 0.0219867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Wall_07.fbx
+  artifactKey: Guid(60a603e64b92b4743b568d0e841619b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Wall_07.fbx using Guid(60a603e64b92b4743b568d0e841619b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65e933c26eff0c80daf8f7c07d91a8e4') in 0.0138329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Trunk_03.fbx
+  artifactKey: Guid(6137a4ab952577440a5026048af5f797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Trunk_03.fbx using Guid(6137a4ab952577440a5026048af5f797) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ab82abd4349a675eb3266b44cf7d396') in 0.0254911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Wooden_Barrel_02.fbx
+  artifactKey: Guid(9026a8814a1796142baa70ab90400e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Wooden_Barrel_02.fbx using Guid(9026a8814a1796142baa70ab90400e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cead331888749357b2d10dde44a65d62') in 0.0224842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Water_Tower.fbx
+  artifactKey: Guid(41e0f46256d66de4895446bea7dd2a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Water_Tower.fbx using Guid(41e0f46256d66de4895446bea7dd2a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe6b96a9764732a9ca5af373d7c5994e') in 0.03016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Tree_01.fbx
+  artifactKey: Guid(ec28c00d0ac7d684180a8568eb1a58f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Tree_01.fbx using Guid(ec28c00d0ac7d684180a8568eb1a58f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e536259630a19a6e525245583c8633a2') in 0.0169392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Wall_Dome_Destroyed.fbx
+  artifactKey: Guid(88338fbd903dad3468086b27296f1ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Wall_Dome_Destroyed.fbx using Guid(88338fbd903dad3468086b27296f1ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe7de29f57354c532fc21f33a2644326') in 0.0167192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Tree_04.fbx
+  artifactKey: Guid(c5304eb2e217f8e4689f40f41e27f493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Tree_04.fbx using Guid(c5304eb2e217f8e4689f40f41e27f493) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '732849b701d4de6b37ccc0c417edace2') in 0.0261116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054412 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Wooden_Barricade_03.fbx
+  artifactKey: Guid(01d0ca5a7e0b52943b6b32d0fec5a193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Wooden_Barricade_03.fbx using Guid(01d0ca5a7e0b52943b6b32d0fec5a193) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f71b6184740ad4c951a2c6cd1746e0f6') in 0.0243807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Wooden_Box.fbx
+  artifactKey: Guid(8632809d841737d46aaaf8362c7873a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Wooden_Box.fbx using Guid(8632809d841737d46aaaf8362c7873a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0ce8a2bcf2b41eab645485ec5f31843') in 0.0179894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Wooden_Board.fbx
+  artifactKey: Guid(ed54ab2c236978441a545d9a2a947d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Wooden_Board.fbx using Guid(ed54ab2c236978441a545d9a2a947d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04541c1f8ce065604d92cbdee4d4f4b3') in 0.0175989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Wooden_Log_01.fbx
+  artifactKey: Guid(ec2baf4fafe3fba44b13e77f502e873a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Wooden_Log_01.fbx using Guid(ec2baf4fafe3fba44b13e77f502e873a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd9f691eed99d7b5bb3c982569f87678') in 0.0215279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack/Wooden_Box_04.fbx
+  artifactKey: Guid(8ba71736c2b7f46478dcc5111b66ae7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack/Wooden_Box_04.fbx using Guid(8ba71736c2b7f46478dcc5111b66ae7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6d155cdf91a07e0ee742184231b6b7e') in 0.0142473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.035508 seconds.
+  path: Assets/Survival Low Poly Pack/Survival Low Poly Pack - URP.unitypackage
+  artifactKey: Guid(8382a6bf504c277498d0f4189997bb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Survival Low Poly Pack/Survival Low Poly Pack - URP.unitypackage using Guid(8382a6bf504c277498d0f4189997bb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b2cf54d98520f74ade2b401c996b3d4') in 0.0010593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.166975 seconds.
+  path: Assets/Poly City - Big Cartoon Pack/AsphaltCityPack.jpg
+  artifactKey: Guid(695edbbf8e6d63c4aa22df89fc716e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Poly City - Big Cartoon Pack/AsphaltCityPack.jpg using Guid(695edbbf8e6d63c4aa22df89fc716e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccff90562efa2c1b1806f507ed03da26') in 0.1228257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Poly City - Big Cartoon Pack/NatureCityPack.jpg
+  artifactKey: Guid(69ff8b017f188d54e9ee31ebca9e0fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Poly City - Big Cartoon Pack/NatureCityPack.jpg using Guid(69ff8b017f188d54e9ee31ebca9e0fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7a3c46454d28b7d6a85e2ac7aeae77e') in 0.0341659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Poly City - Big Cartoon Pack/Poly City Cartoon Pack.fbx
+  artifactKey: Guid(cb3462fb7b96f184ba22bd070a9d1547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Poly City - Big Cartoon Pack/Poly City Cartoon Pack.fbx using Guid(cb3462fb7b96f184ba22bd070a9d1547) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecec56713b85a09f4276aedebe415b75') in 6.525738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6193
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
