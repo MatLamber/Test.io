@@ -1,9 +1,12 @@
+using Pathfinding;
 using UnityEngine;
 
 public class InfiniteGrid : MonoBehaviour
 {
     [SerializeField] private Transform player;
     [SerializeField] private Transform[] quadTransforms; // Array de transformaciones de cuadrantes
+    [SerializeField] private AstarPath pathfinding;
+    private RecastGraph recastGraph;
     private Transform[,] quads; // Matriz de cuadrantes
     private Vector2Int playerLastGridPosition;
     private float quadSize; // Tamaño del cuadrante basado en el collider
@@ -11,6 +14,11 @@ public class InfiniteGrid : MonoBehaviour
 
     void Start()
     {
+        if (pathfinding != null)
+        {
+            recastGraph = pathfinding.graphs[0] as RecastGraph;
+        }
+        
         if (quadTransforms == null || quadTransforms.Length == 0)
         {
             Debug.LogError(
@@ -94,6 +102,8 @@ public class InfiniteGrid : MonoBehaviour
                 index++;
             }
         }
+        
+        UpdateGraph();
     }
 
     Vector2Int GetPlayerGridPosition()
@@ -112,12 +122,15 @@ public class InfiniteGrid : MonoBehaviour
         if (dx != 0)
         {
             RepositionColumns(dx);
+            UpdateGraph();
         }
 
         if (dz != 0)
         {
             RepositionRows(dz);
+            UpdateGraph();
         }
+        
     }
 
     void RepositionColumns(int dx)
@@ -214,5 +227,11 @@ public class InfiniteGrid : MonoBehaviour
                 quads[x, 0].position -= Vector3.forward * gridSize * quadSize;
             }
         }
+    }
+
+    private void UpdateGraph()
+    {
+        recastGraph.SnapForceBoundsToScene();
+        recastGraph.Scan();
     }
 }
