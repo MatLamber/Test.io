@@ -1,13 +1,30 @@
+using System;
 using System.Collections;
+using DG.Tweening;
+using MoreMountains.Tools;
+using MoreMountains.TopDownEngine;
 using UnityEngine;
 using Pathfinding;
+using ProjectDawn.Navigation.Hybrid;
 
+public struct EnemyDeathEvent
+{
+    public static EnemyDeathEvent e;
+    public Enemy Enemy;
+    public static void Trigger(Enemy enemyData)
+    {
+        e.Enemy = enemyData;
+        MMEventManager.TriggerEvent(e);
+    }
+}
 public class Enemy : MonoBehaviour
 {
     private Transform target;
 
     // Referencia al componente AIPath
     private AIPath aiPath => GetComponent<AIPath>();
+    
+    private AgentAuthoring agentAuthoring => GetComponent<AgentAuthoring>();
 
     // Referencia al componente Animation
     [SerializeField] private Animation anim;
@@ -19,6 +36,9 @@ public class Enemy : MonoBehaviour
     [SerializeField] private string flinchAnimation = "Flinch";
     [SerializeField] private string deathAnimation = "Flinch";
 
+    [SerializeField] private Transform enemyModel;
+    [SerializeField] private Transform landingPosition;
+ 
 
     private bool isDead;
 
@@ -29,18 +49,25 @@ public class Enemy : MonoBehaviour
         // Configura la primera animación
         anim.CrossFade(idleAnimation);
     }
-
-    void LateUpdate()
+    private void OnDisable()
     {
-        FollowTarget();
+     //   GetComponent<TopDownController3D>().enabled = true;
+        GetComponent<CharacterController>().enabled = true;
+       GetComponent<Rigidbody>().isKinematic = false;
+       enemyModel.localPosition = Vector3.zero;
+        isDead = false;
+        if(aiPath != null)
+            aiPath.canMove = true;
     }
 
-    private void FollowTarget()
+    public  void FollowTarget()
     {
         if(isDead) return;
+
         if (aiPath != null && target != null)
         {
         
+      
             aiPath.destination = target.transform.position;
 
             // Ejemplo: Cambiar animación a 'Run' si se mueve
@@ -61,27 +88,42 @@ public class Enemy : MonoBehaviour
             }
         }
     }
+    
+    public void FollowAgentAuthoring()
+    {
+        if (agentAuthoring != null && target != null)
+        {
+            /*var body = agentAuthoring.EntityBody;
+            body.Destination = target.position;
+            body.IsStopped = false;
+            agentAuthoring.EntityBody = body;*/
+            agentAuthoring.SetDestination(target.position);
+        }
+    }
 
     public void PlayFlinchAnimation()
     {
-        aiPath.canMove = false;
+        if(aiPath != null)
+            aiPath.canMove = false;
         InstantTransitionTo(flinchAnimation, returnTo: idleAnimation);
         StartCoroutine(ResetCanMove(flinchAnimation));
     }
 
     public void PlayDeathAnimation()
     {
-       
-        aiPath.canMove = false;
+        if(aiPath != null) aiPath.canMove = false;
+        GetComponent<Rigidbody>().isKinematic = true;
         anim.Stop();
         anim.Play(deathAnimation);
+        enemyModel.DOJump(landingPosition.transform.position,2,1,0.5f);
         isDead = true;
+        EnemyDeathEvent.Trigger(this);
     }
 
     IEnumerator ResetCanMove(string animationName)
     {
         yield return new WaitForSeconds(GetAnimationClipLength(animationName));
-        if(!isDead)
+        if(!isDead && aiPath != null)
             aiPath.canMove = true;
     }
 
