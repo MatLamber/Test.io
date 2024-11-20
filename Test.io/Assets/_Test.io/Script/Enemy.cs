@@ -6,6 +6,8 @@ using MoreMountains.TopDownEngine;
 using UnityEngine;
 using Pathfinding;
 using ProjectDawn.Navigation.Hybrid;
+using Random = UnityEngine.Random;
+using Vector3 = UnityEngine.Vector3;
 
 public struct EnemyDeathEvent
 {
@@ -35,6 +37,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] private string attackAnimation = "Attack";
     [SerializeField] private string flinchAnimation = "Flinch";
     [SerializeField] private string deathAnimation = "Flinch";
+    [SerializeField] private string fallingPoseAnimation = "FallingPose";   
+    [SerializeField] private string lyingPoseAnimation = "LyingPose";   
 
     [SerializeField] private Transform enemyModel;
     [SerializeField] private Transform landingPosition;
@@ -49,12 +53,22 @@ public class Enemy : MonoBehaviour
         // Configura la primera animación
         anim.CrossFade(idleAnimation);
     }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            PlayDeathAnimation();
+        }
+    }
+
     private void OnDisable()
     {
      //   GetComponent<TopDownController3D>().enabled = true;
         GetComponent<CharacterController>().enabled = true;
        GetComponent<Rigidbody>().isKinematic = false;
        enemyModel.localPosition = Vector3.zero;
+       enemyModel.localRotation = Quaternion.Euler(Vector3.zero);
         isDead = false;
         if(aiPath != null)
             aiPath.canMove = true;
@@ -111,11 +125,66 @@ public class Enemy : MonoBehaviour
 
     public void PlayDeathAnimation()
     {
-        if(aiPath != null) aiPath.canMove = false;
+        if (aiPath != null) aiPath.canMove = false;
         GetComponent<Rigidbody>().isKinematic = true;
         anim.Stop();
-        anim.Play(deathAnimation);
-        enemyModel.DOJump(landingPosition.transform.position,2,1,0.5f);
+
+        // Eleva al enemigo y añade rotación
+        int jumpHeight = Random.Range(6,23) ;
+        float jumpDuration = Random.Range(0.6f, 1.8f) ;
+        float fallDuration = jumpDuration / 2;
+        float rotationDuration = jumpDuration + fallDuration/2; // Duración total incluyendo la bajada
+        float delayBeforeDescent = Random.Range(1f, 1.3f); // Tiempo que se espera antes de descender;
+
+        // Animación de elevarse
+        enemyModel.DOMoveY(enemyModel.localPosition.y + jumpHeight, jumpDuration)
+            .OnStart((() => anim.Play(fallingPoseAnimation)))
+            .OnComplete(() =>
+            {
+                // Reproduce la animación de muerte después de la elevación
+                // anim.Play(deathAnimation);
+            });
+
+        // Animación de descenso con retraso
+        enemyModel.DOMoveY(enemyModel.localPosition.y, fallDuration).SetDelay(delayBeforeDescent).SetEase(ease: Ease.InQuad).OnComplete((() =>
+        {
+            anim.Play(lyingPoseAnimation);
+        }));
+
+        int rotatioDirection = Random.Range(0, 2);
+
+        float rotationY = enemyModel.rotation.eulerAngles.y;
+        switch (rotatioDirection)
+        {
+            case 0:
+                // Animación de rotación continua durante la elevación y el descenso
+                enemyModel.DORotate(new Vector3(1080,rotationY , enemyModel.localRotation.z), rotationDuration, RotateMode.FastBeyond360)
+                    .SetEase(Ease.OutQuad).OnComplete((() => anim.Play(lyingPoseAnimation)));
+                break;
+            case 1:
+                // Animación de rotación continua durante la elevación y el descenso
+                enemyModel.DORotate(new Vector3(1080,rotationY , enemyModel.localRotation.z), rotationDuration, RotateMode.FastBeyond360)
+                    .SetEase(Ease.OutQuad).OnComplete((() => anim.Play(lyingPoseAnimation)));
+                break;
+        }
+        /*float rotationY = transform.rotation.eulerAngles.y;
+        switch (rotatioDirection)
+        {
+            case 0:
+                // Animación de rotación continua durante la elevación y el descenso
+                transform.DORotate(new Vector3(transform.rotation.x + 1800, rotationY, transform.rotation.z), rotationDuration,
+                        RotateMode.FastBeyond360)
+                    .SetEase(Ease.InOutQuad);
+                break;
+            case 1:
+                // Animación de rotación continua durante la elevación y el descenso
+                transform.DORotate(new Vector3(transform.rotation.x, rotationY, transform.rotation.z + 1800), rotationDuration,
+                        RotateMode.FastBeyond360)
+                    .SetEase(Ease.InOutQuad);
+                break;
+        }*/
+
+
         isDead = true;
         EnemyDeathEvent.Trigger(this);
     }

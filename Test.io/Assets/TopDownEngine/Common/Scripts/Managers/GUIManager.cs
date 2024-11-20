@@ -2,6 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 using MoreMountains.Tools;
+using TMPro;
 using UnityEngine.EventSystems;
 
 namespace MoreMountains.TopDownEngine
@@ -53,6 +54,10 @@ namespace MoreMountains.TopDownEngine
 		protected float _initialJoystickAlpha;
 		protected float _initialButtonsAlpha;
 		protected bool _initialized = false;
+
+		[SerializeField] private TextMeshProUGUI waveProgressionText;
+		[SerializeField] private TextMeshProUGUI waveNumberText;
+		[SerializeField] private TextMeshProUGUI waveTimeText;
 		
 		/// <summary>
 		/// Statics initialization to support enter play modes
@@ -338,6 +343,25 @@ namespace MoreMountains.TopDownEngine
 					ammoDisplay.UpdateAmmoDisplays (magazineBased, totalAmmo, maxAmmo, ammoInMagazine, magazineSize, displayTotal);
 				}    
 			}
+		}
+
+
+		public void UpdateWaveProgression(int waveProgression)
+		{
+			if(waveProgressionText != null)
+				waveProgressionText.text = $"x {waveProgression}";
+		}
+
+		public void UpdateWaveNumber(int waveNUmber)
+		{
+			if(waveNumberText != null)
+				waveNumberText.text = $"Wave {waveNUmber}";
+		}
+		
+		public void UpdateWaveTime(string waveTime)
+		{
+			if (waveTimeText != null)
+				waveTimeText.text = waveTime;
 		}
 	}
 }

@@ -717,6 +717,8 @@ MonoBehaviour:
   attackAnimation: Attack
   flinchAnimation: Hit_Nosedman_S
   deathAnimation: Death_Nosedman_S
+  fallingPoseAnimation: FallingPose2
+  lyingPoseAnimation: FallinImpact2
   enemyModel: {fileID: 3471352602253778914}
   landingPosition: {fileID: 6057328677437756387}
 --- !u!114 &5372524445921380997
@@ -762,7 +764,7 @@ MonoBehaviour:
   InitialHealth: 1
   MaximumHealth: 1
   ResetHealthOnEnable: 1
-  ImmuneToDamage: 0
+  ImmuneToDamage: 1
   DamageMMFeedbacks: {fileID: 2694060192194712801}
   FeedbackIsProportionalToDamage: 0
   PreventTakeSelfDamage: 0
@@ -1349,6 +1351,11 @@ Animation:
   - {fileID: 9015713980624133275, guid: a6a1964ee63cb9b4484be19c9579b178, type: 3}
   - {fileID: 5718621408886271898, guid: a6a1964ee63cb9b4484be19c9579b178, type: 3}
   - {fileID: 6340723218098491695, guid: a6a1964ee63cb9b4484be19c9579b178, type: 3}
+  - {fileID: 6340723218098491695, guid: a6a1964ee63cb9b4484be19c9579b178, type: 3}
+  - {fileID: 7400000, guid: 3a468c82872ba4834a4f9efa9bb34867, type: 2}
+  - {fileID: 7400000, guid: fbe8ebbe1a0e043dbbc0a5cd10bf080a, type: 2}
+  - {fileID: 7400000, guid: 141547f42d63a48bb84f20f58281d41e, type: 2}
+  - {fileID: 7400000, guid: 86ea09e6bf5ca4df69805fb9f9bddd18, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0

@@ -6,6 +6,7 @@ using NaughtyAttributes;
 using UnityEngine;
 using System.Collections.Generic;
 using MoreMountains.Tools;
+using MoreMountains.TopDownEngine;
 using Random = UnityEngine.Random;
 
 [System.Serializable]
@@ -13,6 +14,7 @@ public class EnemyWave
 {
     public string waveName;
     public float duration; // Duración de la wave en segundos
+    public int enemiesToKill; // Cantidad de enemigos a matar
     
     public List<EnemyPool> enemyPools;
 
@@ -30,7 +32,6 @@ public class EnemyWave
 }
 
 
-
 public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>
 {
     public List<EnemyWave> waves; // Lista de waves
@@ -42,7 +43,11 @@ public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>
     private int currentWaveIndex = -1;
     private float waveTimer;
     private bool isSpawning;
+    private int enemiesKilledInWave;
 
+
+    private int currentEnemiesToKill;
+    private string formattedTime;
     void Start()
     {
         StartNextWave();
@@ -53,8 +58,9 @@ public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>
         if (!isSpawning) return;
 
         waveTimer -= Time.deltaTime;
-
-        if (waveTimer <= 0)
+        formattedTime = FormatTime(waveTimer);
+        UpdateWaveDurationUI();
+        if (waveTimer <= 0 && enemiesKilledInWave >= waves[currentWaveIndex].enemiesToKill)
         {
             StartNextWave();
         }
@@ -81,10 +87,15 @@ public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>
             return;
         }
 
+        enemiesKilledInWave = 0;
         EnemyWave currentWave = waves[currentWaveIndex];
         waveTimer = currentWave.duration;
+        currentEnemiesToKill = waves[currentWaveIndex].enemiesToKill;
         StartCoroutine(SpawnEnemies(currentWave));
         isSpawning = true;
+        UpdateWaveNumberUI();
+        UpdateWaveProgressionUI();
+        
     }
 
     IEnumerator SpawnEnemies(EnemyWave wave)
@@ -123,7 +134,13 @@ public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>
                 GameObject enemyObject = pool.EnemyPooler.GetPooledGameObject();
                 if (enemyObject != null)
                 {
-                    enemyObject.transform.position = GetRandomSpawnPosition();
+                    Vector3 spawnPosition = GetRandomSpawnPosition();
+                    enemyObject.transform.position = spawnPosition;
+
+                    // Ajustar la rotación del enemigo para que mire hacia el centro del spawner
+                    Vector3 direction = (spawnCenter.position - spawnPosition).normalized;
+                    enemyObject.transform.rotation = Quaternion.LookRotation(direction);
+
                     enemyObject.SetActive(true);
 
                     Enemy enemyScript = enemyObject.GetComponent<Enemy>();
@@ -167,7 +184,47 @@ public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>
 
     public void OnMMEvent(EnemyDeathEvent eventType)
     {
+        UpdateWaveProgression(eventType);
+        UpdateWaveProgressionUI();
+    }
+
+    private void UpdateWaveProgression(EnemyDeathEvent eventType)
+    {
         activeEnemies.Remove(eventType.Enemy);
+        enemiesKilledInWave++;
+        if (enemiesKilledInWave < waves[currentWaveIndex].enemiesToKill) return;
+        isSpawning = false;
+        Debug.Log("Wave completed!");
+    }
+
+    private int GetWaveProgression()
+    {
+        return currentEnemiesToKill - enemiesKilledInWave;
+    }
+
+    private void UpdateWaveProgressionUI()
+    {
+        if(GUIManager.Instance is not null)
+            GUIManager.Instance.UpdateWaveProgression(GetWaveProgression());
+    }
+    
+    private void UpdateWaveNumberUI()
+    {
+        if(GUIManager.Instance is not null)
+            GUIManager.Instance.UpdateWaveNumber(currentWaveIndex + 1);
+    }
+
+    private void UpdateWaveDurationUI()
+    {
+        if(GUIManager.Instance is not null)
+            GUIManager.Instance.UpdateWaveTime(formattedTime);
+    }
+
+    private string FormatTime(float time)
+    {
+        int minutes = Mathf.FloorToInt(time / 60);
+        int seconds = Mathf.FloorToInt(time % 60);
+        return string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 
     private void OnEnable()

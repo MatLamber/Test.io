@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: aa97da86d0d44ec4d8cc50d902ac6c8e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 275484
+  packageName: Death Animation Pack
+  packageVersion: 1.0
+  assetPath: Assets/DeathAnimationPack/Character/Materials/Armature_Arms_AlbedoTransparency.mat
+  uploadId: 640107

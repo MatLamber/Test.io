@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b69e4e24603ba8044817c9d31caa97fc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 275484
+  packageName: Death Animation Pack
+  packageVersion: 1.0
+  assetPath: Assets/DeathAnimationPack/Animation Controllers/anim_death_015.controller
+  uploadId: 640107

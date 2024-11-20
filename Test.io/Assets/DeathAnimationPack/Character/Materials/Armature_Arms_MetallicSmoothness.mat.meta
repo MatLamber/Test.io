@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 61fec816dfa36d54c9388ffb3ce40545
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 275484
+  packageName: Death Animation Pack
+  packageVersion: 1.0
+  assetPath: Assets/DeathAnimationPack/Character/Materials/Armature_Arms_MetallicSmoothness.mat
+  uploadId: 640107
