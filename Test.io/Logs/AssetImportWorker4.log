@@ -221,3 +221,195 @@ Unloading 10339 unused Assets / (7.2 MB). Loaded Objects now: 11073.
 Memory consumption went from 324.5 MB to 317.3 MB.
 Total: 15.551292 ms (FindLiveObjects: 1.322625 ms CreateObjectMapping: 0.505417 ms MarkObjects: 8.499208 ms  DeleteObjects: 5.222667 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 33297.681051 seconds.
+  path: Assets/NOTFUN/Monsters Pack 04/Meshes/01_Nosedman_S 1.fbx
+  artifactKey: Guid(5876b3305628c447783a0ad747a27a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NOTFUN/Monsters Pack 04/Meshes/01_Nosedman_S 1.fbx using Guid(5876b3305628c447783a0ad747a27a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee06f49461fad9a2017bc80b97b1d80e') in 0.163469875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 84
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.387402 seconds.
+  path: Assets/NOTFUN/Monsters Pack 04/Meshes/01_Nosedman_S 1.fbx
+  artifactKey: Guid(5876b3305628c447783a0ad747a27a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NOTFUN/Monsters Pack 04/Meshes/01_Nosedman_S 1.fbx using Guid(5876b3305628c447783a0ad747a27a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22e0305e010b687122acda4629194099') in 0.024971959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.968443 seconds.
+  path: Assets/_Test.io/Prefab/Characters/Enemies/Enemy 1.prefab
+  artifactKey: Guid(7b666b9b4564c2c4f8eea066c98cacba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Prefab/Characters/Enemies/Enemy 1.prefab using Guid(7b666b9b4564c2c4f8eea066c98cacba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1db02cd6845f8cfe471419fa3660f1ea') in 0.062272792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 90
+
+========================================================================
+Received Import Request.
+  Time since last request: 183.559602 seconds.
+  path: Assets/_Test.io/Animaitons/EnemyCharacter.controller
+  artifactKey: Guid(2cda7b4f08ee842cea0b0e06ca5580a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Animaitons/EnemyCharacter.controller using Guid(2cda7b4f08ee842cea0b0e06ca5580a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5dfa1b27afc4824b634250541daa4ffb') in 0.046759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.959282 seconds.
+  path: Assets/_Test.io/Animaitons/EnemyCharacter.controller
+  artifactKey: Guid(2cda7b4f08ee842cea0b0e06ca5580a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Animaitons/EnemyCharacter.controller using Guid(2cda7b4f08ee842cea0b0e06ca5580a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5963e59ab783b6bd436fcc8947ef394b') in 0.008004375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.540295 seconds.
+  path: Assets/_Test.io/Animaitons/Enemy/Falling Flat Impact.fbx
+  artifactKey: Guid(deef26608adc3486d9a524d04189d031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Animaitons/Enemy/Falling Flat Impact.fbx using Guid(deef26608adc3486d9a524d04189d031) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65e2e4336fe3e2b19a5d04e97e241740') in 0.121582792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.359742 seconds.
+  path: Assets/_Test.io/Animaitons/Enemy/Falling.fbx
+  artifactKey: Guid(316fbf685c1384deebec6f63b917cc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Animaitons/Enemy/Falling.fbx using Guid(316fbf685c1384deebec6f63b917cc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '600be3afaaaa3a0be7a9a8cf9a820729') in 0.037234584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.906436 seconds.
+  path: Assets/_Test.io/Animaitons/Enemy/mixamo.com.anim
+  artifactKey: Guid(7e72add5bc93f413d9881f773a942e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Animaitons/Enemy/mixamo.com.anim using Guid(7e72add5bc93f413d9881f773a942e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd8cb1caa3eccf75279862f238fc02f1') in 0.012292708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.967073 seconds.
+  path: Assets/_Test.io/Animaitons/Enemy/FlailingAnimations.anim
+  artifactKey: Guid(7e72add5bc93f413d9881f773a942e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Animaitons/Enemy/FlailingAnimations.anim using Guid(7e72add5bc93f413d9881f773a942e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b6583a314a06a1f3263e5f644dce818') in 0.016429333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.955649 seconds.
+  path: Assets/_Test.io/Animaitons/Enemy/HumanoidAnim
+  artifactKey: Guid(6e71d0d71200f487390a87dcc69e5191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Animaitons/Enemy/HumanoidAnim using Guid(6e71d0d71200f487390a87dcc69e5191) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33996426e9a116b3a5b8f7e1750ed2cf') in 0.001113417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.276064 seconds.
+  path: Assets/_Test.io/Animaitons/Enemy/mixamo.com.anim
+  artifactKey: Guid(20db350e108444199bc455930117ab04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Animaitons/Enemy/mixamo.com.anim using Guid(20db350e108444199bc455930117ab04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49df76a8861aebe511f60416611d3ad3') in 0.009458917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.966749 seconds.
+  path: Assets/_Test.io/Animaitons/Enemy/FallImpact.anim
+  artifactKey: Guid(20db350e108444199bc455930117ab04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Animaitons/Enemy/FallImpact.anim using Guid(20db350e108444199bc455930117ab04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '309c3702e8b60a338de640e9d40b2c35') in 0.009177541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.186845 seconds.
+  path: Assets/_Test.io/Animaitons/Enemy/HumanoidAnim/FlailingAnimations.anim
+  artifactKey: Guid(7e72add5bc93f413d9881f773a942e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Animaitons/Enemy/HumanoidAnim/FlailingAnimations.anim using Guid(7e72add5bc93f413d9881f773a942e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '164aaa296a73676b1cff8c4c2cde6299') in 0.014552041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.707576 seconds.
+  path: Assets/_Test.io/Prefab/Characters/Player.prefab
+  artifactKey: Guid(b65217f3234be0a40a4fc7bda8512bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Prefab/Characters/Player.prefab using Guid(b65217f3234be0a40a4fc7bda8512bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ec396f13a67d42e249bc1c7b5a9d86a') in 0.173374917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 566
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.424305 seconds.
+  path: Assets/_Test.io/Prefab/Characters/Enemies/Enemy 1.prefab
+  artifactKey: Guid(7b666b9b4564c2c4f8eea066c98cacba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Prefab/Characters/Enemies/Enemy 1.prefab using Guid(7b666b9b4564c2c4f8eea066c98cacba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ed328e0603b55550102cb4a1c6349f0') in 0.037659083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 246
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.166274 seconds.
+  path: Assets/_Test.io/Animaitons/Enemy/Falling Flat Impact (1).fbx
+  artifactKey: Guid(fcc1c90c1cf034909aa6f8460ba9cc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Animaitons/Enemy/Falling Flat Impact (1).fbx using Guid(fcc1c90c1cf034909aa6f8460ba9cc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5b49bce0df8eb9f957ac53f44d31083') in 0.055132458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.582428 seconds.
+  path: Assets/_Test.io/Animaitons/Enemy/mixamo.com.anim
+  artifactKey: Guid(a419911c37a554295a659588101ea57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Animaitons/Enemy/mixamo.com.anim using Guid(a419911c37a554295a659588101ea57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10465225e4980cdd4d2b90b51fce87a3') in 0.003284083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.843465 seconds.
+  path: Assets/_Test.io/Animaitons/Enemy/Fallimpact.anim
+  artifactKey: Guid(a419911c37a554295a659588101ea57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Animaitons/Enemy/Fallimpact.anim using Guid(a419911c37a554295a659588101ea57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a345169235bb07ae54cc7f00dfb5561') in 0.017068834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.141962 seconds.
+  path: Assets/_Test.io/Animaitons/Enemy/mixamo.com.anim
+  artifactKey: Guid(8499454fe596a4fd2a856b84011a2baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Animaitons/Enemy/mixamo.com.anim using Guid(8499454fe596a4fd2a856b84011a2baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c08e66aa7876776d5d4774f30f0b0a19') in 0.013169417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.501561 seconds.
+  path: Assets/_Test.io/Animaitons/Enemy/HumanoidAnim/Fallingimpact.anim
+  artifactKey: Guid(8499454fe596a4fd2a856b84011a2baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Animaitons/Enemy/HumanoidAnim/Fallingimpact.anim using Guid(8499454fe596a4fd2a856b84011a2baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a53e42991f2d29d0561743b8e08ff8c') in 0.006643708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.699605 seconds.
+  path: Assets/_Test.io/Animaitons/EnemyCharacter.controller
+  artifactKey: Guid(2cda7b4f08ee842cea0b0e06ca5580a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Animaitons/EnemyCharacter.controller using Guid(2cda7b4f08ee842cea0b0e06ca5580a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1e902c9b2147fc2a152a29e411e2bb7') in 0.023682125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 226.789641 seconds.
+  path: Assets/NOTFUN/Monsters Pack 04/Meshes/Hit_Nosedman_S.anim
+  artifactKey: Guid(aba981c960ed94c568a94fab7e7bfd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NOTFUN/Monsters Pack 04/Meshes/Hit_Nosedman_S.anim using Guid(aba981c960ed94c568a94fab7e7bfd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c2601abe810c25282933ebfe13c28d1') in 0.006671583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.591409 seconds.
+  path: Assets/NOTFUN/Monsters Pack 04/Meshes/Flinch.anim
+  artifactKey: Guid(aba981c960ed94c568a94fab7e7bfd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NOTFUN/Monsters Pack 04/Meshes/Flinch.anim using Guid(aba981c960ed94c568a94fab7e7bfd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efcb5ca4cf539c2501111635a3268b90') in 0.007417583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 284.918467 seconds.
+  path: Assets/_Test.io/Animaitons/EnemyCharacter.controller
+  artifactKey: Guid(2cda7b4f08ee842cea0b0e06ca5580a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Animaitons/EnemyCharacter.controller using Guid(2cda7b4f08ee842cea0b0e06ca5580a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb16f737b744935f057495969097adbf') in 0.03097475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
