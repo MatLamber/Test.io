@@ -719,6 +719,7 @@ MonoBehaviour:
   deathAnimation: Death_Nosedman_S
   fallingPoseAnimation: FallingPose2
   lyingPoseAnimation: FallinImpact2
+  deafultDeathAnimation: FlyingBackDeath
   enemyModel: {fileID: 3471352602253778914}
   landingPosition: {fileID: 6057328677437756387}
 --- !u!114 &5372524445921380997
@@ -764,7 +765,7 @@ MonoBehaviour:
   InitialHealth: 1
   MaximumHealth: 1
   ResetHealthOnEnable: 1
-  ImmuneToDamage: 1
+  ImmuneToDamage: 0
   DamageMMFeedbacks: {fileID: 2694060192194712801}
   FeedbackIsProportionalToDamage: 0
   PreventTakeSelfDamage: 0
@@ -1046,7 +1047,7 @@ Transform:
   m_GameObject: {fileID: 4231992815347505123}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1.48}
+  m_LocalPosition: {x: 0, y: 0, z: -4.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1184,6 +1185,7 @@ MonoBehaviour:
   DebugActive: 0
   FeedbacksList:
   - rid: 1864133299134529857
+  - rid: 7914845911373054037
   KeepPlayModeChanges: 0
   PerformanceMode: 0
   StopFeedbacksOnDisable: 0
@@ -1270,7 +1272,7 @@ MonoBehaviour:
             m_Calls:
             - m_Target: {fileID: 3819766791698493512}
               m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
-              m_MethodName: PlayDeathAnimation
+              m_MethodName: PlayDeafultDeathAnimation
               m_Mode: 1
               m_Arguments:
                 m_ObjectArgument: {fileID: 0}
@@ -1289,6 +1291,130 @@ MonoBehaviour:
         ResetEvents:
           m_PersistentCalls:
             m_Calls: []
+    - rid: 7914845911373054037
+      type: {class: MMF_MaterialSetProperty, ns: MoreMountains.Feedbacks, asm: MoreMountains.Tools}
+      data:
+        Active: 0
+        UniqueID: 790463998
+        Label: Material Set Property
+        ChannelMode: 0
+        Channel: 0
+        MMChannelDefinition: {fileID: 0}
+        Chance: 100
+        DisplayColor: {r: 0, g: 0, b: 0, a: 1}
+        Timing:
+          TimescaleMode: 0
+          ExcludeFromHoldingPauses: 0
+          ContributeToTotalDuration: 1
+          InitialDelay: 0
+          CooldownDuration: 0
+          InterruptsOnStop: 1
+          NumberOfRepeats: 0
+          RepeatForever: 0
+          DelayBetweenRepeats: 1
+          PlayCount: 0
+          LimitPlayCount: 0
+          MaxPlayCount: 3
+          SetPlayCountToZeroOnReset: 0
+          MMFeedbacksDirectionCondition: 0
+          PlayDirection: 0
+          ConstantIntensity: 0
+          UseIntensityInterval: 0
+          IntensityIntervalMin: 0
+          IntensityIntervalMax: 0
+          Sequence: {fileID: 0}
+          TrackID: 0
+          Quantized: 0
+          TargetBPM: 120
+        AutomatedTargetAcquisition:
+          Mode: 0
+          ChildIndex: 0
+        RandomizeOutput: 0
+        RandomMultiplier: {x: 0.8, y: 1}
+        RandomizeDuration: 0
+        RandomDurationMultiplier: {x: 0.5, y: 2}
+        UseRange: 0
+        RangeDistance: 5
+        UseRangeFalloff: 0
+        RangeFalloff:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        RemapRangeFalloff: {x: 0, y: 1}
+        AutomaticShakerSetupButton:
+          ButtonText: 
+        Owner: {fileID: 696851821829067295}
+        DebugActive: 0
+        TargetRenderer: {fileID: 3467045416829811048}
+        MaterialID: 0
+        PropertyID: 
+        PropertyType: 0
+        NewColor: {r: 0.3773585, g: 0.3773585, b: 0.3773585, a: 1}
+        NewFloat: 1
+        NewInt: 0
+        NewTexture: {fileID: 0}
+        NewOffset: {x: 0, y: 0}
+        NewScale: {x: 0, y: 0}
+        NewVector: {x: 0, y: 0, z: 0, w: 0}
+        InterpolateValue: 0
+        Duration: 2
+        InterpolationCurve:
+          MMTweenDefinitionType: 1
+          MMTweenCurve: 4
+          Curve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.3
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          Initialized: 0
 --- !u!1 &4802290086390337396
 GameObject:
   m_ObjectHideFlags: 0
@@ -1356,6 +1482,7 @@ Animation:
   - {fileID: 7400000, guid: fbe8ebbe1a0e043dbbc0a5cd10bf080a, type: 2}
   - {fileID: 7400000, guid: 141547f42d63a48bb84f20f58281d41e, type: 2}
   - {fileID: 7400000, guid: 86ea09e6bf5ca4df69805fb9f9bddd18, type: 2}
+  - {fileID: 7400000, guid: b42823dcdfb3e4eeda9fba95cbd04392, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0

@@ -1170,7 +1170,7 @@ MonoBehaviour:
             m_Calls:
             - m_Target: {fileID: 3819766791698493512}
               m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
-              m_MethodName: PlayDeathAnimation
+              m_MethodName: PlayFlyAwayDeath
               m_Mode: 1
               m_Arguments:
                 m_ObjectArgument: {fileID: 0}
