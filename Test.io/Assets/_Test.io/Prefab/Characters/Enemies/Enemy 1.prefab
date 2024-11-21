@@ -471,7 +471,7 @@ MonoBehaviour:
           ButtonText: 
         Owner: {fileID: 2694060192194712801}
         DebugActive: 0
-        BoundRenderer: {fileID: 3467045416829811048}
+        BoundRenderer: {fileID: 8465338481577832129}
         ExtraBoundRenderers: []
         Mode: 0
         PropertyName: _Tint
@@ -711,15 +711,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f33539a738bb70f488389e7e288ea083, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 1713093667204057790}
-  idleAnimation: Idle_Nosedman_S
-  runAnimation: WalkAnimation
-  attackAnimation: Attack
-  flinchAnimation: Hit_Nosedman_S
-  deathAnimation: Death_Nosedman_S
-  fallingPoseAnimation: FallingPose2
-  lyingPoseAnimation: FallinImpact2
-  deafultDeathAnimation: FlyingBackDeath
+  animator: {fileID: 4939169471337336671}
   enemyModel: {fileID: 3471352602253778914}
   landingPosition: {fileID: 6057328677437756387}
 --- !u!114 &5372524445921380997
@@ -2184,6 +2176,21 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 5876b3305628c447783a0ad747a27a6f,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.43431
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5876b3305628c447783a0ad747a27a6f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.43431
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5876b3305628c447783a0ad747a27a6f,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.43431
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5876b3305628c447783a0ad747a27a6f,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -2237,6 +2244,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: 01_Nosedman_S 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 5876b3305628c447783a0ad747a27a6f,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 2cda7b4f08ee842cea0b0e06ca5580a3, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2245,6 +2257,18 @@ PrefabInstance:
 --- !u!4 &1327251975078270245 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5876b3305628c447783a0ad747a27a6f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1576789691834086094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &4939169471337336671 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 5876b3305628c447783a0ad747a27a6f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1576789691834086094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &8465338481577832129 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6961172637168999439, guid: 5876b3305628c447783a0ad747a27a6f,
     type: 3}
   m_PrefabInstance: {fileID: 1576789691834086094}
   m_PrefabAsset: {fileID: 0}

@@ -27,26 +27,14 @@ public class Enemy : MonoBehaviour
 
     // Referencia al componente AIPath
     private AIPath aiPath => GetComponent<AIPath>();
-
-    private AgentAuthoring agentAuthoring => GetComponent<AgentAuthoring>();
-
-    // Referencia al componente Animation
-    [SerializeField] private Animation anim;
-
-    // Serialized Fields para las animaciones
-    [SerializeField] private string idleAnimation = "Idle";
-    [SerializeField] private string runAnimation = "Run";
-    [SerializeField] private string attackAnimation = "Attack";
-    [SerializeField] private string flinchAnimation = "Flinch";
-    [SerializeField] private string deathAnimation = "Flinch";
-    [SerializeField] private string fallingPoseAnimation = "FallingPose";
-    [SerializeField] private string lyingPoseAnimation = "LyingPose";
-    [SerializeField] private string deafultDeathAnimation = "LyingPose";
-
+    [SerializeField] private Animator animator;
     [SerializeField] private Transform enemyModel;
     [SerializeField] private Transform landingPosition;
-
-
+    [Header("Parametros del animator")] private string walkParamater = "Walk";
+    private string flinchParameter = "Flinch";
+    private string flailParameter = "Flail";
+    private string impactParameter = "Impact";
+    private string dieParameter = "Die";
     private bool isDead;
 
     private void Start()
@@ -54,7 +42,6 @@ public class Enemy : MonoBehaviour
         target = GameObject.FindGameObjectWithTag("Player").transform;
 
         // Configura la primera animación
-        anim.CrossFade(idleAnimation);
     }
 
     private void Update()
@@ -71,6 +58,9 @@ public class Enemy : MonoBehaviour
         GetComponent<Rigidbody>().isKinematic = false;
         enemyModel.localPosition = Vector3.zero;
         enemyModel.localRotation = Quaternion.Euler(Vector3.zero);
+        Transform enemyMesh = enemyModel.GetChild(0);
+        enemyMesh.localPosition = Vector3.zero;
+        enemyMesh.localRotation = Quaternion.Euler(Vector3.zero);
         isDead = false;
         if (aiPath != null)
             aiPath.canMove = true;
@@ -83,30 +73,24 @@ public class Enemy : MonoBehaviour
         if (aiPath != null && target != null)
         {
             aiPath.destination = target.transform.position;
-
-            // Ejemplo: Cambiar animación a 'Run' si se mueve
-            if (!aiPath.isStopped)
-            {
-                if (anim.IsPlaying(idleAnimation))
-                {
-                    InstantTransitionTo(runAnimation);
-                }
-            }
-            else
-            {
-                if (anim.IsPlaying(runAnimation))
-                {
-                    InstantTransitionTo(idleAnimation);
-                }
-            }
+            ManageMovementAnimation();
         }
     }
 
-    public void FollowAgentAuthoring()
+    private void ManageMovementAnimation()
     {
-        if (agentAuthoring != null && target != null)
+        bool isWalking = animator.GetBool(walkParamater);
+
+        // Ejemplo: Cambiar animación a 'Run' si se mueve
+        if (!aiPath.isStopped)
         {
-            agentAuthoring.SetDestination(target.position);
+            if (!isWalking)
+                animator.SetBool(walkParamater, true);
+        }
+        else
+        {
+            if (isWalking)
+                animator.SetBool(walkParamater, false);
         }
     }
 
@@ -114,15 +98,16 @@ public class Enemy : MonoBehaviour
     {
         if (aiPath != null)
             aiPath.canMove = false;
-        InstantTransitionTo(flinchAnimation, returnTo: idleAnimation);
-        StartCoroutine(ResetCanMove(flinchAnimation));
+        animator.SetTrigger(flinchParameter);
+
+        StartCoroutine(ResetCanMove());
     }
 
     public void PlayFlyAwayDeath()
     {
         if (aiPath != null) aiPath.canMove = false;
         GetComponent<Rigidbody>().isKinematic = true;
-        anim.Stop();
+
 
         // Eleva al enemigo y añade rotación
         int jumpHeight = Random.Range(6, 23);
@@ -133,11 +118,11 @@ public class Enemy : MonoBehaviour
 
         // Animación de elevarse
         enemyModel.DOMoveY(enemyModel.localPosition.y + jumpHeight, jumpDuration)
-            .OnStart((() => anim.Play(fallingPoseAnimation)));
+            .OnStart((() => { animator.SetTrigger(flailParameter); }));
 
         // Animación de descenso con retraso
         enemyModel.DOMoveY(enemyModel.localPosition.y, fallDuration).SetDelay(delayBeforeDescent)
-            .SetEase(ease: Ease.InQuad).OnComplete((() => { anim.Play(lyingPoseAnimation); }));
+            .SetEase(ease: Ease.InQuad).OnComplete((() => { animator.SetTrigger(impactParameter); }));
 
         int rotatioDirection = Random.Range(0, 2);
 
@@ -148,13 +133,13 @@ public class Enemy : MonoBehaviour
                 // Animación de rotación continua durante la elevación y el descenso
                 enemyModel.DORotate(new Vector3(1080, rotationY, enemyModel.localRotation.z), rotationDuration,
                         RotateMode.FastBeyond360)
-                    .SetEase(Ease.OutQuad).OnComplete((() => anim.Play(lyingPoseAnimation)));
+                    .SetEase(Ease.OutQuad).OnComplete((() => { }));
                 break;
             case 1:
                 // Animación de rotación continua durante la elevación y el descenso
                 enemyModel.DORotate(new Vector3(1080, rotationY, enemyModel.localRotation.z), rotationDuration,
                         RotateMode.FastBeyond360)
-                    .SetEase(Ease.OutQuad).OnComplete((() => anim.Play(lyingPoseAnimation)));
+                    .SetEase(Ease.OutQuad).OnComplete((() => { }));
                 break;
         }
 
@@ -166,67 +151,28 @@ public class Enemy : MonoBehaviour
     {
         if (aiPath != null) aiPath.canMove = false;
         GetComponent<Rigidbody>().isKinematic = true;
-        anim.Stop();
-        
-        
-        
-        anim.Play(deafultDeathAnimation);
-        enemyModel.DOJump(landingPosition.position, 1, 1,0.5f);
+        animator.SetTrigger(dieParameter);
+        enemyModel.DOJump(landingPosition.position, 1, 1, 0.5f).SetEase(Ease.OutQuad);
         isDead = true;
         EnemyDeathEvent.Trigger(this);
     }
 
-    IEnumerator ResetCanMove(string animationName)
+    IEnumerator ResetCanMove()
     {
-        yield return new WaitForSeconds(GetAnimationClipLength(animationName));
+        yield return new WaitForSeconds(GetAnimationClipLength());
         if (!isDead && aiPath != null)
             aiPath.canMove = true;
     }
 
-    // Método para manejar la transición instantánea
-    private void InstantTransitionTo(string newAnimation, string returnTo = null)
+
+    private float GetAnimationClipLength()
     {
-        if (!string.IsNullOrEmpty(returnTo))
-        {
-            StartCoroutine(PlayTemporaryAnimationCoroutine(newAnimation, returnTo));
-        }
-        else
-        {
-            anim.CrossFade(newAnimation);
-        }
-    }
+        if (animator == null) return 0f;
 
-    // Corutina para ejecutar una animación temporal y luego volver
-    private IEnumerator PlayTemporaryAnimationCoroutine(string tempAnimation, string returnAnimation)
-    {
-        // Cambiar a la animación temporal
-        anim.CrossFade(tempAnimation);
+        // Obtiene la información del estado actual en la capa 0
+        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
 
-        // Esperar hasta que la animación temporal termine
-        while (anim[tempAnimation].enabled)
-        {
-            yield return null;
-        }
-
-        if (!isDead)
-        {
-            // Cambiar de vuelta a la animación original
-            anim.CrossFade(returnAnimation);
-        }
-    }
-
-    private float GetAnimationClipLength(string clipName)
-    {
-        AnimationClip clip = anim.GetClip(clipName);
-
-        if (clip != null)
-        {
-            return clip.length;
-        }
-        else
-        {
-            Debug.LogWarning($"Clip de animación '{clipName}' no encontrado.");
-            return 0f;
-        }
+        // La duración de la animación puede obtenerse con stateInfo.length
+        return stateInfo.length;
     }
 }
