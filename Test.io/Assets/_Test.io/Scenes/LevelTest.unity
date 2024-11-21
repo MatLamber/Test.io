@@ -1012,6 +1012,12 @@ MonoBehaviour:
     - enemyPooler: {fileID: 2144729153}
       enemiesPerSecond: 5
       spawnDurationRange: {x: 0, y: 1}
+    - enemyPooler: {fileID: 774806411}
+      enemiesPerSecond: 3
+      spawnDurationRange: {x: 0, y: 1}
+    - enemyPooler: {fileID: 746924108}
+      enemiesPerSecond: 5
+      spawnDurationRange: {x: 0.5, y: 1}
   spawnCenter: {fileID: 1071236902}
   spawnRadius: 7.9
   activeEnemies: []
@@ -1972,6 +1978,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 323465850}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!1 &746924107
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 746924109}
+  - component: {fileID: 746924108}
+  m_Layer: 0
+  m_Name: MediumEnemySpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &746924108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746924107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b7277539b95c0d45895792ecc99ce66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MutualizeWaitingPools: 0
+  NestWaitingPool: 1
+  NestUnderThis: 1
+  GameObjectToPool: {fileID: 2197153961322730087, guid: 07df0ceef5ad9449c9d5c06a3c5e37c9,
+    type: 3}
+  PoolSize: 50
+  PoolCanExpand: 1
+--- !u!4 &746924109
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746924107}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.2110276, y: -1.180188, z: -28.400154}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &749662695
 GameObject:
   m_ObjectHideFlags: 0
@@ -2272,6 +2329,57 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 773277028}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &774806410
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 774806412}
+  - component: {fileID: 774806411}
+  m_Layer: 0
+  m_Name: NormalEnemySpawn (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &774806411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774806410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b7277539b95c0d45895792ecc99ce66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MutualizeWaitingPools: 0
+  NestWaitingPool: 1
+  NestUnderThis: 1
+  GameObjectToPool: {fileID: 2197153961322730087, guid: 7b666b9b4564c2c4f8eea066c98cacba,
+    type: 3}
+  PoolSize: 50
+  PoolCanExpand: 1
+--- !u!4 &774806412
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774806410}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.2110276, y: -1.180188, z: -28.400154}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &876481863
 GameObject:
   m_ObjectHideFlags: 0
@@ -2626,6 +2734,57 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1079878172}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1096700842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1096700844}
+  - component: {fileID: 1096700843}
+  m_Layer: 0
+  m_Name: BossEnemySpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1096700843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096700842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b7277539b95c0d45895792ecc99ce66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MutualizeWaitingPools: 0
+  NestWaitingPool: 1
+  NestUnderThis: 1
+  GameObjectToPool: {fileID: 2197153961322730087, guid: 07df0ceef5ad9449c9d5c06a3c5e37c9,
+    type: 3}
+  PoolSize: 50
+  PoolCanExpand: 1
+--- !u!4 &1096700844
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096700842}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.2110276, y: -1.180188, z: -28.400154}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1142062699
 GameObject:
   m_ObjectHideFlags: 0
@@ -3262,79 +3421,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1636386964}
   m_CullTransparentMesh: 0
---- !u!1001 &1641463766
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2197153961322730087, guid: 7b666b9b4564c2c4f8eea066c98cacba,
-        type: 3}
-      propertyPath: m_Name
-      value: Enemy 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2197153961322730087, guid: 7b666b9b4564c2c4f8eea066c98cacba,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8905030874123235522, guid: 7b666b9b4564c2c4f8eea066c98cacba,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.12590504
-      objectReference: {fileID: 0}
-    - target: {fileID: 8905030874123235522, guid: 7b666b9b4564c2c4f8eea066c98cacba,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8905030874123235522, guid: 7b666b9b4564c2c4f8eea066c98cacba,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -23.684536
-      objectReference: {fileID: 0}
-    - target: {fileID: 8905030874123235522, guid: 7b666b9b4564c2c4f8eea066c98cacba,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.30437392
-      objectReference: {fileID: 0}
-    - target: {fileID: 8905030874123235522, guid: 7b666b9b4564c2c4f8eea066c98cacba,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8905030874123235522, guid: 7b666b9b4564c2c4f8eea066c98cacba,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.9525526
-      objectReference: {fileID: 0}
-    - target: {fileID: 8905030874123235522, guid: 7b666b9b4564c2c4f8eea066c98cacba,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8905030874123235522, guid: 7b666b9b4564c2c4f8eea066c98cacba,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8905030874123235522, guid: 7b666b9b4564c2c4f8eea066c98cacba,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -144.559
-      objectReference: {fileID: 0}
-    - target: {fileID: 8905030874123235522, guid: 7b666b9b4564c2c4f8eea066c98cacba,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7b666b9b4564c2c4f8eea066c98cacba, type: 3}
 --- !u!1 &1745375833
 GameObject:
   m_ObjectHideFlags: 0
@@ -4142,7 +4228,7 @@ MonoBehaviour:
   MutualizeWaitingPools: 0
   NestWaitingPool: 1
   NestUnderThis: 1
-  GameObjectToPool: {fileID: 2197153961322730087, guid: 7b666b9b4564c2c4f8eea066c98cacba,
+  GameObjectToPool: {fileID: 2197153961322730087, guid: 308fd1dcb10684705b900c1f491db2db,
     type: 3}
   PoolSize: 50
   PoolCanExpand: 1
@@ -26116,4 +26202,6 @@ SceneRoots:
   - {fileID: 110226280}
   - {fileID: 266304995}
   - {fileID: 2144729154}
-  - {fileID: 1641463766}
+  - {fileID: 774806412}
+  - {fileID: 746924109}
+  - {fileID: 1096700844}

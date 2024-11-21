@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: e3620e67e281b2b4da5f073e53c55d0d
 ModelImporter:
-  serializedVersion: 20200
+  serializedVersion: 22200
   internalIDToNameTable:
   - first:
       74: 6955981822426204268
@@ -64,16 +64,94 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'AttackLeft_Monkey_S' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Small_monkey:Small_monkey:Chest_M' has
+      translation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Head_M'
+      has translation animation that will be discarded.\n\nClip 'AttackRight_Monkey_S'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Small_monkey:Small_monkey:Chest_M'
+      has translation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Head_M'
+      has translation animation that will be discarded.\n\nClip 'Death_Monkey_S'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Small_monkey:Small_monkey:Chest_M'
+      has translation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Head_M'
+      has translation animation that will be discarded.\n\nClip 'GunLeft_Monkey_S'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Small_monkey:Small_monkey:Chest_M'
+      has translation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Head_M'
+      has translation animation that will be discarded.\n\nClip 'GunRight_Monkey_S'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Small_monkey:Small_monkey:Chest_M'
+      has translation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Head_M'
+      has translation animation that will be discarded.\n\nClip 'Hit_Monkey_S' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Small_monkey:Small_monkey:Chest_M'
+      has translation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Head_M'
+      has translation animation that will be discarded.\n\nClip 'Idle_Monkey_S' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Small_monkey:Small_monkey:Head_M'
+      has translation animation that will be discarded.\n\nClip 'Jump_Monkey_S' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Small_monkey:Small_monkey:Chest_M'
+      has translation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Head_M'
+      has translation animation that will be discarded.\n\nClip 'Rage_Monkey_S' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Small_monkey:Small_monkey:Chest_M'
+      has translation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Head_M'
+      has translation animation that will be discarded.\n\nClip 'Run_Monkey_S' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Small_monkey:Small_monkey:Chest_M'
+      has translation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Head_M'
+      has translation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Ankle_R'
+      has translation animation that will be discarded.\n\nClip 'Walk_Monkey_S' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Small_monkey:Small_monkey:Chest_M'
+      has translation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Wrist_L'
+      has translation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Head_M'
+      has translation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Wrist_R'
+      has translation animation that will be discarded.\n\nClip 'WalkBack_Monkey_S'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Small_monkey:Small_monkey:Chest_M'
+      has translation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Wrist_L'
+      has translation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Head_M'
+      has translation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Wrist_R'
+      has translation animation that will be discarded.\n\nClip 'WalkLeft_Monkey_S'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Small_monkey:Small_monkey:Chest_M'
+      has translation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Wrist_L'
+      has translation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Head_M'
+      has translation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Wrist_R'
+      has translation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Ankle_L'
+      has translation animation that will be discarded.\n\nClip 'WalkRight_Monkey_S'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Small_monkey:Small_monkey:Chest_M'
+      has translation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Wrist_L'
+      has translation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Head_M'
+      has translation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Wrist_R'
+      has translation animation that will be discarded.\n\t'Small_monkey:Small_monkey:Ankle_R'
+      has translation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -89,10 +167,12 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 0
     fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -104,6 +184,7 @@ ModelImporter:
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
+    optimizeBones: 1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -114,6 +195,7 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -126,8 +208,315 @@ ModelImporter:
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
-    human: []
-    skeleton: []
+    human:
+    - boneName: Small_monkey:Small_monkey:Root_M
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Small_monkey:Small_monkey:Hip_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Small_monkey:Small_monkey:Hip_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Small_monkey:Small_monkey:Knee_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Small_monkey:Small_monkey:Knee_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Small_monkey:Small_monkey:Ankle_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Small_monkey:Small_monkey:Ankle_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Small_monkey:Small_monkey:Spine1_M
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Small_monkey:Small_monkey:Neck_M
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Small_monkey:Small_monkey:Head_M
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Small_monkey:Small_monkey:Scapula_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Small_monkey:Small_monkey:Shoulder_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Small_monkey:Small_monkey:Shoulder_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Small_monkey:Small_monkey:Elbow_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Small_monkey:Small_monkey:Elbow_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Small_monkey:Small_monkey:Wrist_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Small_monkey:Small_monkey:Wrist_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Small_monkey:Small_monkey:Toes_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Small_monkey:Small_monkey:Toes_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: 01_Monkeydong_S(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Small_monkey:Small_monkey:Monkeydong_S
+      parentName: 01_Monkeydong_S(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Small_monkey:Small_monkey:Root
+      parentName: 01_Monkeydong_S(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.056033578, y: -0, z: -0, w: 0.99842894}
+      scale: {x: 1, y: 0.9999995, z: 0.9999995}
+    - name: Small_monkey:Small_monkey:Root_M
+      parentName: Small_monkey:Small_monkey:Root
+      position: {x: 0, y: 1.041842, z: -0.14312796}
+      rotation: {x: 0.59793425, y: -0.37745804, z: -0.5979343, w: 0.37745804}
+      scale: {x: 1, y: 1.0000007, z: 1.0000001}
+    - name: Small_monkey:Small_monkey:Spine1_M
+      parentName: Small_monkey:Small_monkey:Root_M
+      position: {x: -0.06577597, y: -0.058218673, z: -0.0000001772457}
+      rotation: {x: 0.000000029802322, y: -0, z: 0.9077224, w: 0.4195714}
+      scale: {x: 1.000001, y: 1.0000001, z: 1.0000005}
+    - name: Small_monkey:Small_monkey:Chest_M
+      parentName: Small_monkey:Small_monkey:Spine1_M
+      position: {x: -0.0024236706, y: 0.050277352, z: -0.00016422237}
+      rotation: {x: -0.000000003877631, y: -0.00000013312123, z: 0.0077500334, w: 0.99996996}
+      scale: {x: 0.9999993, y: 1.0000005, z: 0.9999992}
+    - name: Small_monkey:Small_monkey:Scapula_R
+      parentName: Small_monkey:Small_monkey:Chest_M
+      position: {x: 0.011221945, y: 0.26284993, z: -0.09449976}
+      rotation: {x: -0.70487344, y: 0.05626449, z: -0.06876707, w: 0.7037463}
+      scale: {x: 1.0000004, y: 0.9999995, z: 1}
+    - name: Small_monkey:Small_monkey:Shoulder_R
+      parentName: Small_monkey:Small_monkey:Scapula_R
+      position: {x: -0.00000049822665, y: 0.33768743, z: -0.00000027625103}
+      rotation: {x: -0.034126632, y: 0.46454808, z: 0.0056728707, w: 0.88487184}
+      scale: {x: 0.9999995, y: 1.0000006, z: 1.0000012}
+    - name: Small_monkey:Small_monkey:Elbow_R
+      parentName: Small_monkey:Small_monkey:Shoulder_R
+      position: {x: -0.00000027906003, y: 0.4111777, z: -0.0000010358033}
+      rotation: {x: 0.024017872, y: 0.9904107, z: 0.032854848, w: 0.13202387}
+      scale: {x: 0.9999989, y: 1.0000006, z: 0.99999917}
+    - name: Small_monkey:Small_monkey:Wrist_R
+      parentName: Small_monkey:Small_monkey:Elbow_R
+      position: {x: 0.00000026801058, y: 0.6066148, z: -0.00000074254643}
+      rotation: {x: 0.009389608, y: 0.796624, z: 0.004516981, w: -0.6043853}
+      scale: {x: 1.0000019, y: 0.99999964, z: 0.9999999}
+    - name: Small_monkey:Small_monkey:MiddleFinger1_R
+      parentName: Small_monkey:Small_monkey:Wrist_R
+      position: {x: -0.000000064722876, y: 0.4313427, z: -0.00000015062423}
+      rotation: {x: -0.027363388, y: -0.7301144, z: -0.081723616, w: 0.6778685}
+      scale: {x: 0.99999964, y: 1.0000004, z: 1.0000012}
+    - name: Small_monkey:Small_monkey:MiddleFinger4_R
+      parentName: Small_monkey:Small_monkey:MiddleFinger1_R
+      position: {x: -0.00000055717555, y: 0.4073277, z: -0.00000011461153}
+      rotation: {x: 0.00000003098109, y: -3.6862874e-17, z: -1.7347223e-18, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: Small_monkey:Small_monkey:Scapula_L
+      parentName: Small_monkey:Small_monkey:Chest_M
+      position: {x: 0.011221323, y: 0.26284742, z: 0.094500855}
+      rotation: {x: 0.7053212, y: -0.051532745, z: -0.06402724, w: 0.7041073}
+      scale: {x: 1.0000008, y: 1.0000001, z: 1}
+    - name: Small_monkey:Small_monkey:Shoulder_L
+      parentName: Small_monkey:Small_monkey:Scapula_L
+      position: {x: 0.0000002589115, y: 0.33768725, z: 0.00000094013194}
+      rotation: {x: 0.02795785, y: -0.031797376, z: 0.020375548, w: 0.99889547}
+      scale: {x: 0.99999964, y: 1.0000001, z: 1.0000006}
+    - name: Small_monkey:Small_monkey:Elbow_L
+      parentName: Small_monkey:Small_monkey:Shoulder_L
+      position: {x: -0.0000010311818, y: 0.4111766, z: -0.00000071504684}
+      rotation: {x: -0.0061344947, y: 0.004159533, z: -0.040232915, w: 0.99916285}
+      scale: {x: 0.9999995, y: 1.0000006, z: 1.0000007}
+    - name: Small_monkey:Small_monkey:Wrist_L
+      parentName: Small_monkey:Small_monkey:Elbow_L
+      position: {x: 0.00000022825846, y: 0.60661423, z: 0.0000014901647}
+      rotation: {x: -0.00789086, y: -0.000879724, z: 0.0068001123, w: 0.9999454}
+      scale: {x: 1.0000004, y: 0.99999964, z: 0.99999976}
+    - name: Small_monkey:Small_monkey:MiddleFinger1_L
+      parentName: Small_monkey:Small_monkey:Wrist_L
+      position: {x: -0.00000022895114, y: 0.43134105, z: -0.00000047646415}
+      rotation: {x: 0.08564468, y: 0.0021905524, z: -0.009608467, w: 0.99627703}
+      scale: {x: 0.99999976, y: 1.0000001, z: 0.9999993}
+    - name: Small_monkey:Small_monkey:MiddleFinger4_L
+      parentName: Small_monkey:Small_monkey:MiddleFinger1_L
+      position: {x: 0.0000023094121, y: 0.4073275, z: -0.0000005797214}
+      rotation: {x: 0, y: 0, z: 6.938894e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Small_monkey:Small_monkey:Neck_M
+      parentName: Small_monkey:Small_monkey:Chest_M
+      position: {x: -0.022443205, y: 0.28335148, z: 0.0000005026873}
+      rotation: {x: -0.000000009064486, y: 0.00000006564648, z: -0.0726216, w: 0.99735963}
+      scale: {x: 0.9999986, y: 1, z: 1}
+    - name: Small_monkey:Small_monkey:Head_M
+      parentName: Small_monkey:Small_monkey:Neck_M
+      position: {x: 0.031074911, y: 0.39708835, z: -0.008734166}
+      rotation: {x: -0.0000000030591418, y: 0.000000066459364, z: -0.008374414, w: 0.99996495}
+      scale: {x: 1.0000017, y: 0.99999976, z: 1.0000013}
+    - name: Small_monkey:Small_monkey:HeadEnd_M
+      parentName: Small_monkey:Small_monkey:Head_M
+      position: {x: -0.0000011843663, y: 0.8289076, z: -0.00000025656325}
+      rotation: {x: -3.469447e-18, y: 1.6263033e-18, z: 5.642373e-36, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Small_monkey:Small_monkey:Hip_R
+      parentName: Small_monkey:Small_monkey:Root_M
+      position: {x: 0.03288717, y: 0.05068929, z: -0.29582152}
+      rotation: {x: 0.47563303, y: 0.87964386, z: -0.000000026077032, w: -0.000000013038516}
+      scale: {x: 1.0000005, y: 1.0000015, z: 1.0000006}
+    - name: Small_monkey:Small_monkey:Knee_R
+      parentName: Small_monkey:Small_monkey:Hip_R
+      position: {x: -0.000000585786, y: 0.35332653, z: 0.0000003101477}
+      rotation: {x: 0.000000003398455, y: -0.000000013142257, z: 0.18176451, w: 0.9833421}
+      scale: {x: 1.0000007, y: 0.9999995, z: 1.0000004}
+    - name: Small_monkey:Small_monkey:Ankle_R
+      parentName: Small_monkey:Small_monkey:Knee_R
+      position: {x: 0.0000012284339, y: 0.57462746, z: -0.000000068841956}
+      rotation: {x: -0.6798113, y: -0.7095967, z: -0.15144333, w: 0.106743366}
+      scale: {x: 0.9999989, y: 0.9999994, z: 0.9999995}
+    - name: Small_monkey:Small_monkey:Toes_R
+      parentName: Small_monkey:Small_monkey:Ankle_R
+      position: {x: -0.00000011660535, y: 0.19377576, z: 0.0000003584993}
+      rotation: {x: -0.07922404, y: 0.94976044, z: -0.07163476, w: -0.29418907}
+      scale: {x: 1.0000008, y: 1.0000008, z: 0.9999995}
+    - name: Small_monkey:Small_monkey:ToesEnd_R
+      parentName: Small_monkey:Small_monkey:Toes_R
+      position: {x: -0.06372614, y: 0.16338478, z: 0.02893508}
+      rotation: {x: 0.000000066785645, y: 0.0000003817782, z: 0.000000047350493, w: 1}
+      scale: {x: 0.99999934, y: 1, z: 1.0000002}
+    - name: Small_monkey:Small_monkey:Hip_L
+      parentName: Small_monkey:Small_monkey:Root_M
+      position: {x: 0.03288922, y: 0.05069004, z: 0.29582104}
+      rotation: {x: 0.47563303, y: 0.87964386, z: 0.000000029802322, w: -0.000000070780516}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000012}
+    - name: Small_monkey:Small_monkey:Knee_L
+      parentName: Small_monkey:Small_monkey:Hip_L
+      position: {x: 0.000000572439, y: 0.35332426, z: -0.00000008475521}
+      rotation: {x: -0.000000013865187, y: -0.000000052375732, z: 0.18176454, w: 0.9833422}
+      scale: {x: 0.9999989, y: 1.0000006, z: 1.0000004}
+    - name: Small_monkey:Small_monkey:Ankle_L
+      parentName: Small_monkey:Small_monkey:Knee_L
+      position: {x: -0.0000010043705, y: 0.57462907, z: 0.000001541287}
+      rotation: {x: -0.15144336, y: -0.10674332, z: -0.67981136, w: 0.70959663}
+      scale: {x: 0.99999976, y: 1.000001, z: 0.9999994}
+    - name: Small_monkey:Small_monkey:Toes_L
+      parentName: Small_monkey:Small_monkey:Ankle_L
+      position: {x: -0.0000002290401, y: 0.19377619, z: -0.00000064908465}
+      rotation: {x: -0.06554314, y: -0.22272617, z: -0.0843331, w: 0.9690124}
+      scale: {x: 0.9999994, y: 1.0000001, z: 0.9999989}
+    - name: Small_monkey:Small_monkey:ToesEnd_L
+      parentName: Small_monkey:Small_monkey:Toes_L
+      position: {x: 0.008953928, y: 0.186765, z: 0.008917396}
+      rotation: {x: -0.000000104280076, y: 1.4471768e-24, z: -1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000004}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -138,14 +527,16 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

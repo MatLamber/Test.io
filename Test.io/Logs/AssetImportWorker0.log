@@ -10286,3 +10286,438 @@ Memory consumption went from 285.4 MB to 279.6 MB.
 Total: 11.889083 ms (FindLiveObjects: 0.440125 ms CreateObjectMapping: 0.182417 ms MarkObjects: 9.816625 ms  DeleteObjects: 1.449042 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 845.636716 seconds.
+  path: Assets/_Test.io/Prefab/Characters/Enemies/Enemy.prefab
+  artifactKey: Guid(fbfcdc3967b252f439dc805df0f05a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Prefab/Characters/Enemies/Enemy.prefab using Guid(fbfcdc3967b252f439dc805df0f05a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec4d84fbe13d8fdb09ef08c24e754ec5') in 0.246022625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 108
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/_Test.io/Prefab/Characters/Enemies/EnemySinTDC.prefab
+  artifactKey: Guid(61a59c79fed743a4f9f08ccc35ae66a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Prefab/Characters/Enemies/EnemySinTDC.prefab using Guid(61a59c79fed743a4f9f08ccc35ae66a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a819f9ca13496c79c3ae6bb523568517') in 0.038111583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 109
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.454178 seconds.
+  path: Assets/Male Fighter Mecanim Animation Pack v2.3/0a034fc0cac339b4a99346aa9ac5d71a
+  artifactKey: Guid(9584188251fcd4494a096b1f0c4baf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Male Fighter Mecanim Animation Pack v2.3/0a034fc0cac339b4a99346aa9ac5d71a using Guid(9584188251fcd4494a096b1f0c4baf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddc0e1a162f1429fdba96db2b36dc8ef') in 0.002157291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 556.883603 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations
+  artifactKey: Guid(4ed93f52c1a9abd46a44bf3b86d6b024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations using Guid(4ed93f52c1a9abd46a44bf3b86d6b024) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93815e76d511a2cb82d8e71104acbc76') in 0.002447417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.311221 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Melee Warrior - Demo Scene.unity
+  artifactKey: Guid(5e6860a0339eb9b4a8b8d56569700917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Melee Warrior - Demo Scene.unity using Guid(5e6860a0339eb9b4a8b8d56569700917) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef4e33d3fc0a1b69b378a3ee785cf3a3') in 0.000698209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.085818 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations
+  artifactKey: Guid(f0c21875b15af264db996644ed07d053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations using Guid(f0c21875b15af264db996644ed07d053) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44efcdd80c7be9424bc7f9f4aa265dfd') in 0.000850708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.104924 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/MeleeWarrior@Death01.fbx
+  artifactKey: Guid(0a205e82d4075b346b912ccfe0a0bfd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/MeleeWarrior@Death01.fbx using Guid(0a205e82d4075b346b912ccfe0a0bfd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b60bb3c06e547b8a795bddd1c213e582') in 0.020767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 133
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/MeleeWarrior@Death04.fbx
+  artifactKey: Guid(9f875c3601d5d7e43811e58a3a7c61fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/MeleeWarrior@Death04.fbx using Guid(9f875c3601d5d7e43811e58a3a7c61fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5b4dc854b27c18930f07c5ab65587fa') in 0.005484916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 133
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.828585 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded
+  artifactKey: Guid(bfb1f4cccd2e2cd4a9ec38006166f13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded using Guid(bfb1f4cccd2e2cd4a9ec38006166f13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73795c424f23b5de998e40b9eb21d2c7') in 0.000467333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075235 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/1H@CombatIdle01.fbx
+  artifactKey: Guid(f8c2d6a0ce3bc2d40b090cd67dd23862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/1H@CombatIdle01.fbx using Guid(f8c2d6a0ce3bc2d40b090cd67dd23862) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c86395954b7f8aa88e0c319c1cc15886') in 0.004726583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 131
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/1H@TakeDamage02.fbx
+  artifactKey: Guid(03d7bb31f4803fd45ae78430b375c9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/1H@TakeDamage02.fbx using Guid(03d7bb31f4803fd45ae78430b375c9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6353ddff01a5a112405bcd1fcef4416') in 0.006967166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 131
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/1H@TakeDamage05.fbx
+  artifactKey: Guid(f14caa7d137347948b607bd914e38d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/1H@TakeDamage05.fbx using Guid(f14caa7d137347948b607bd914e38d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e130cce3fc822815bb438eaecb5bea23') in 0.005461375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 131
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.274684 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/RightHand
+  artifactKey: Guid(e25a9f53f210bc341872e124a41d463d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/RightHand using Guid(e25a9f53f210bc341872e124a41d463d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '253fb75ba1ee8bc60d51e114532a1875') in 0.000623375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.087679 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/RightHand/RightHand@Attack01.fbx
+  artifactKey: Guid(f1613afb92638e743bace9a9392b5ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/RightHand/RightHand@Attack01.fbx using Guid(f1613afb92638e743bace9a9392b5ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b8b0614d341874714dd68070d1c03ec') in 0.004069667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 131
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/RightHand/RightHand@Attack04.fbx
+  artifactKey: Guid(2353f29f22b4ca2438a5c32f3628a876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/RightHand/RightHand@Attack04.fbx using Guid(2353f29f22b4ca2438a5c32f3628a876) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40e4ca3aa70bd9100b33d9f15ccbc427') in 0.005860291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 131
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/RightHand/RightHand@Attack03.fbx
+  artifactKey: Guid(214c7c9b1789eca4fa03313e4abaac1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/RightHand/RightHand@Attack03.fbx using Guid(214c7c9b1789eca4fa03313e4abaac1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e023cf6060657e6bb3c084484807a536') in 0.00468175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 131
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.907507 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/DualWield
+  artifactKey: Guid(62192e9fee86e2144b05e6b42ba4836c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/DualWield using Guid(62192e9fee86e2144b05e6b42ba4836c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '646f04d3c56aa729f6b38d2641e8d96b') in 0.001059791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051220 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/DualWield/DualWield@Attack01.fbx
+  artifactKey: Guid(f0b2086a10c99b84985346a081667b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/DualWield/DualWield@Attack01.fbx using Guid(f0b2086a10c99b84985346a081667b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '046611f85dead28a36e7d6a7c1f6005a') in 0.00694925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 131
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/DualWield/DualWield@Parry01.fbx
+  artifactKey: Guid(4ca3bca03e61acf4aa1a866e6daad59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/DualWield/DualWield@Parry01.fbx using Guid(4ca3bca03e61acf4aa1a866e6daad59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0a0722cb1555b820ba9b075de859331') in 0.005705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 133
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.636163 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/DualWield/UpperBody
+  artifactKey: Guid(f0e9648f3b4bab544be6d356adf9fe57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/DualWield/UpperBody using Guid(f0e9648f3b4bab544be6d356adf9fe57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2782e92ba2e5b45f90578974c6e3381f') in 0.000382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089727 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/DualWield/UpperBody/DualWield@Parry01 [UpperBody].fbx
+  artifactKey: Guid(de0b19a865123614d8291719867a1e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/DualWield/UpperBody/DualWield@Parry01 [UpperBody].fbx using Guid(de0b19a865123614d8291719867a1e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19c2e6f9a07fcfd6822885178a13cf04') in 0.004986208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.114166 seconds.
+  path: Assets/Kevin Iglesias/Villager Animations/Animations/Combat/Villager@Damage01.fbx
+  artifactKey: Guid(aba3a20242ef86f4eae5d28596d168d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Villager Animations/Animations/Combat/Villager@Damage01.fbx using Guid(aba3a20242ef86f4eae5d28596d168d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd23bbda02465ff483bc314839aaf784b') in 0.004219584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Kevin Iglesias/Villager Animations/Animations/Combat/Villager@Death01.fbx
+  artifactKey: Guid(41cd1f1f0120c5a4493f1521b701adbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Villager Animations/Animations/Combat/Villager@Death01.fbx using Guid(41cd1f1f0120c5a4493f1521b701adbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2940975ddb5b7c0209f8d0d150c28242') in 0.009673709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Kevin Iglesias/Villager Animations/Animations/Combat/Villager@Death01 [RM].fbx
+  artifactKey: Guid(9b6b5140b75b0f74f97096927db492e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Villager Animations/Animations/Combat/Villager@Death01 [RM].fbx using Guid(9b6b5140b75b0f74f97096927db492e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0101e1db2d460477d71db62ee7ff4aa') in 0.006349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.299906 seconds.
+  path: Assets/Kevin Iglesias/Villager Animations/Animations/Hands/Villager@ClosedHands [Hands].fbx
+  artifactKey: Guid(9ac04fe482d6bc944aecc7ab5e6f4d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Villager Animations/Animations/Hands/Villager@ClosedHands [Hands].fbx using Guid(9ac04fe482d6bc944aecc7ab5e6f4d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3be7e08c94719506e8fccdde604d98aa') in 0.004627917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 131
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Kevin Iglesias/Villager Animations/Animations/Hands/VillagerLeftHandFingersMask.mask
+  artifactKey: Guid(200810237e8e41f46bbfd052e9b84a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Villager Animations/Animations/Hands/VillagerLeftHandFingersMask.mask using Guid(200810237e8e41f46bbfd052e9b84a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9081d1f315d6a65aa7a052cf4cf87a6') in 0.002370167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Kevin Iglesias/Villager Animations/Animations/Hands/VillagerBothHandFingersMask.mask
+  artifactKey: Guid(d6080f34e92d4d84292771b8a721039a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Villager Animations/Animations/Hands/VillagerBothHandFingersMask.mask using Guid(d6080f34e92d4d84292771b8a721039a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52078ba3d8ec391249eae3c825e6ebb9') in 0.001201166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.352291 seconds.
+  path: Assets/Kevin Iglesias/Villager Animations/Animations/Idle/Villager@Idle01.fbx
+  artifactKey: Guid(47eed3c9adae4d94496daac8b628526e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Villager Animations/Animations/Idle/Villager@Idle01.fbx using Guid(47eed3c9adae4d94496daac8b628526e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f65a04760e253902d992d16f0dc85978') in 0.0055175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.096175 seconds.
+  path: Assets/Kevin Iglesias/Villager Animations/Animations/Work/Building
+  artifactKey: Guid(88f4071737674f14da84b40ea20a7ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Villager Animations/Animations/Work/Building using Guid(88f4071737674f14da84b40ea20a7ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58b46d630857735aaf456ec74109bf99') in 0.000357375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.090487 seconds.
+  path: Assets/Kevin Iglesias/Villager Animations/Animations/Work/Building/Villager@Hammer-Working01.fbx
+  artifactKey: Guid(e2694e09078647640bc4a77f486a32fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Villager Animations/Animations/Work/Building/Villager@Hammer-Working01.fbx using Guid(e2694e09078647640bc4a77f486a32fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '007df914f7a670c94a5990ae9eda6ced') in 0.006014416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.784066 seconds.
+  path: Assets/Kevin Iglesias/Villager Animations/Animations/Work/Fishing/Villager@Fishing01.fbx
+  artifactKey: Guid(61e4656a2566d6f4095fbd06d7aa08cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Villager Animations/Animations/Work/Fishing/Villager@Fishing01.fbx using Guid(61e4656a2566d6f4095fbd06d7aa08cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb892bfa777829691499d15a0d3b4ef3') in 0.005363416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.846085 seconds.
+  path: Assets/Kevin Iglesias/Villager Animations/Animations/Work/Farming/Villager@Farm-Idle01.fbx
+  artifactKey: Guid(aa673d3b5590c4742a05d4485c779ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Villager Animations/Animations/Work/Farming/Villager@Farm-Idle01.fbx using Guid(aa673d3b5590c4742a05d4485c779ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '037713a9e48e106b94052f1eafa0a4c7') in 0.00611625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 142
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Kevin Iglesias/Villager Animations/Animations/Work/Farming/Villager@Sack-Run01 [RM].fbx
+  artifactKey: Guid(37edca782923282449c0eda70eed11aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Villager Animations/Animations/Work/Farming/Villager@Sack-Run01 [RM].fbx using Guid(37edca782923282449c0eda70eed11aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e50d0ec8e2f4f17ab9bcf93332814e58') in 0.007391667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Kevin Iglesias/Villager Animations/Animations/Work/Farming/Villager@Sack-Walk01.fbx
+  artifactKey: Guid(7a120bb139720804a81d06bc7bb9f05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Villager Animations/Animations/Work/Farming/Villager@Sack-Walk01.fbx using Guid(7a120bb139720804a81d06bc7bb9f05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9ad975efd144136c798c7d2476feb14') in 0.005174375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Kevin Iglesias/Villager Animations/Animations/Work/Farming/Villager@Sack-Idle01.fbx
+  artifactKey: Guid(098c85f54822c464ab3fb59e2f6eff27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Villager Animations/Animations/Work/Farming/Villager@Sack-Idle01.fbx using Guid(098c85f54822c464ab3fb59e2f6eff27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53b9dc3c25afaa7e7ac6a18ee536d75d') in 0.00556675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.481783 seconds.
+  path: Assets/Kevin Iglesias/Villager Animations/Animations/Work/Lumberjacking/Villager@Axe-Chopping01.fbx
+  artifactKey: Guid(37f2f913ec7b8fa4180c9c64613cb9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Villager Animations/Animations/Work/Lumberjacking/Villager@Axe-Chopping01.fbx using Guid(37f2f913ec7b8fa4180c9c64613cb9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71360580c61591d329bcbdb46383469b') in 0.004554708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Kevin Iglesias/Villager Animations/Animations/Work/Lumberjacking/Villager@Carrying-Drop01.fbx
+  artifactKey: Guid(8c6a998187022df488a8e4baac87d67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Villager Animations/Animations/Work/Lumberjacking/Villager@Carrying-Drop01.fbx using Guid(8c6a998187022df488a8e4baac87d67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c57263c47102e22beb11c2a912044d3') in 0.007589666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Kevin Iglesias/Villager Animations/Animations/Work/Lumberjacking/Villager@Carrying-Run01.fbx
+  artifactKey: Guid(6e13e10b0b1558749b79047f83249efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Villager Animations/Animations/Work/Lumberjacking/Villager@Carrying-Run01.fbx using Guid(6e13e10b0b1558749b79047f83249efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9343582a0a1d4adfb661e39adc43ce16') in 0.011370667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Kevin Iglesias/Villager Animations/Animations/Work/Lumberjacking/Villager@Sawing02.fbx
+  artifactKey: Guid(9ce449b17bee5724783185c2c67ce024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Villager Animations/Animations/Work/Lumberjacking/Villager@Sawing02.fbx using Guid(9ce449b17bee5724783185c2c67ce024) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68688842d5554d621aec05d993c12fef') in 0.0058025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.944570 seconds.
+  path: Assets/Kevin Iglesias/Villager Animations/Animations/Work/Mining/Villager@CarryingHeavy-Drop01.fbx
+  artifactKey: Guid(346b22ff06eb7a347adfdbef60b45ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Villager Animations/Animations/Work/Mining/Villager@CarryingHeavy-Drop01.fbx using Guid(346b22ff06eb7a347adfdbef60b45ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'adef065cdffaba272971c85532f9eff5') in 0.004368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Kevin Iglesias/Villager Animations/Animations/Work/Mining/Villager@CarryingHeavy-Run01.fbx
+  artifactKey: Guid(29272da1c8771f642a0336d2a960ccdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Villager Animations/Animations/Work/Mining/Villager@CarryingHeavy-Run01.fbx using Guid(29272da1c8771f642a0336d2a960ccdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28d84db8d466335466fb28cb7f81b14c') in 0.006225042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Kevin Iglesias/Villager Animations/Animations/Work/Mining/Villager@Shovel-Working02.fbx
+  artifactKey: Guid(66fa61b07dc34ee4bab13942ff535b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Villager Animations/Animations/Work/Mining/Villager@Shovel-Working02.fbx using Guid(66fa61b07dc34ee4bab13942ff535b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00fbb90fc05c0281344ec9942fccd9a9') in 0.004860791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Kevin Iglesias/Villager Animations/Animations/Work/Mining/Villager@Pickaxe-Walk01 [RM].fbx
+  artifactKey: Guid(2b6645bf2acf1954c91761ff9424effd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Villager Animations/Animations/Work/Mining/Villager@Pickaxe-Walk01 [RM].fbx using Guid(2b6645bf2acf1954c91761ff9424effd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd43abe0f0a177f51e300e664fd30284a') in 0.007748875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Kevin Iglesias/Villager Animations/Animations/Work/Mining/Villager@CarryingHeavy-Walk01.fbx
+  artifactKey: Guid(2e562beb3345464408645779c77d0998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Villager Animations/Animations/Work/Mining/Villager@CarryingHeavy-Walk01.fbx using Guid(2e562beb3345464408645779c77d0998) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22c510e7c001a6014aff0261cfe42445') in 0.006895666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 163.532922 seconds.
+  path: Assets/Kevin Iglesias/Villager Animations/Animations/Work/Gathering/Villager@Gathering01.fbx
+  artifactKey: Guid(a6171f33082636344bca20e73cd57fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Villager Animations/Animations/Work/Gathering/Villager@Gathering01.fbx using Guid(a6171f33082636344bca20e73cd57fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '328d703dc4b8835bf3c993f065b73140') in 0.028938084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Kevin Iglesias/Villager Animations/Animations/Work/Gathering/Villager@Skinning02.fbx
+  artifactKey: Guid(fd106b116e1106c4daad6568aa82bf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Villager Animations/Animations/Work/Gathering/Villager@Skinning02.fbx using Guid(fd106b116e1106c4daad6568aa82bf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '473f6928f3fb4920d6213d6072d3f0fa') in 0.025822083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 142
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.236860 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/TwoHandedLong/2HLong@Attack02.fbx
+  artifactKey: Guid(0cba881d4ededd24aaff42b24e40d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/TwoHandedLong/2HLong@Attack02.fbx using Guid(0cba881d4ededd24aaff42b24e40d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3645316b8d11f425b3d87b85d0dfdd65') in 0.005068917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 131
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/TwoHandedLong/2HLong@Parry01.fbx
+  artifactKey: Guid(d55d6b037d640c74990c8bd94e697c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/TwoHandedLong/2HLong@Parry01.fbx using Guid(d55d6b037d640c74990c8bd94e697c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0aad31b786ca77cb877542261f7506a6') in 0.007864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 133
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/TwoHandedLong/2HLong@TakeDamage03.fbx
+  artifactKey: Guid(41b336890a1d36e44a786c3129f24edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/TwoHandedLong/2HLong@TakeDamage03.fbx using Guid(41b336890a1d36e44a786c3129f24edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7cfe5f0ca851b1a18bb081341d2baa2') in 0.005349667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 131
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/TwoHandedLong/2HLong@TakeDamage01.fbx
+  artifactKey: Guid(9087a5f248f9b6a4084c6ca5615319f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/TwoHandedLong/2HLong@TakeDamage01.fbx using Guid(9087a5f248f9b6a4084c6ca5615319f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '190afd41a89b4b4fe6d05f03561d1dc3') in 0.00654375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 131
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.049380 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Shield/Shield@ShieldAttack01.fbx
+  artifactKey: Guid(008afb724902e7c49b099951c0e5aa83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Shield/Shield@ShieldAttack01.fbx using Guid(008afb724902e7c49b099951c0e5aa83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b391ceea295d45d3b6461094fed053e3') in 0.005861375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 131
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.134065 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/TwoHanded/2H@Attack02.fbx
+  artifactKey: Guid(099948ddac652df46a0502e24c8ac9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/TwoHanded/2H@Attack02.fbx using Guid(099948ddac652df46a0502e24c8ac9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96baf716990568eab46bb72e7b1f3ed1') in 0.007104042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 131
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/TwoHanded/2H@TakeDamage01.fbx
+  artifactKey: Guid(2819c2ca5c39d6a479e784e3435b6b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/TwoHanded/2H@TakeDamage01.fbx using Guid(2819c2ca5c39d6a479e784e3435b6b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1554260f600936d9ff805c305b14362e') in 0.006208125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 131
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/TwoHanded/2H@Parry01.fbx
+  artifactKey: Guid(1628507dca0acb944b57ad92cce7f4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/TwoHanded/2H@Parry01.fbx using Guid(1628507dca0acb944b57ad92cce7f4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccb67c9a792e0c783feae62350961dad') in 0.006771875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 133
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

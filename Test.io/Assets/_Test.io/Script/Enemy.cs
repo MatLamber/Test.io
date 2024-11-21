@@ -35,7 +35,13 @@ public class Enemy : MonoBehaviour
     private string flailParameter = "Flail";
     private string impactParameter = "Impact";
     private string dieParameter = "Die";
+    private string attackParameter = "Attack";
+    private string attackAnimationName = "MonsterBasicAttack"; 
+    private string deathAnimationName = "DefaultDeath"; 
     private bool isDead;
+    private bool isOnAttackRange;
+
+    private float attackSpeed = 2f;
 
     private void Start()
     {
@@ -61,6 +67,7 @@ public class Enemy : MonoBehaviour
         Transform enemyMesh = enemyModel.GetChild(0);
         enemyMesh.localPosition = Vector3.zero;
         enemyMesh.localRotation = Quaternion.Euler(Vector3.zero);
+        isOnAttackRange = false;
         isDead = false;
         if (aiPath != null)
             aiPath.canMove = true;
@@ -69,7 +76,6 @@ public class Enemy : MonoBehaviour
     public void FollowTarget()
     {
         if (isDead) return;
-
         if (aiPath != null && target != null)
         {
             aiPath.destination = target.transform.position;
@@ -79,19 +85,36 @@ public class Enemy : MonoBehaviour
 
     private void ManageMovementAnimation()
     {
-        bool isWalking = animator.GetBool(walkParamater);
 
-        // Ejemplo: Cambiar animación a 'Run' si se mueve
-        if (!aiPath.isStopped)
+        bool isWalking = animator.GetBool(walkParamater);
+        
+        if (!aiPath.reachedDestination)
         {
-            if (!isWalking)
-                animator.SetBool(walkParamater, true);
+            isOnAttackRange = false;
+            if (!aiPath.isStopped)
+            {
+                if (!isWalking)
+                    animator.SetBool(walkParamater, true);
+            }
+            else
+            {
+        
+                if (isWalking)
+                    animator.SetBool(walkParamater, false);
+            }
         }
         else
         {
+            if(isDead)return;
             if (isWalking)
+            {
+                isOnAttackRange = true;
                 animator.SetBool(walkParamater, false);
+                StartCoroutine(PlayAttackAnimation());
+            }
+
         }
+
     }
 
     public void PlayFlinchAnimation()
@@ -149,11 +172,12 @@ public class Enemy : MonoBehaviour
 
     public void PlayDeafultDeathAnimation()
     {
+        isDead = true;
         if (aiPath != null) aiPath.canMove = false;
         GetComponent<Rigidbody>().isKinematic = true;
         animator.SetTrigger(dieParameter);
         enemyModel.DOJump(landingPosition.position, 1, 1, 0.5f).SetEase(Ease.OutQuad);
-        isDead = true;
+        isOnAttackRange = false;
         EnemyDeathEvent.Trigger(this);
     }
 
@@ -174,5 +198,18 @@ public class Enemy : MonoBehaviour
 
         // La duración de la animación puede obtenerse con stateInfo.length
         return stateInfo.length;
+    }
+
+    IEnumerator PlayAttackAnimation()
+    {
+        while (isOnAttackRange && !isDead)
+        {
+            AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+            if (!stateInfo.IsName(deathAnimationName))
+            {
+                animator.SetTrigger(attackParameter);
+            }
+            yield return new WaitForSeconds(attackSpeed);
+        }
     }
 }

@@ -67,7 +67,96 @@ ModelImporter:
     removeConstantScaleCurves: 0
     motionNodeName: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'AttackLeft_Nosedman_S' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'NosedMan_Small:NosedMan_Small:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Head_M'
+      has translation animation that will be discarded.\n\nClip 'AttackRight_Nosedman_S'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Small:NosedMan_Small:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Head_M'
+      has translation animation that will be discarded.\n\nClip 'Death_Nosedman_S'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Small:NosedMan_Small:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Head_M'
+      has translation animation that will be discarded.\n\nClip 'GunLeft_Nosedman_S'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Small:NosedMan_Small:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Head_M'
+      has translation animation that will be discarded.\n\nClip 'GunRight_Nosedman_S'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Small:NosedMan_Small:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Head_M'
+      has translation animation that will be discarded.\n\nClip 'Hit_Nosedman_S'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Small:NosedMan_Small:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Head_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Wrist_R'
+      has translation animation that will be discarded.\n\nClip 'Idle_Nosedman_S'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Small:NosedMan_Small:Elbow_L'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Head_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Wrist_R'
+      has translation animation that will be discarded.\n\nClip 'Jump_Nosedman_S'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Small:NosedMan_Small:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Head_M'
+      has translation animation that will be discarded.\n\nClip 'Rage_Nosedman_S'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Small:NosedMan_Small:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Head_M'
+      has translation animation that will be discarded.\n\nClip 'Run_Nosedman_S'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Small:NosedMan_Small:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Head_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Ankle_R'
+      has translation animation that will be discarded.\n\nClip 'Walk_Nosedman_S'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Small:NosedMan_Small:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Wrist_L'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Head_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Wrist_R'
+      has translation animation that will be discarded.\n\nClip 'WalkBack_Nosedman_S'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Small:NosedMan_Small:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Wrist_L'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Head_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Wrist_R'
+      has translation animation that will be discarded.\n\nClip 'WalkLeft_Nosedman_S'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Small:NosedMan_Small:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Wrist_L'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Head_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Wrist_R'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Ankle_L'
+      has translation animation that will be discarded.\n\nClip 'WalkRight_Nosedman_S'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Small:NosedMan_Small:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Wrist_L'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Head_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Wrist_R'
+      has translation animation that will be discarded.\n\t'NosedMan_Small:NosedMan_Small:Ankle_R'
+      has translation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -129,20 +218,156 @@ ModelImporter:
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
-    human: []
+    human:
+    - boneName: NosedMan_Small:NosedMan_Small:Root_M
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Small:NosedMan_Small:Hip_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Small:NosedMan_Small:Hip_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Small:NosedMan_Small:Knee_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Small:NosedMan_Small:Knee_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Small:NosedMan_Small:Ankle_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Small:NosedMan_Small:Ankle_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Small:NosedMan_Small:Spine1_M
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Small:NosedMan_Small:Head_M
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Small:NosedMan_Small:Shoulder_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Small:NosedMan_Small:Shoulder_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Small:NosedMan_Small:Elbow_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Small:NosedMan_Small:Elbow_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Small:NosedMan_Small:Wrist_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Small:NosedMan_Small:Wrist_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Small:NosedMan_Small:Toes_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Small:NosedMan_Small:Toes_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
     skeleton:
-    - name: 01_Nosedman_S(Clone)
+    - name: 01_Nosedman_S 1(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: NosedMan_Small:NosedMan_Small:Nosedman_S
-      parentName: 01_Nosedman_S(Clone)
+      parentName: 01_Nosedman_S 1(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: NosedMan_Small:NosedMan_Small:Root
-      parentName: 01_Nosedman_S(Clone)
+      parentName: 01_Nosedman_S 1(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -0.064960726, y: 0, z: -0, w: 0.99788785}
       scale: {x: 1, y: 0.99999976, z: 0.99999976}

@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: b5797974ab4616747916a2821b295ec0
 ModelImporter:
-  serializedVersion: 20200
+  serializedVersion: 22200
   internalIDToNameTable:
   - first:
       74: -8562586830434443861
@@ -64,16 +64,100 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'AttackLeft_Nosedman_M' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Head_M'
+      has translation animation that will be discarded.\n\nClip 'AttackRight_Nosedman_M'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Head_M'
+      has translation animation that will be discarded.\n\nClip 'Block_Nosedman_M'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Head_M'
+      has translation animation that will be discarded.\n\nClip 'Death_Nosedman_M'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Head_M'
+      has translation animation that will be discarded.\n\nClip 'GunLeft_Nosedman_M'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Head_M'
+      has translation animation that will be discarded.\n\nClip 'GunRight_Nosedman_M'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Head_M'
+      has translation animation that will be discarded.\n\nClip 'Hit_Nosedman_M'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Head_M'
+      has translation animation that will be discarded.\n\nClip 'Idle_Nosedman_M'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Head_M'
+      has translation animation that will be discarded.\n\nClip 'Jump_Nosedman_M'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Head_M'
+      has translation animation that will be discarded.\n\nClip 'Rage_Nosedman_M'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Neck_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Head_M'
+      has translation animation that will be discarded.\n\nClip 'Run_Nosedman_M'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Head_M'
+      has translation animation that will be discarded.\n\nClip 'Walk_Nosedman_M'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Head_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Ankle_L'
+      has translation animation that will be discarded.\n\nClip 'WalkBack_Nosedman_M'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Head_M'
+      has translation animation that will be discarded.\n\nClip 'WalkLeft_Nosedman_M'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Mid1:NosedMan_Mid:Spine1_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Head_M'
+      has translation animation that will be discarded.\n\nClip 'WalkRight_Nosedman_M'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'NosedMan_Mid1:NosedMan_Mid:Spine1_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      has translation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Chest_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NosedMan_Mid1:NosedMan_Mid:Head_M'
+      has translation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -89,10 +173,12 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 0
     fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -104,6 +190,7 @@ ModelImporter:
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
+    optimizeBones: 1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -114,6 +201,7 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -126,8 +214,299 @@ ModelImporter:
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
-    human: []
-    skeleton: []
+    human:
+    - boneName: NosedMan_Mid1:NosedMan_Mid:Root_M
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Mid1:NosedMan_Mid:Hip_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Mid1:NosedMan_Mid:Hip_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Mid1:NosedMan_Mid:Knee_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Mid1:NosedMan_Mid:Knee_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Mid1:NosedMan_Mid:Ankle_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Mid1:NosedMan_Mid:Ankle_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Mid1:NosedMan_Mid:Spine1_M
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Mid1:NosedMan_Mid:Head_M
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Mid1:NosedMan_Mid:Shoulder_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Mid1:NosedMan_Mid:Shoulder_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Mid1:NosedMan_Mid:Elbow_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Mid1:NosedMan_Mid:Elbow_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Mid1:NosedMan_Mid:Wrist_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Mid1:NosedMan_Mid:Wrist_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Mid1:NosedMan_Mid:Toes_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NosedMan_Mid1:NosedMan_Mid:Toes_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: 02_Nosedman_M(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nosedman_M2
+      parentName: 02_Nosedman_M(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NosedMan_Mid1:NosedMan_Mid:Root
+      parentName: 02_Nosedman_M(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.0120683545, y: -0, z: -0, w: 0.99992716}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: NosedMan_Mid1:NosedMan_Mid:Root_M
+      parentName: NosedMan_Mid1:NosedMan_Mid:Root
+      position: {x: -0, y: 1.6585292, z: 0.0033813806}
+      rotation: {x: -0.15321572, y: -0.69030786, z: 0.15321572, w: 0.6903079}
+      scale: {x: 1, y: 0.99999934, z: 0.99999964}
+    - name: NosedMan_Mid1:NosedMan_Mid:Spine1_M
+      parentName: NosedMan_Mid1:NosedMan_Mid:Root_M
+      position: {x: 0.047962744, y: 0.28736576, z: -0.00000013020437}
+      rotation: {x: -0.000000022351742, y: -0.00000011920929, z: -0.11189415, w: 0.9937202}
+      scale: {x: 0.9999991, y: 1.0000005, z: 1.0000001}
+    - name: NosedMan_Mid1:NosedMan_Mid:Chest_M
+      parentName: NosedMan_Mid1:NosedMan_Mid:Spine1_M
+      position: {x: 0.016831059, y: 0.3027066, z: 0.021665506}
+      rotation: {x: 0.00000003972828, y: 0.00000012619783, z: -0.111700654, w: 0.9937419}
+      scale: {x: 1.0000007, y: 1.0000008, z: 0.9999994}
+    - name: NosedMan_Mid1:NosedMan_Mid:Scapula_L
+      parentName: NosedMan_Mid1:NosedMan_Mid:Chest_M
+      position: {x: 0.047965635, y: 0.2751855, z: 0.15761471}
+      rotation: {x: 0.7069693, y: 0.018457744, z: 0.00662232, w: 0.7069723}
+      scale: {x: 0.99999994, y: 1.0000005, z: 0.9999991}
+    - name: NosedMan_Mid1:NosedMan_Mid:Shoulder_L
+      parentName: NosedMan_Mid1:NosedMan_Mid:Scapula_L
+      position: {x: 0.0000013818064, y: 0.2400882, z: -0.000000787471}
+      rotation: {x: -0.0021796522, y: 0.04164378, z: 0.047413826, w: 0.9980045}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.99999994}
+    - name: NosedMan_Mid1:NosedMan_Mid:Elbow_L
+      parentName: NosedMan_Mid1:NosedMan_Mid:Shoulder_L
+      position: {x: -0.00000013972095, y: 0.57199776, z: -0.00000018446423}
+      rotation: {x: 0.00040383966, y: -0.07912303, z: -0.07519818, w: 0.99402446}
+      scale: {x: 1.0000013, y: 1.0000002, z: 1.0000001}
+    - name: NosedMan_Mid1:NosedMan_Mid:Wrist_L
+      parentName: NosedMan_Mid1:NosedMan_Mid:Elbow_L
+      position: {x: -0.0000012056652, y: 0.5377751, z: -0.00000015332083}
+      rotation: {x: 0.0035298266, y: 0.037527863, z: 0.09712415, w: 0.9945582}
+      scale: {x: 0.9999982, y: 0.9999984, z: 1}
+    - name: NosedMan_Mid1:NosedMan_Mid:MiddleFinger1_L
+      parentName: NosedMan_Mid1:NosedMan_Mid:Wrist_L
+      position: {x: 0.00000012825, y: 0.26386544, z: 0.00000075002845}
+      rotation: {x: 0.23347986, y: 0.00016875188, z: -0.0005397481, w: 0.97236145}
+      scale: {x: 1, y: 1.0000002, z: 0.9999993}
+    - name: NosedMan_Mid1:NosedMan_Mid:MiddleFinger4_L
+      parentName: NosedMan_Mid1:NosedMan_Mid:MiddleFinger1_L
+      position: {x: 0.00000018289498, y: 0.24940021, z: -0.00000034079858}
+      rotation: {x: 2.7755576e-17, y: -2.0816682e-17, z: 2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NosedMan_Mid1:NosedMan_Mid:Neck_M
+      parentName: NosedMan_Mid1:NosedMan_Mid:Chest_M
+      position: {x: -0.09593314, y: 0.57971865, z: -0.00000042475577}
+      rotation: {x: 0.000000037418893, y: -0.000000332829, z: 0.009133603, w: 0.9999583}
+      scale: {x: 0.999999, y: 0.99999875, z: 1.0000006}
+    - name: NosedMan_Mid1:NosedMan_Mid:Head_M
+      parentName: NosedMan_Mid1:NosedMan_Mid:Neck_M
+      position: {x: 0.005621397, y: 0.47158554, z: 0.003639075}
+      rotation: {x: -0.000000070745465, y: 0.00000032563818, z: 0.00034863033, w: 1}
+      scale: {x: 1.0000015, y: 1.0000007, z: 1.0000007}
+    - name: NosedMan_Mid1:NosedMan_Mid:HeadEnd_M
+      parentName: NosedMan_Mid1:NosedMan_Mid:Head_M
+      position: {x: 0.00000087730155, y: 0.7916808, z: -0.0000013347246}
+      rotation: {x: -2.4074124e-35, y: 1.7347235e-18, z: 1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NosedMan_Mid1:NosedMan_Mid:Scapula_R
+      parentName: NosedMan_Mid1:NosedMan_Mid:Chest_M
+      position: {x: 0.04796615, y: 0.27518183, z: -0.15761557}
+      rotation: {x: -0.70695424, y: -0.013360886, z: 0.0015243824, w: 0.70713145}
+      scale: {x: 0.9999999, y: 1.0000006, z: 0.9999994}
+    - name: NosedMan_Mid1:NosedMan_Mid:Shoulder_R
+      parentName: NosedMan_Mid1:NosedMan_Mid:Scapula_R
+      position: {x: -0.0000012030725, y: 0.2400871, z: -0.00000034668554}
+      rotation: {x: -0.046527404, y: 0.9815514, z: -0.009389906, w: -0.18521291}
+      scale: {x: 1.0000011, y: 1.0000005, z: 1.0000005}
+    - name: NosedMan_Mid1:NosedMan_Mid:Elbow_R
+      parentName: NosedMan_Mid1:NosedMan_Mid:Shoulder_R
+      position: {x: 0.0000008322813, y: 0.57200044, z: 0.00000031505}
+      rotation: {x: 0.0040040794, y: -0.42534357, z: 0.07508736, w: 0.90190285}
+      scale: {x: 0.9999999, y: 1.0000013, z: 1.0000001}
+    - name: NosedMan_Mid1:NosedMan_Mid:Wrist_R
+      parentName: NosedMan_Mid1:NosedMan_Mid:Elbow_R
+      position: {x: -0.00000036958605, y: 0.53777707, z: 0.0000010003773}
+      rotation: {x: -0.09425503, y: -0.9650638, z: 0.023764063, w: 0.2433172}
+      scale: {x: 0.999998, y: 0.99999905, z: 0.9999985}
+    - name: NosedMan_Mid1:NosedMan_Mid:MiddleFinger1_R
+      parentName: NosedMan_Mid1:NosedMan_Mid:Wrist_R
+      position: {x: 0.00000007722923, y: 0.26386166, z: 0.00000005015945}
+      rotation: {x: 0.0029060764, y: 0.9723151, z: -0.23345464, w: -0.0096906265}
+      scale: {x: 1.000001, y: 1.0000014, z: 1.0000006}
+    - name: NosedMan_Mid1:NosedMan_Mid:MiddleFinger4_R
+      parentName: NosedMan_Mid1:NosedMan_Mid:MiddleFinger1_R
+      position: {x: -0.00000045884877, y: 0.24940392, z: 0.00000012116745}
+      rotation: {x: -0.000000049133085, y: -5.551115e-17, z: 2.7755574e-17, w: 1}
+      scale: {x: 1, y: 1.0000004, z: 1}
+    - name: NosedMan_Mid1:NosedMan_Mid:Hip_R
+      parentName: NosedMan_Mid1:NosedMan_Mid:Root_M
+      position: {x: -0.02398268, y: -0.07623965, z: -0.28211647}
+      rotation: {x: 0.99447197, y: -0.10206425, z: 0.019772269, w: -0.014750611}
+      scale: {x: 1.0000017, y: 1.0000004, z: 1.0000008}
+    - name: NosedMan_Mid1:NosedMan_Mid:Knee_R
+      parentName: NosedMan_Mid1:NosedMan_Mid:Hip_R
+      position: {x: 0.0000008333301, y: 0.7846517, z: 0.00000018820384}
+      rotation: {x: -0.0012099369, y: -0.02071154, z: 0.33530518, w: 0.9418811}
+      scale: {x: 0.9999994, y: 0.9999999, z: 1.0000001}
+    - name: NosedMan_Mid1:NosedMan_Mid:Ankle_R
+      parentName: NosedMan_Mid1:NosedMan_Mid:Knee_R
+      position: {x: -0.0000006475431, y: 0.74382764, z: -0.0000011242839}
+      rotation: {x: 0.01871199, y: 0.03168097, z: -0.658528, w: 0.7516562}
+      scale: {x: 1.0000002, y: 1.000001, z: 0.9999995}
+    - name: NosedMan_Mid1:NosedMan_Mid:Toes_R
+      parentName: NosedMan_Mid1:NosedMan_Mid:Ankle_R
+      position: {x: 0.00000014437576, y: 0.21038754, z: 0.0000002543878}
+      rotation: {x: 0.018827569, y: -0.003249024, z: -0.22891238, w: 0.97325957}
+      scale: {x: 0.9999994, y: 0.9999999, z: 1.0000007}
+    - name: NosedMan_Mid1:NosedMan_Mid:ToesEnd_R
+      parentName: NosedMan_Mid1:NosedMan_Mid:Toes_R
+      position: {x: -0.0000006658145, y: 0.23173554, z: -0.00000068181674}
+      rotation: {x: -0.0000012861597, y: 0.0000006679851, z: -0.00000022908904, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 0.9999992}
+    - name: NosedMan_Mid1:NosedMan_Mid:Hip_L
+      parentName: NosedMan_Mid1:NosedMan_Mid:Root_M
+      position: {x: -0.023980789, y: -0.07623581, z: 0.28211644}
+      rotation: {x: 0.9946476, y: -0.10190202, z: -0.0053543337, w: 0.016229093}
+      scale: {x: 1.0000006, y: 1.0000008, z: 1.0000002}
+    - name: NosedMan_Mid1:NosedMan_Mid:Knee_L
+      parentName: NosedMan_Mid1:NosedMan_Mid:Hip_L
+      position: {x: 0.0000021021951, y: 0.78467596, z: -0.000000025038075}
+      rotation: {x: -0.0009894184, y: -0.000413613, z: 0.33524796, w: 0.9421293}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000001}
+    - name: NosedMan_Mid1:NosedMan_Mid:Ankle_L
+      parentName: NosedMan_Mid1:NosedMan_Mid:Knee_L
+      position: {x: -0.0000013587614, y: 0.74374086, z: 0.0000005567864}
+      rotation: {x: -0.021561176, y: -0.013285707, z: -0.6607887, w: 0.75014454}
+      scale: {x: 0.9999994, y: 0.9999979, z: 0.9999994}
+    - name: NosedMan_Mid1:NosedMan_Mid:Toes_L
+      parentName: NosedMan_Mid1:NosedMan_Mid:Ankle_L
+      position: {x: 0.00000012384679, y: 0.21040606, z: 0.00000046239126}
+      rotation: {x: -0.03942126, y: -0.09882276, z: -0.2207252, w: 0.96951556}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1.0000008}
+    - name: NosedMan_Mid1:NosedMan_Mid:ToesEnd_L
+      parentName: NosedMan_Mid1:NosedMan_Mid:Toes_L
+      position: {x: 0.00000045203464, y: 0.2319702, z: 0.00000029773153}
+      rotation: {x: 0.00000018566203, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.000001}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -138,14 +517,16 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
