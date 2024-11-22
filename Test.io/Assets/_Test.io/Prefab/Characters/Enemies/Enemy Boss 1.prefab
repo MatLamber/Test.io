@@ -216,19 +216,7 @@ MonoBehaviour:
         DebugActive: 0
         PlayEvents:
           m_PersistentCalls:
-            m_Calls:
-            - m_Target: {fileID: 3819766791698493512}
-              m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
-              m_MethodName: PlayFlinchAnimation
-              m_Mode: 1
-              m_Arguments:
-                m_ObjectArgument: {fileID: 0}
-                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-                m_IntArgument: 0
-                m_FloatArgument: 0
-                m_StringArgument: 
-                m_BoolArgument: 0
-              m_CallState: 2
+            m_Calls: []
         StopEvents:
           m_PersistentCalls:
             m_Calls: []
@@ -497,8 +485,8 @@ MonoBehaviour:
   Model: {fileID: 0}
   CurrentHealth: 100
   Invulnerable: 0
-  InitialHealth: 1
-  MaximumHealth: 1
+  InitialHealth: 30
+  MaximumHealth: 30
   ResetHealthOnEnable: 1
   ImmuneToDamage: 0
   DamageMMFeedbacks: {fileID: 2694060192194712801}
@@ -1035,17 +1023,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 9cb507988ceb38a4581af8ad0e66227f,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.43431
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9cb507988ceb38a4581af8ad0e66227f,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.43431
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9cb507988ceb38a4581af8ad0e66227f,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.43431
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9cb507988ceb38a4581af8ad0e66227f,
         type: 3}

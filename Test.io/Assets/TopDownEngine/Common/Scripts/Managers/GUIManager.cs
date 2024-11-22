@@ -58,6 +58,9 @@ namespace MoreMountains.TopDownEngine
 		[SerializeField] private TextMeshProUGUI waveProgressionText;
 		[SerializeField] private TextMeshProUGUI waveNumberText;
 		[SerializeField] private TextMeshProUGUI waveTimeText;
+
+		[SerializeField] private GameObject winPanel;
+		[SerializeField] private GameObject losePanel;
 		
 		/// <summary>
 		/// Statics initialization to support enter play modes
@@ -362,6 +365,30 @@ namespace MoreMountains.TopDownEngine
 		{
 			if (waveTimeText != null)
 				waveTimeText.text = waveTime;
+		}
+
+		public void ShowWinPanel()
+		{
+			StartCoroutine(ShowWinPanelCoroutine());
+		}
+
+		public void ShowLosePanel()
+		{
+			StartCoroutine(ShowLosePanelCoroutine());
+		}
+
+		IEnumerator ShowWinPanelCoroutine()
+		{
+			yield return new WaitForSeconds(2);
+			if(winPanel != null)
+				winPanel.SetActive(true);
+		}
+
+		IEnumerator ShowLosePanelCoroutine()
+		{
+			yield return new WaitForSeconds(2);
+			if(losePanel != null)
+				losePanel.SetActive(true);
 		}
 	}
 }

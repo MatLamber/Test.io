@@ -3,8 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using NaughtyAttributes;
-using UnityEngine;
-using System.Collections.Generic;
 using MoreMountains.Tools;
 using MoreMountains.TopDownEngine;
 using Random = UnityEngine.Random;
@@ -15,7 +13,8 @@ public class EnemyWave
     public string waveName;
     public float duration; // Duración de la wave en segundos
     public int enemiesToKill; // Cantidad de enemigos a matar
-    
+    public bool isBoss;
+
     public List<EnemyPool> enemyPools;
 
     [System.Serializable]
@@ -25,12 +24,32 @@ public class EnemyWave
         public int enemiesPerSecond; // Cantidad de enemigos spawneados por segundo
 
         [MinMaxSlider(0, 1)]
-        public Vector2 spawnDurationRange; // Rango de duración del spawneo de este pool en porcentaje de la duración total de la wave
+        public Vector2
+            spawnDurationRange; // Rango de duración del spawneo de este pool en porcentaje de la duración total de la wave
 
         public MMSimpleObjectPooler EnemyPooler => enemyPooler;
     }
 }
 
+public struct LevelCompleted
+{
+    public static LevelCompleted e;
+
+    public static void Trigger()
+    {
+        MMEventManager.TriggerEvent(e);
+    }
+}
+
+public struct LevelFailed
+{
+    public static LevelFailed e;
+
+    public static void Trigger()
+    {
+        MMEventManager.TriggerEvent(e);
+    }
+}
 
 public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>
 {
@@ -45,9 +64,12 @@ public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>
     private bool isSpawning;
     private int enemiesKilledInWave;
 
-
     private int currentEnemiesToKill;
     private string formattedTime;
+    private List<Coroutine> activeCoroutines = new List<Coroutine>();
+
+    private bool levelFinished;
+
     void Start()
     {
         StartNextWave();
@@ -55,14 +77,23 @@ public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>
 
     void Update()
     {
-        if (!isSpawning) return;
+        if (!isSpawning || levelFinished) return;
 
         waveTimer -= Time.deltaTime;
         formattedTime = FormatTime(waveTimer);
         UpdateWaveDurationUI();
-        if (waveTimer <= 0 && enemiesKilledInWave >= waves[currentWaveIndex].enemiesToKill)
+
+        // Si el tiempo de la oleada se acaba y quedan muchos enemigos por matar, fallar el nivel
+        if (waveTimer <= 0)
         {
-            StartNextWave();
+            if (enemiesKilledInWave < waves[currentWaveIndex].enemiesToKill)
+            {
+                OnLevelFailed();
+            }
+            else
+            {
+                StartNextWave();
+            }
         }
     }
 
@@ -79,10 +110,19 @@ public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>
 
     void StartNextWave()
     {
+        // Detener y limpiar todas las corrutinas activas de la oleada anterior
+        foreach (var coroutine in activeCoroutines)
+        {
+            StopCoroutine(coroutine);
+        }
+
+        activeCoroutines.Clear();
+
         currentWaveIndex++;
         if (currentWaveIndex >= waves.Count)
         {
             Debug.Log("All waves completed!");
+            OnLevelCompleted();
             isSpawning = false;
             return;
         }
@@ -91,11 +131,10 @@ public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>
         EnemyWave currentWave = waves[currentWaveIndex];
         waveTimer = currentWave.duration;
         currentEnemiesToKill = waves[currentWaveIndex].enemiesToKill;
-        StartCoroutine(SpawnEnemies(currentWave));
+        activeCoroutines.Add(StartCoroutine(SpawnEnemies(currentWave)));
         isSpawning = true;
         UpdateWaveNumberUI();
         UpdateWaveProgressionUI();
-        
     }
 
     IEnumerator SpawnEnemies(EnemyWave wave)
@@ -112,7 +151,7 @@ public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>
 
         foreach (var coroutine in spawningCoroutines)
         {
-            StartCoroutine(coroutine);
+            activeCoroutines.Add(StartCoroutine(coroutine));
         }
 
         yield return new WaitForSeconds(wave.duration);
@@ -192,36 +231,45 @@ public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>
     {
         activeEnemies.Remove(eventType.Enemy);
         enemiesKilledInWave++;
-        if (enemiesKilledInWave < waves[currentWaveIndex].enemiesToKill) return;
-        isSpawning = false;
-        Debug.Log("Wave completed!");
+        currentEnemiesToKill--;
+
+        if (currentEnemiesToKill <= 0)
+        {
+            isSpawning = false;
+            Debug.Log("Wave completed!");
+            StartNextWave();
+        }
     }
 
     private int GetWaveProgression()
     {
-        return currentEnemiesToKill - enemiesKilledInWave;
+        return currentEnemiesToKill;
     }
 
     private void UpdateWaveProgressionUI()
     {
-        if(GUIManager.Instance is not null)
+        if(levelFinished) return;
+        if (GUIManager.Instance != null)
             GUIManager.Instance.UpdateWaveProgression(GetWaveProgression());
     }
-    
+
     private void UpdateWaveNumberUI()
     {
-        if(GUIManager.Instance is not null)
+        if(levelFinished) return;
+        if (GUIManager.Instance != null)
             GUIManager.Instance.UpdateWaveNumber(currentWaveIndex + 1);
     }
 
     private void UpdateWaveDurationUI()
     {
-        if(GUIManager.Instance is not null)
+        if(levelFinished) return;
+        if (GUIManager.Instance != null)
             GUIManager.Instance.UpdateWaveTime(formattedTime);
     }
 
     private string FormatTime(float time)
     {
+        if (time < 0) return "TIME OVER";
         int minutes = Mathf.FloorToInt(time / 60);
         int seconds = Mathf.FloorToInt(time % 60);
         return string.Format("{0:00}:{1:00}", minutes, seconds);
@@ -235,5 +283,25 @@ public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>
     private void OnDisable()
     {
         this.MMEventStopListening<EnemyDeathEvent>();
+    }
+
+    private void OnLevelCompleted()
+    {
+        Debug.Log("Level Completed!");
+        LevelCompleted.Trigger();
+        if(GUIManager.Instance is not null)
+            GUIManager.Instance.ShowWinPanel();
+    }
+
+    private void OnLevelFailed()
+    {
+        
+        isSpawning = false;
+        levelFinished = true;
+        Debug.Log("Level Failed!");
+        LevelFailed.Trigger();
+        if(GUIManager.Instance is not null)
+            GUIManager.Instance.ShowLosePanel();
+ 
     }
 }
