@@ -849,7 +849,7 @@ MonoBehaviour:
             m_Calls:
             - m_Target: {fileID: 3819766791698493512}
               m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
-              m_MethodName: PlayDeafultDeathAnimation
+              m_MethodName: PlayFlyAwayDeath
               m_Mode: 1
               m_Arguments:
                 m_ObjectArgument: {fileID: 0}
@@ -1107,6 +1107,16 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 2cda7b4f08ee842cea0b0e06ca5580a3, type: 2}
+    - target: {fileID: 6961172637168999439, guid: 5876b3305628c447783a0ad747a27a6f,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6961172637168999439, guid: 5876b3305628c447783a0ad747a27a6f,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

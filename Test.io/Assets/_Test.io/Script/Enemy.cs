@@ -40,6 +40,7 @@ public class Enemy : MonoBehaviour
     private string attackParameter = "Attack";
     private string attackAnimationName = "MonsterBasicAttack"; 
     private string deathAnimationName = "DefaultDeath"; 
+    private string aliveParameterAnimationName = "Alive"; 
     private bool isDead;
     private bool isOnAttackRange;
 
@@ -71,6 +72,7 @@ public class Enemy : MonoBehaviour
         enemyMesh.localRotation = Quaternion.Euler(Vector3.zero);
         isOnAttackRange = false;
         isDead = false;
+        animator.SetBool(aliveParameterAnimationName,!isDead);
         if (aiPath != null)
             aiPath.canMove = true;
     }
@@ -130,6 +132,8 @@ public class Enemy : MonoBehaviour
 
     public void PlayFlyAwayDeath()
     {
+        isDead = true;
+        animator.SetBool(aliveParameterAnimationName,!isDead);
         if (aiPath != null) aiPath.canMove = false;
         GetComponent<Rigidbody>().isKinematic = true;
 
@@ -168,7 +172,7 @@ public class Enemy : MonoBehaviour
                 break;
         }
 
-        isDead = true;
+
         EnemyDeathEvent.Trigger(this);
     }
 

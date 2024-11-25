@@ -1032,6 +1032,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3471352602253778914}
     m_Modifications:
+    - target: {fileID: -8788381022278345692, guid: b5797974ab4616747916a2821b295ec0,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8788381022278345692, guid: b5797974ab4616747916a2821b295ec0,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b5797974ab4616747916a2821b295ec0,
         type: 3}
       propertyPath: m_LocalScale.x
