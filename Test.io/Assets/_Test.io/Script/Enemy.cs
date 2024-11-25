@@ -43,8 +43,14 @@ public class Enemy : MonoBehaviour
     private string aliveParameterAnimationName = "Alive"; 
     private bool isDead;
     private bool isOnAttackRange;
-
+    private bool canMove = true;
+    private TopDownController3D topDownController3D => GetComponent<TopDownController3D>();
     private float attackSpeed = 2f;
+    public bool IsDead
+    {
+        get => isDead;
+        set => isDead = value;
+    }
 
     private void Start()
     {
@@ -55,6 +61,7 @@ public class Enemy : MonoBehaviour
 
     private void Update()
     {
+       // topDownController3D.enabled = canMove;
         if (Input.GetKeyDown(KeyCode.A))
         {
             PlayFlyAwayDeath();
@@ -63,8 +70,9 @@ public class Enemy : MonoBehaviour
 
     private void OnDisable()
     {
+       // topDownController3D.enabled = true;
         GetComponent<CharacterController>().enabled = true;
-        GetComponent<Rigidbody>().isKinematic = false;
+        //GetComponent<Rigidbody>().isKinematic = false;
         enemyModel.localPosition = Vector3.zero;
         enemyModel.localRotation = Quaternion.Euler(Vector3.zero);
         Transform enemyMesh = enemyModel.GetChild(0);
@@ -75,6 +83,7 @@ public class Enemy : MonoBehaviour
         animator.SetBool(aliveParameterAnimationName,!isDead);
         if (aiPath != null)
             aiPath.canMove = true;
+        canMove = true;
     }
 
     public void FollowTarget()
@@ -83,40 +92,44 @@ public class Enemy : MonoBehaviour
         if (aiPath != null && target != null)
         {
             aiPath.destination = target.transform.position;
-            ManageMovementAnimation();
+            //ManageMovementAnimation();
+  
         }
-    }
 
-    private void ManageMovementAnimation()
+    }
+    
+
+    public void ManageMovementAnimation(bool reachedDestination)
     {
 
         bool isWalking = animator.GetBool(walkParamater);
-        
-        if (!aiPath.reachedDestination)
         {
-            isOnAttackRange = false;
-            if (!aiPath.isStopped)
+            
+            if (!reachedDestination)
             {
-                if (!isWalking)
-                    animator.SetBool(walkParamater, true);
+                isOnAttackRange = false;
+                if (canMove)
+                {
+                
+                    if (!isWalking)
+                        animator.SetBool(walkParamater, true);
+                }
+                else
+                {
+                    if (isWalking)
+                        animator.SetBool(walkParamater, false);
+                }
             }
             else
             {
-        
+                if(isDead) return;
                 if (isWalking)
+                {
+                    isOnAttackRange = true;
                     animator.SetBool(walkParamater, false);
+                    StartCoroutine(PlayAttackAnimation());
+                }
             }
-        }
-        else
-        {
-            if(isDead)return;
-            if (isWalking)
-            {
-                isOnAttackRange = true;
-                animator.SetBool(walkParamater, false);
-                StartCoroutine(PlayAttackAnimation());
-            }
-
         }
 
     }
@@ -125,6 +138,7 @@ public class Enemy : MonoBehaviour
     {
         if (aiPath != null)
             aiPath.canMove = false;
+        canMove = false;
         animator.SetTrigger(flinchParameter);
 
         StartCoroutine(ResetCanMove());
@@ -135,6 +149,7 @@ public class Enemy : MonoBehaviour
         isDead = true;
         animator.SetBool(aliveParameterAnimationName,!isDead);
         if (aiPath != null) aiPath.canMove = false;
+        canMove = false;
         GetComponent<Rigidbody>().isKinematic = true;
 
 
@@ -180,6 +195,7 @@ public class Enemy : MonoBehaviour
     {
         isDead = true;
         if (aiPath != null) aiPath.canMove = false;
+        canMove = false;
         GetComponent<Rigidbody>().isKinematic = true;
         animator.SetTrigger(dieParameter);
         enemyModel.DOJump(landingPosition.position, 1, 1, 0.5f).SetEase(Ease.OutQuad);
@@ -191,7 +207,11 @@ public class Enemy : MonoBehaviour
     {
         yield return new WaitForSeconds(GetAnimationClipLength());
         if (!isDead && aiPath != null)
+        {
+            canMove = true;
             aiPath.canMove = true;
+        }
+  
     }
 
 

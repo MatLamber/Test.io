@@ -103,7 +103,7 @@ public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>
         {
             foreach (Enemy enemy in activeEnemies)
             {
-                enemy.FollowTarget();
+               // enemy.FollowTarget();
             }
         }
     }

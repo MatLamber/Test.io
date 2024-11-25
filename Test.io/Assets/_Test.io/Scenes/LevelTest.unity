@@ -1150,9 +1150,6 @@ MonoBehaviour:
     - enemyPooler: {fileID: 2144729153}
       enemiesPerSecond: 5
       spawnDurationRange: {x: 0, y: 1}
-    - enemyPooler: {fileID: 746924108}
-      enemiesPerSecond: 5
-      spawnDurationRange: {x: 0.2489784, y: 1}
   - waveName: Boss
     duration: 60
     enemiesToKill: 100
@@ -1164,7 +1161,7 @@ MonoBehaviour:
   spawnCenter: {fileID: 6338338639914967828}
   spawnRadius: 7.9
   activeEnemies: []
-  maxEnemies: 80
+  maxEnemies: 1
 --- !u!4 &266304995
 Transform:
   m_ObjectHideFlags: 0
@@ -2335,6 +2332,81 @@ Transform:
   m_Children: []
   m_Father: {fileID: 323465850}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!1 &678195066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 678195068}
+  - component: {fileID: 678195067}
+  - component: {fileID: 678195069}
+  m_Layer: 0
+  m_Name: PathManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &678195067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678195066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82d2bc20a0da067418ea764bb96b12c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 6338338639914967828}
+  updateInterval: 0.5
+--- !u!4 &678195068
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678195066}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.213568, y: 1.0420213, z: -26.499264}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &678195069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678195066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1073741824
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  graphMask:
+    value: -1
 --- !u!1 &746924107
 GameObject:
   m_ObjectHideFlags: 0
@@ -5658,7 +5730,7 @@ MonoBehaviour:
   NestUnderThis: 1
   GameObjectToPool: {fileID: 2197153961322730087, guid: 308fd1dcb10684705b900c1f491db2db,
     type: 3}
-  PoolSize: 50
+  PoolSize: 1
   PoolCanExpand: 1
 --- !u!4 &2144729154
 Transform:
@@ -30965,7 +31037,8 @@ MonoBehaviour:
   BlockingMovementStates: 
   BlockingConditionStates: 
   BlockingWeaponStates: 
-  InitialWeapon: {fileID: 0}
+  InitialWeapon: {fileID: 6028625915926193536, guid: 5d39bdceea059514b874f19bab4ca71e,
+    type: 3}
   CanPickupWeapons: 1
   WeaponUseFeedback: {fileID: 0}
   WeaponAttachment: {fileID: 5279714578944746529}
@@ -31340,3 +31413,4 @@ SceneRoots:
   - {fileID: 774806412}
   - {fileID: 746924109}
   - {fileID: 1096700844}
+  - {fileID: 678195068}

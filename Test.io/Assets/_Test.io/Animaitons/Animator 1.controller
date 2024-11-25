@@ -2490,8 +2490,7 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: -203655887218126122, guid: 05aa64df2cb150746a26399e4a1da0d6,
-      type: 3}
+    m_Motion: {fileID: 7400000, guid: 643a6e377ab5c5e4f9d8676f3327cd6d, type: 2}
     m_Threshold: 0
     m_Position: {x: 0, y: 0.5}
     m_TimeScale: 1
@@ -2499,8 +2498,7 @@ BlendTree:
     m_DirectBlendParameter: Random
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: -203655887218126122, guid: a6c92ba70ca7df84f9d14161f8aef225,
-      type: 3}
+    m_Motion: {fileID: 7400000, guid: d923179e8969f444eb47ce7285244675, type: 2}
     m_Threshold: 0.14285715
     m_Position: {x: -0.5, y: 0}
     m_TimeScale: 1
@@ -2508,8 +2506,7 @@ BlendTree:
     m_DirectBlendParameter: Random
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: -203655887218126122, guid: 4c7c15907bce1894f986f47e617bae66,
-      type: 3}
+    m_Motion: {fileID: 7400000, guid: 25d8cd70be5e15d48a134f2b2f19c1f1, type: 2}
     m_Threshold: 0.2857143
     m_Position: {x: 0.5, y: 0}
     m_TimeScale: 1
@@ -2517,8 +2514,7 @@ BlendTree:
     m_DirectBlendParameter: Random
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: -203655887218126122, guid: a1a98e920cffd3d4691097eacbb1c5a6,
-      type: 3}
+    m_Motion: {fileID: 7400000, guid: 2c80e716f2684cc4ea7049f2f61db05a, type: 2}
     m_Threshold: 0.42857143
     m_Position: {x: -0.25, y: 0.25}
     m_TimeScale: 1
@@ -2526,8 +2522,7 @@ BlendTree:
     m_DirectBlendParameter: Random
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: -203655887218126122, guid: 29a771460488ac746aeed0cdc3e2ed33,
-      type: 3}
+    m_Motion: {fileID: 7400000, guid: 960fa51375cbdd944a7e37b2d2f9eddf, type: 2}
     m_Threshold: 0.5714286
     m_Position: {x: 0.25, y: 0.25}
     m_TimeScale: 1
@@ -2535,8 +2530,7 @@ BlendTree:
     m_DirectBlendParameter: Random
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: -203655887218126122, guid: beb938024f06dfa40b6704096803b652,
-      type: 3}
+    m_Motion: {fileID: 7400000, guid: 4a8133c3f9a194c4cabd78dc08df8fb3, type: 2}
     m_Threshold: 0.71428573
     m_Position: {x: -0.25, y: -0.25}
     m_TimeScale: 1
@@ -2544,8 +2538,7 @@ BlendTree:
     m_DirectBlendParameter: Random
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: -203655887218126122, guid: 864b1f262a74c38469a8d8a6159122d0,
-      type: 3}
+    m_Motion: {fileID: 7400000, guid: e1fb092d939a7cd4f93460e5123e258e, type: 2}
     m_Threshold: 0.85714287
     m_Position: {x: 0.25, y: -0.25}
     m_TimeScale: 1
@@ -2553,8 +2546,7 @@ BlendTree:
     m_DirectBlendParameter: Random
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: -203655887218126122, guid: ad34f1272b7300e409f8e4de0cffd039,
-      type: 3}
+    m_Motion: {fileID: 7400000, guid: d498b1af8d324c84f9fa7153981dd676, type: 2}
     m_Threshold: 1
     m_Position: {x: 0, y: -0.5}
     m_TimeScale: 1
@@ -3124,31 +3116,31 @@ AnimatorStateMachine:
   - {fileID: -2930283320950406314}
   m_EntryTransitions: []
   m_StateMachineTransitions:
-  - first: {fileID: -7764446458174590685}
-    second:
-    - {fileID: -3287703474903953538}
-    - {fileID: -6938652295204271362}
   - first: {fileID: -2136689414175762479}
     second:
     - {fileID: 5743260140173877268}
     - {fileID: -7705986081538489586}
     - {fileID: -6453057382634038161}
-  - first: {fileID: 3354386988778277038}
-    second:
-    - {fileID: -9106487040184755109}
-    - {fileID: -3864803126999638641}
-  - first: {fileID: 6608397154483321626}
-    second:
-    - {fileID: 1092956327669552203}
-  - first: {fileID: 7510215920465823484}
-    second:
-    - {fileID: -7648943736731026334}
   - first: {fileID: 8418190731751821860}
     second:
     - {fileID: -1868545031323605828}
     - {fileID: 1255213905340340058}
     - {fileID: 2912491186502690130}
     - {fileID: -4349755167356829458}
+  - first: {fileID: 7510215920465823484}
+    second:
+    - {fileID: -7648943736731026334}
+  - first: {fileID: 6608397154483321626}
+    second:
+    - {fileID: 1092956327669552203}
+  - first: {fileID: -7764446458174590685}
+    second:
+    - {fileID: -3287703474903953538}
+    - {fileID: -6938652295204271362}
+  - first: {fileID: 3354386988778277038}
+    second:
+    - {fileID: -9106487040184755109}
+    - {fileID: -3864803126999638641}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: -220, y: -10, z: 0}
   m_EntryPosition: {x: 400, y: -180, z: 0}

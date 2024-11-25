@@ -357,6 +357,7 @@ namespace MoreMountains.TopDownEngine
 		/// </summary>
 		protected virtual void MoveCharacterController()
 		{
+			if(!_characterController.enabled) return;
 			GroundNormal.x = GroundNormal.y = GroundNormal.z = 0f;
 
 			_collisionFlags = _characterController.Move(_motion); 
@@ -541,6 +542,7 @@ namespace MoreMountains.TopDownEngine
 		/// </summary>
 		protected virtual void CastRayDownwards()
 		{
+			if(!GravityActive) return;
 			if (_smallestDistance <= MinimumGroundedDistance)
 			{
 				return;

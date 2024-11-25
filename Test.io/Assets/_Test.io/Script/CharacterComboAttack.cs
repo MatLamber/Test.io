@@ -44,7 +44,6 @@ public class CharacterComboAttack : CharacterAbility
             return;
         }
         attackAnimationParameter = isAttacking;
-        Debug.Log($"{attackAnimationParameter}");
         MMAnimatorExtensions.UpdateAnimatorTrigger(_animator,  attackAnimationParameter, animatorParameters);
         isAttacking = 0;
     }
