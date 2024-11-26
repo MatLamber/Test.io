@@ -422,7 +422,7 @@ MonoBehaviour:
         DebugActive: 0
         AnimatePositionTarget: {fileID: 7209202092733474359}
         DeclaredDuration: 0
-        Space: 0
+        Space: 1
         DampingX: 0.4
         FrequencyX: 6
         DampingY: 0.4
@@ -432,8 +432,8 @@ MonoBehaviour:
         Mode: 2
         MoveToPositionMin: {x: 1, y: 1, z: 1}
         MoveToPositionMax: {x: 2, y: 2, z: 2}
-        BumpPositionMin: {x: 20, y: 0, z: 0}
-        BumpPositionMax: {x: 30, y: 0, z: 0}
+        BumpPositionMin: {x: 50, y: 0, z: 0}
+        BumpPositionMax: {x: 60, y: 0, z: 0}
         ForceAbsolute: 0
 --- !u!1 &3495140497080947824
 GameObject:
@@ -745,7 +745,7 @@ MonoBehaviour:
   OnlyAcquireTargetsIfOwnerIsIdle: 0
   RotationMode: 0
   ApplyAutoAimAsLastDirection: 1
-  MoveCameraTarget: 1
+  MoveCameraTarget: 0
   CameraTargetDistance: 0.5
   CameraTargetMaxDistance: 10
   CameraTargetSpeed: 5

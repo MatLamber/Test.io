@@ -63,6 +63,7 @@ namespace MoreMountains.TopDownEngine
 		[SerializeField] private GameObject losePanel;
 		
 		[SerializeField] private GameObject bottomPanel;
+		[SerializeField] private TextMeshProUGUI moneyText;
 		
 		/// <summary>
 		/// Statics initialization to support enter play modes
@@ -398,6 +399,12 @@ namespace MoreMountains.TopDownEngine
 			bottomPanel.SetActive(false);
 			TopDownEngineEvent.Trigger(TopDownEngineEventTypes.GameStart,null);
 			
+		}
+
+		public void UpdateMoneyText(int money)
+		{
+			if(moneyText != null)
+				moneyText.text = money.ToString();
 		}
 	}
 }

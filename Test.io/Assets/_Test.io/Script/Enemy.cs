@@ -52,15 +52,6 @@ public class Enemy : MonoBehaviour
 
         // Configura la primera animación
     }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            PlayFlyAwayDeath();
-        }
-    }
-
     private void OnDisable()
     {
         GetComponent<CharacterController>().enabled = true;

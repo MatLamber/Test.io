@@ -8,14 +8,19 @@ public class PlayerController : MonoBehaviour, MMEventListener<TopDownEngineEven
    private CharacterMovement characterMovement => GetComponent<CharacterMovement>();
    private CharacterHandleWeapon characterHandleWeapon => GetComponent<CharacterHandleWeapon>();
    private string standAnimationParameter = "Stand";
+   private int money;
    [SerializeField] private Animator animator;
+   [SerializeField] private PlayerStats stats;
 
-   private void Update()
+   private void Start()
    {
-      if (Input.GetKeyDown(KeyCode.Space))
-      {
-         EnableMovement();
-      }
+      InitializeStats();
+      UpdateMoney();
+   }
+
+   private void InitializeStats()
+   {
+      money = stats.money;
    }
 
    public void EnableMovement()
@@ -30,7 +35,7 @@ public class PlayerController : MonoBehaviour, MMEventListener<TopDownEngineEven
       this.MMEventStartListening<TopDownEngineEvent>();
    }
 
-   private void ondisable()
+   private void OnDisable()
    {
       this.MMEventStopListening<TopDownEngineEvent>();
    }
@@ -43,7 +48,17 @@ public class PlayerController : MonoBehaviour, MMEventListener<TopDownEngineEven
       }
 
    }
-   
-   
+
+   public int GetMoney()
+   {
+      return money;
+   }
+
+   public void UpdateMoney(int amount = 0)
+   {
+      money += amount;
+      if(GUIManager.Instance is not null)
+         GUIManager.Instance.UpdateMoneyText(money);
+   }
    
 }
