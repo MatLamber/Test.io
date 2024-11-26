@@ -43,7 +43,8 @@ namespace MoreMountains.TopDownEngine
 		Repaint,
 		TogglePause,
 		LoadNextScene,
-		PauseNoMenu
+		PauseNoMenu,
+		GameStart
 	}
 
 	/// <summary>

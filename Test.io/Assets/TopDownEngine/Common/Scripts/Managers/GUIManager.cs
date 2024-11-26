@@ -62,6 +62,8 @@ namespace MoreMountains.TopDownEngine
 		[SerializeField] private GameObject winPanel;
 		[SerializeField] private GameObject losePanel;
 		
+		[SerializeField] private GameObject bottomPanel;
+		
 		/// <summary>
 		/// Statics initialization to support enter play modes
 		/// </summary>
@@ -389,6 +391,13 @@ namespace MoreMountains.TopDownEngine
 			yield return new WaitForSeconds(2);
 			if(losePanel != null)
 				losePanel.SetActive(true);
+		}
+
+		public void StartLevel()
+		{
+			bottomPanel.SetActive(false);
+			TopDownEngineEvent.Trigger(TopDownEngineEventTypes.GameStart,null);
+			
 		}
 	}
 }
