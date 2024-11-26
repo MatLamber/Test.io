@@ -17,7 +17,7 @@ TagManager:
   - Water
   - UI
   - NoEnemiesCollision
-  - 
+  - NoProjectileCollision
   - Obstacles
   - Ground
   - Player
