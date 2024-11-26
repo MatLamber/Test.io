@@ -1,29 +1,36 @@
+Unity Editor version:    6000.0.27f1 (27c554a2199c)
+Branch:                  6000.0/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.6.1 (Build 23G93)
+Darwin version:          23.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
 Using pre-set license
-Built from '6000.0/staging' branch; Version is '6000.0.27f1 (27c554a2199c) revision 2606420'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16274 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-D:\UnityVersions\6000.0.27f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/6000.0.27f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-D:/Users/Matias/Test.io/Test.io/Test.io
+/Users/roshka/UnityProjects/Test.io/Test.io
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-12938
+49292
 -job-worker-count
-5
+3
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
-Successfully changed project path to: D:/Users/Matias/Test.io/Test.io/Test.io
-D:/Users/Matias/Test.io/Test.io/Test.io
+Successfully changed project path to: /Users/roshka/UnityProjects/Test.io/Test.io
+/Users/roshka/UnityProjects/Test.io/Test.io
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,13 +66,13 @@ D:/Users/Matias/Test.io/Test.io/Test.io
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16644]  Target information:
+Player connection [8323043136]  Target information:
 
-Player connection [16644]  * "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 3051877927 [EditorId] 3051877927 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PVKQKOI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8323043136]  * "[IP] 192.168.67.87 [Port] 0 [Flags] 2 [Guid] 298817874 [EditorId] 298817874 [Version] 1048832 [Id] OSXEditor(0,Mac-mini-de-roshka.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [16644] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [16644] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 5
+Player connection [8323043136] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8323043136] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
 Library Redirect Path: Library/
@@ -75,70 +82,70 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.26 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 3.28 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.27f1 (27c554a2199c)
-[Subsystems] Discovering subsystems at path D:/UnityVersions/6000.0.27f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Users/Matias/Test.io/Test.io/Test.io/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.27f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/roshka/UnityProjects/Test.io/Test.io/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
-    Vendor:   NVIDIA
-    VRAM:     8042 MB
-    Driver:   32.0.15.6614
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Initialize mono
-Mono path[0] = 'D:/UnityVersions/6000.0.27f1/Editor/Data/Managed'
-Mono path[1] = 'D:/UnityVersions/6000.0.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/UnityVersions/6000.0.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.27f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.0.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56450
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/UnityVersions/6000.0.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: D:/UnityVersions/6000.0.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: D:/UnityVersions/6000.0.27f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.002759 seconds.
-- Loaded All Assemblies, in  0.307 seconds
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.27f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.004003 seconds.
+- Loaded All Assemblies, in  0.293 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
+[usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 162 ms
-Native extension for WindowsStandalone target not found
+Android Extension - Scanning For ADB Devices 71 ms
+Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.490 seconds
-Domain Reload Profiling: 797ms
-	BeginReloadAssembly (109ms)
+- Finished resetting the current domain, in  0.473 seconds
+Domain Reload Profiling: 767ms
+	BeginReloadAssembly (86ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (122ms)
-		LoadAssemblies (108ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (87ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (118ms)
-			TypeCache.Refresh (117ms)
-				TypeCache.ScanAssembly (107ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (117ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (490ms)
+	FinalizeReload (474ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (440ms)
+		SetupLoadedEditorAssemblies (428ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (252ms)
+			InitializePlatformSupportModulesInManaged (203ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (106ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
-			AfterProcessingInitializeOnLoad (20ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (133ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (13ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -152,937 +159,340 @@ Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Pro
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.064 seconds
+- Loaded All Assemblies, in  1.030 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.09 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 7 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
-Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 575ms
+TypeManager.Initialize took: 374ms
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.871 seconds
-Domain Reload Profiling: 2933ms
-	BeginReloadAssembly (329ms)
+- Finished resetting the current domain, in  1.382 seconds
+Domain Reload Profiling: 2411ms
+	BeginReloadAssembly (394ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (29ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (672ms)
-		LoadAssemblies (402ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (577ms)
+		LoadAssemblies (290ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (356ms)
-			TypeCache.Refresh (233ms)
-				TypeCache.ScanAssembly (215ms)
-			BuildScriptInfoCaches (99ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (1871ms)
+		AnalyzeDomain (322ms)
+			TypeCache.Refresh (236ms)
+				TypeCache.ScanAssembly (216ms)
+			BuildScriptInfoCaches (63ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1382ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1670ms)
+		SetupLoadedEditorAssemblies (1200ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (190ms)
-			ProcessInitializeOnLoadAttributes (1253ms)
-			ProcessInitializeOnLoadMethodAttributes (202ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (965ms)
+			ProcessInitializeOnLoadMethodAttributes (127ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+		AwakeInstancesAfterBackupRestoration (2ms)
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 2.19 ms, found 9 plugins.
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Launching external process: /Applications/Unity/Hub/Editor/6000.0.27f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 256 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10420 unused Assets / (7.4 MB). Loaded Objects now: 11144.
-Memory consumption went from 408.2 MB to 400.8 MB.
-Total: 13.498300 ms (FindLiveObjects: 1.127000 ms CreateObjectMapping: 0.512200 ms MarkObjects: 8.654300 ms  DeleteObjects: 3.202600 ms)
+Unloading 10424 unused Assets / (7.5 MB). Loaded Objects now: 11158.
+Memory consumption went from 326.1 MB to 318.7 MB.
+Total: 11.723291 ms (FindLiveObjects: 0.818750 ms CreateObjectMapping: 0.322375 ms MarkObjects: 7.722375 ms  DeleteObjects: 2.859375 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 41725.026185 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Lands
-  artifactKey: Guid(ebfeb61c31a69094abe3b5c212ec280d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Lands using Guid(ebfeb61c31a69094abe3b5c212ec280d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18c04c361d6bd7295a3da880ce45fa86') in 0.0052348 seconds
+  Time since last request: 912.709812 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies
+  artifactKey: Guid(0dcf5bab3f16a4d03b5fd80152c1d6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies using Guid(0dcf5bab3f16a4d03b5fd80152c1d6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a385e6900d72b2b29c9820492d56b187') in 0.004657 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.490324 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Location with environment
-  artifactKey: Guid(b23fd74ae4e27f4469a490bb154cd9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Location with environment using Guid(b23fd74ae4e27f4469a490bb154cd9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0fec987d15f5950b0785ce9d18a9649') in 0.0003741 seconds
+  Time since last request: 12.765561 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/ZombieTextures
+  artifactKey: Guid(212cad333369443d59fd5a81adb61f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/ZombieTextures using Guid(212cad333369443d59fd5a81adb61f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44dc2584bc969a3634ba223ae549325c') in 0.000769417 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.734683 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Location with environment/autumn atmosphere forest with environment.prefab
-  artifactKey: Guid(fe9cb1b9b4e174249a889ab3e78e65e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Location with environment/autumn atmosphere forest with environment.prefab using Guid(fe9cb1b9b4e174249a889ab3e78e65e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08884eea95757bb6a369cb2c8c391ce7') in 0.1323181 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 654
+  Time since last request: 0.082602 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/ZombieTextures/BASE MILITAR.fbx
+  artifactKey: Guid(2c57eb7157a46497684fac810f0b1bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/ZombieTextures/BASE MILITAR.fbx using Guid(2c57eb7157a46497684fac810f0b1bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37e4a389119f337aa44721d64ff597b0') in 0.463642334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 209
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Location with environment/wild west railway station with environment.prefab
-  artifactKey: Guid(df6e0d5705c11244c8b08313c0fe392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Location with environment/wild west railway station with environment.prefab using Guid(df6e0d5705c11244c8b08313c0fe392b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7782013777a06921be4e69389d54e35') in 0.0394144 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1098
+  Time since last request: 0.000100 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/ZombieTextures/EDIFICIO  EN RUINAS__3.fbx
+  artifactKey: Guid(b6a60f6af7a3c4f3eadf74f4fb9967e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/ZombieTextures/EDIFICIO  EN RUINAS__3.fbx using Guid(b6a60f6af7a3c4f3eadf74f4fb9967e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f27c8186919edeeea44073ad72b204e5') in 0.130748167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 81
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.818560 seconds.
-  path: Assets/_Test.io/Scenes/LevelTest.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Test.io/Scenes/LevelTest.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fed03bb19cdc2a6c44e2c99f538c8de2') in 0.0006719 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/ZombieTextures/TALLER __AUTOS.fbx
+  artifactKey: Guid(a384c2aa02cb748a09ac72c37c579695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/ZombieTextures/TALLER __AUTOS.fbx using Guid(a384c2aa02cb748a09ac72c37c579695) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70a0d2b56dec1616ce168d351ee1f508') in 0.27331125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/ZombieTextures/EDIFICIO  EN RUINAS__2.fbx
+  artifactKey: Guid(2af2acd5a10f0488f82e7202a53f646c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/ZombieTextures/EDIFICIO  EN RUINAS__2.fbx using Guid(2af2acd5a10f0488f82e7202a53f646c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8f07a356c20b396582e66532cd280de') in 0.110413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.259321 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/Personajesfbx
+  artifactKey: Guid(76078cec6f64f45ce98e67a65f71c956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/Personajesfbx using Guid(76078cec6f64f45ce98e67a65f71c956) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ac84a7cdd5c9f3e1a5c3db31612a6b7') in 0.000895042 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.094455 seconds.
-  path: Assets/_Test.io/Scenes/LevelTest 1.unity
-  artifactKey: Guid(7e9374ab37216ac4187b71a69eac93e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Test.io/Scenes/LevelTest 1.unity using Guid(7e9374ab37216ac4187b71a69eac93e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6287cc0442aa5462b3dfe4739547743') in 0.0004142 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.914 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.55 ms, found 9 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 598ms
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.974 seconds
-Domain Reload Profiling: 2891ms
-	BeginReloadAssembly (273ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (110ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (581ms)
-		LoadAssemblies (411ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (268ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (233ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (1974ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1750ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (217ms)
-			ProcessInitializeOnLoadAttributes (1285ms)
-			ProcessInitializeOnLoadMethodAttributes (221ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 2.34 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10421 unused Assets / (8.7 MB). Loaded Objects now: 11155.
-Memory consumption went from 360.7 MB to 352.1 MB.
-Total: 16.707300 ms (FindLiveObjects: 1.355000 ms CreateObjectMapping: 1.346300 ms MarkObjects: 9.296600 ms  DeleteObjects: 4.708400 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (5.8 MB). Loaded Objects now: 11155.
-Memory consumption went from 352.0 MB to 346.2 MB.
-Total: 10.582600 ms (FindLiveObjects: 0.566300 ms CreateObjectMapping: 0.292200 ms MarkObjects: 8.403000 ms  DeleteObjects: 1.319900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 2.35 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (3.5 MB). Loaded Objects now: 11155.
-Memory consumption went from 353.3 MB to 349.8 MB.
-Total: 9.146600 ms (FindLiveObjects: 0.526700 ms CreateObjectMapping: 0.231600 ms MarkObjects: 7.444200 ms  DeleteObjects: 0.943000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.896 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.14 ms, found 9 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 675ms
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.108 seconds
-Domain Reload Profiling: 3007ms
-	BeginReloadAssembly (261ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (24ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (104ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (570ms)
-		LoadAssemblies (398ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (262ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (230ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (2109ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1870ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (237ms)
-			ProcessInitializeOnLoadAttributes (1382ms)
-			ProcessInitializeOnLoadMethodAttributes (224ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 2.57 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10420 unused Assets / (9.1 MB). Loaded Objects now: 11158.
-Memory consumption went from 362.7 MB to 353.6 MB.
-Total: 16.772400 ms (FindLiveObjects: 1.356900 ms CreateObjectMapping: 1.319100 ms MarkObjects: 9.051900 ms  DeleteObjects: 5.043700 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (5.4 MB). Loaded Objects now: 11158.
-Memory consumption went from 353.6 MB to 348.2 MB.
-Total: 10.767500 ms (FindLiveObjects: 0.799100 ms CreateObjectMapping: 0.360800 ms MarkObjects: 8.109700 ms  DeleteObjects: 1.497300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.869 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.33 ms, found 9 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 689ms
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.134 seconds
-Domain Reload Profiling: 3005ms
-	BeginReloadAssembly (229ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (90ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (575ms)
-		LoadAssemblies (411ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (256ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (222ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (2134ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1900ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (238ms)
-			ProcessInitializeOnLoadAttributes (1414ms)
-			ProcessInitializeOnLoadMethodAttributes (221ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 2.71 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10420 unused Assets / (8.2 MB). Loaded Objects now: 11161.
-Memory consumption went from 362.7 MB to 354.5 MB.
-Total: 17.883900 ms (FindLiveObjects: 1.385000 ms CreateObjectMapping: 1.117800 ms MarkObjects: 10.513800 ms  DeleteObjects: 4.866200 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (5.7 MB). Loaded Objects now: 11161.
-Memory consumption went from 353.9 MB to 348.2 MB.
-Total: 11.101500 ms (FindLiveObjects: 0.518800 ms CreateObjectMapping: 0.608900 ms MarkObjects: 8.212100 ms  DeleteObjects: 1.760700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.944 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.38 ms, found 9 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 662ms
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.102 seconds
-Domain Reload Profiling: 3049ms
-	BeginReloadAssembly (235ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (97ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (645ms)
-		LoadAssemblies (468ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (264ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (229ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (2102ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1867ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (252ms)
-			ProcessInitializeOnLoadAttributes (1365ms)
-			ProcessInitializeOnLoadMethodAttributes (223ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 2.48 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10420 unused Assets / (8.3 MB). Loaded Objects now: 11164.
-Memory consumption went from 362.7 MB to 354.4 MB.
-Total: 15.844500 ms (FindLiveObjects: 1.020400 ms CreateObjectMapping: 0.599600 ms MarkObjects: 9.453300 ms  DeleteObjects: 4.770300 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (6.2 MB). Loaded Objects now: 11164.
-Memory consumption went from 354.4 MB to 348.2 MB.
-Total: 11.333300 ms (FindLiveObjects: 0.621100 ms CreateObjectMapping: 0.393600 ms MarkObjects: 8.868900 ms  DeleteObjects: 1.448800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 341.724607 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Lands/land autumn atmosphere forest.prefab
-  artifactKey: Guid(ddf217cc27112bb4983b30acb01fc43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Lands/land autumn atmosphere forest.prefab using Guid(ddf217cc27112bb4983b30acb01fc43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48962c070bec76ff648d4c76fcfae735') in 0.1049171 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.063619 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/meeple-1-11_albedo.jpg
+  artifactKey: Guid(096ee4319f95446a0a5f734ca4fb696b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/meeple-1-11_albedo.jpg using Guid(096ee4319f95446a0a5f734ca4fb696b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d11b348bea27cafd257801b4aa82e2f') in 0.013057292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Lands/land soccer field.prefab
-  artifactKey: Guid(71d04ecfb30e9cb4bbcdc197e2af9a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Lands/land soccer field.prefab using Guid(71d04ecfb30e9cb4bbcdc197e2af9a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd404412a9628b0610026308c39a4be90') in 0.0334952 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000137 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/meeple1-9.fbx
+  artifactKey: Guid(0e799bde0b2a64d9cb9335b58b100200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/meeple1-9.fbx using Guid(0e799bde0b2a64d9cb9335b58b100200) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e6dfe733d7b8b6544bf0dc362dbabf2') in 0.028890375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 97
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Lands/land desert pyramids.prefab
-  artifactKey: Guid(4628409824966fd4abc1e1db57ad7a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Lands/land desert pyramids.prefab using Guid(4628409824966fd4abc1e1db57ad7a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a44c47643353e43988c82a45d7c113a') in 0.0127343 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000160 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/meeple1-12.fbx
+  artifactKey: Guid(86d85e847d005475a81b403804c106bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/meeple1-12.fbx using Guid(86d85e847d005475a81b403804c106bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd04dae34b395b25a0ce12ad15948b671') in 0.049606916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 105
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Lands/land space shuttle launch.prefab
-  artifactKey: Guid(a0fe72521b524854e8078ba1caf0c152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Atmospheric Locations Pack/Prefabs/Lands/land space shuttle launch.prefab using Guid(a0fe72521b524854e8078ba1caf0c152) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8b862a5eba74a4cd0e33c7953b8ebc2') in 0.0152108 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000055 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/meeple1-9_albedo.jpg
+  artifactKey: Guid(4dbb0aeda03fb4de5a70dfcf164d4949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/meeple1-9_albedo.jpg using Guid(4dbb0aeda03fb4de5a70dfcf164d4949) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6e4f9130243886c8c02cebe8ea4cf3d') in 0.005772708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 111.031862 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs
-  artifactKey: Guid(7f94265d280321f4f99b5e18b5821248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs using Guid(7f94265d280321f4f99b5e18b5821248) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c0b07ea57ec346a2ddebf7981bb2018') in 0.0005755 seconds
+  Time since last request: 0.000115 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/meeple1-2_albedo.jpg
+  artifactKey: Guid(fe1bdc717381e4e57bb9efe59c89054a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/meeple1-2_albedo.jpg using Guid(fe1bdc717381e4e57bb9efe59c89054a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6099c9cfdf6372884df7b63558e0e58b') in 0.00683575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/meeple1-3.fbx
+  artifactKey: Guid(5fffc43943dc04b678a3a0a35091c312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/meeple1-3.fbx using Guid(5fffc43943dc04b678a3a0a35091c312) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13be4e55baee8c35ad2678aea002bb05') in 0.026417209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 97
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/meeple1-8_albedo.jpg
+  artifactKey: Guid(963ac0bb9bb3a4a4c9c42cfabc61f8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/meeple1-8_albedo.jpg using Guid(963ac0bb9bb3a4a4c9c42cfabc61f8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f394b0177d47dc1cb0d84b6c079c1a25') in 0.005470625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.847267 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/ZombieNormal.jpg
+  artifactKey: Guid(4dbb0aeda03fb4de5a70dfcf164d4949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/ZombieNormal.jpg using Guid(4dbb0aeda03fb4de5a70dfcf164d4949) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1c58a5c0a90a4fc3e7b898ea075b5ee') in 0.006297834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.260298 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/ZombiePesoca.jpg
+  artifactKey: Guid(e94b79781ca3846328416d139177eaf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/ZombiePesoca.jpg using Guid(e94b79781ca3846328416d139177eaf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f3c62d5a7b1ec2efc6153416570e71c') in 0.0052495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.158697 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/ZombieGordo.jpg
+  artifactKey: Guid(963ac0bb9bb3a4a4c9c42cfabc61f8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/ZombieGordo.jpg using Guid(963ac0bb9bb3a4a4c9c42cfabc61f8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9da354aea1e0510f0fc086a5e51b0d16') in 0.00513175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.261623 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/Zombiemujer.jpg
+  artifactKey: Guid(510ba7fb3912345e0be98bbfb3911cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/Zombiemujer.jpg using Guid(510ba7fb3912345e0be98bbfb3911cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dda688534a9f3b87170d94dfe4ee637e') in 0.005339041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.949544 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/ZombieMujer.jpg
+  artifactKey: Guid(510ba7fb3912345e0be98bbfb3911cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/ZombieMujer.jpg using Guid(510ba7fb3912345e0be98bbfb3911cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '185c499cf7d469fe3abde58f62d02c16') in 0.005075833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.474731 seconds.
+  path: Assets/_Test.io/3D/Characters/Character.fbx
+  artifactKey: Guid(449a87cfbe70afb49ac6ca3a2b577b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/3D/Characters/Character.fbx using Guid(449a87cfbe70afb49ac6ca3a2b577b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2eafd09abf40d8f5930015d7294ddae7') in 0.066494875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 150
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.619373 seconds.
+  path: Assets/_Test.io/3D/Zombies/Meeple flaco.fbx
+  artifactKey: Guid(bbc498cb7a72741a396470fd7aea1e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/3D/Zombies/Meeple flaco.fbx using Guid(bbc498cb7a72741a396470fd7aea1e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'faff01e9c2dec55ea3c652762d68a7c8') in 0.016201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018936 seconds.
+  path: Assets/_Test.io/3D/Zombies/Meeple gordo.fbx
+  artifactKey: Guid(459727475b97c4ada928a222057d9d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/3D/Zombies/Meeple gordo.fbx using Guid(459727475b97c4ada928a222057d9d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '289e498a15304ee342709ec996a1ac41') in 0.02201125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 64
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/_Test.io/3D/Zombies/Meeple musculoso.fbx
+  artifactKey: Guid(ecfddaeaa31d441489ad89082091e264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/3D/Zombies/Meeple musculoso.fbx using Guid(ecfddaeaa31d441489ad89082091e264) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99022eacdbeaf07626f5b67244184bcf') in 0.01933275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.722179 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/Personajesfbx
+  artifactKey: Guid(aaae21e37f0f8408189fb5d2f611328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/Personajesfbx using Guid(aaae21e37f0f8408189fb5d2f611328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0336c078ff84a6ba706f8b5a727e49f7') in 0.001069 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.311965 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs/Environment
-  artifactKey: Guid(85fbfcdfc0a220f48bb1448060262cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs/Environment using Guid(85fbfcdfc0a220f48bb1448060262cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1a9f6d464a76b3d71ff7b5acea53fd6') in 0.0004459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.072724 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/Personajesfbx/meeple-1-11_albedo.jpg
+  artifactKey: Guid(14eb6375b88ac4c9da565eefa739d19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/Personajesfbx/meeple-1-11_albedo.jpg using Guid(14eb6375b88ac4c9da565eefa739d19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d8d466e89375469e716c9b246b2b2f9') in 0.006271208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.034649 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs/Environment/bench 1.prefab
-  artifactKey: Guid(01d6e8ec967d2c844920925bdebf5c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs/Environment/bench 1.prefab using Guid(01d6e8ec967d2c844920925bdebf5c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4cb73657eb38ce56c882bb2c38725946') in 0.0137664 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000059 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/Personajesfbx/meeple1-11.fbx
+  artifactKey: Guid(97e24d5737e5d4b30bc7c132c268daa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/Personajesfbx/meeple1-11.fbx using Guid(97e24d5737e5d4b30bc7c132c268daa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8e896cd7554461d089b2b41617f29db') in 0.031145084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs/Environment/lamppost.prefab
-  artifactKey: Guid(f7ff35a5deb7e914fabf51eee4e649a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs/Environment/lamppost.prefab using Guid(f7ff35a5deb7e914fabf51eee4e649a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66d51d60ab563852f0db89d4c4779202') in 0.0127789 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000046 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/Personajesfbx/meeple1-12.fbx
+  artifactKey: Guid(91efe220f7b2047fe897c6be4dac9e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/Personajesfbx/meeple1-12.fbx using Guid(91efe220f7b2047fe897c6be4dac9e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e776561bfe20885849e7dd3e89f51c8') in 0.038117875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 105
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs/Environment/picnic bag.prefab
-  artifactKey: Guid(602bc4d45f6a07949b3f169c884ec23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs/Environment/picnic bag.prefab using Guid(602bc4d45f6a07949b3f169c884ec23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f82a10c50e078faef35a1a7f0c82f876') in 0.013386 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/Personajesfbx/meeple1-2.fbx
+  artifactKey: Guid(429f2b0b8ea714dafa3d97e9dc5bfced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/Personajesfbx/meeple1-2.fbx using Guid(429f2b0b8ea714dafa3d97e9dc5bfced) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8705722dc4bc7167c3d37e5a7b094efc') in 0.023139459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 98
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs/Environment/trash can 1.prefab
-  artifactKey: Guid(b5a4dc2ebf390d64eb973263e3c3963c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs/Environment/trash can 1.prefab using Guid(b5a4dc2ebf390d64eb973263e3c3963c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0abfd10b5466ea90adb6f4345454a59') in 0.0133182 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000049 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/Personajesfbx/meeple1-9_albedo.jpg
+  artifactKey: Guid(444df523fdecd4125883cfb412ffc828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/Personajesfbx/meeple1-9_albedo.jpg using Guid(444df523fdecd4125883cfb412ffc828) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '417af4bd2715afb16c9a7c557741b794') in 0.005933333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs/Environment/bridge.prefab
-  artifactKey: Guid(033fb5a72ae76a54f8e6e29275edd84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs/Environment/bridge.prefab using Guid(033fb5a72ae76a54f8e6e29275edd84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44414d54ec9ac4fafb8768eeacdaab98') in 0.0150514 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000037 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/Personajesfbx/meeple1-8_albedo.jpg
+  artifactKey: Guid(6cbcef7964c274617b35f79dff5d9462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/Personajesfbx/meeple1-8_albedo.jpg using Guid(6cbcef7964c274617b35f79dff5d9462) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e5b807107021c333f285ebe9205ecea') in 0.007349917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs/Environment/carpet blue.prefab
-  artifactKey: Guid(70ffeeb41bbcb4d4f88bd63e0547ffb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs/Environment/carpet blue.prefab using Guid(70ffeeb41bbcb4d4f88bd63e0547ffb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9e1914334797f7014a63d43a2f477fb') in 0.0160768 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000108 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/Personajesfbx/meeple1-10_albedo.jpg
+  artifactKey: Guid(ff89767bbd22247c5b3dfef6de7329c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/Personajesfbx/meeple1-10_albedo.jpg using Guid(ff89767bbd22247c5b3dfef6de7329c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bed04a2a2fdba15f2b19d8d75665669') in 0.005816417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs/Environment/fountain 2.prefab
-  artifactKey: Guid(9e5ad74bd85cfa443914368f33bc9206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs/Environment/fountain 2.prefab using Guid(9e5ad74bd85cfa443914368f33bc9206) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35e257993f4439f55b3cb1efca69f84f') in 0.012486 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000132 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/Personajesfbx/meeple1-8.fbx
+  artifactKey: Guid(d681af2e623e946aa897bf45ea3e86c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/Personajesfbx/meeple1-8.fbx using Guid(d681af2e623e946aa897bf45ea3e86c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8e235314417876b37ae24e9fa736783') in 0.024082625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 97
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs/Environment/wooden table.prefab
-  artifactKey: Guid(ee79087d0378f68499e00c8f9bb31663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs/Environment/wooden table.prefab using Guid(ee79087d0378f68499e00c8f9bb31663) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2911d0e08ae6e858a41cf3e161f77be5') in 0.012015 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 33.085867 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/Personajesfbx/meeple1-8.fbx
+  artifactKey: Guid(d681af2e623e946aa897bf45ea3e86c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/Personajesfbx/meeple1-8.fbx using Guid(d681af2e623e946aa897bf45ea3e86c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d1b7e4f3a3cb4f534c7e9cf8388966e') in 0.028567834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 99
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs/Environment/carpet red.prefab
-  artifactKey: Guid(36092e653377b174fb0366a9f88709ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs/Environment/carpet red.prefab using Guid(36092e653377b174fb0366a9f88709ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa6dc39d1c70e6d1f644859d0fa4e9ae') in 0.0117547 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+  Time since last request: 0.000102 seconds.
+  path: Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/Personajesfbx/meeple1-10.fbx
+  artifactKey: Guid(92ea8ad1072cf4dfab505230b40548bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Test.io/Materials/Character/Zombies/Personajesfbx/Personajesfbx/meeple1-10.fbx using Guid(92ea8ad1072cf4dfab505230b40548bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7a7d4fdb6c9e5004652fe8562f0603f') in 0.026306791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 99
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs/Environment/fountain 1.prefab
-  artifactKey: Guid(938a37fc0e3a5974b8a96388176b1672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs/Environment/fountain 1.prefab using Guid(938a37fc0e3a5974b8a96388176b1672) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3985fdcc051ae33d19fbe9c1ba33c308') in 0.0131033 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.268566 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs/Park grounds
-  artifactKey: Guid(db6fb602ce1b6f343b85e85f767fa282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs/Park grounds using Guid(db6fb602ce1b6f343b85e85f767fa282) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8652505abc6f77cf3577536954813ce') in 0.0006659 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.029298 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs/Park grounds/ground park 1.prefab
-  artifactKey: Guid(051365c13d09ee645ab09370b6b02383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs/Park grounds/ground park 1.prefab using Guid(051365c13d09ee645ab09370b6b02383) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b59904ca202d5dcc6de2058226fe73d6') in 0.018463 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs/Park grounds/ground park 5.prefab
-  artifactKey: Guid(95bfbd01be0392b4580b851a244b9a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs/Park grounds/ground park 5.prefab using Guid(95bfbd01be0392b4580b851a244b9a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c436a3e69504a5ebcf5489f24191ce5') in 0.0168915 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs/Park grounds/ground park 4.prefab
-  artifactKey: Guid(66ad3393312e59c42aa3e9ed7d7d73e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs/Park grounds/ground park 4.prefab using Guid(66ad3393312e59c42aa3e9ed7d7d73e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08320caba77c9c22eace1c55a360c597') in 0.0252849 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.846383 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs/Trees/bonsai tree.prefab
-  artifactKey: Guid(f3d7ddc35888da8418ccc87399251dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs/Trees/bonsai tree.prefab using Guid(f3d7ddc35888da8418ccc87399251dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '862819ea53990e94b9206c131a3f4ea3') in 0.0126062 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs/Trees/tree round foliage.prefab
-  artifactKey: Guid(fea69626389bd194daaf921d168eefe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs/Trees/tree round foliage.prefab using Guid(fea69626389bd194daaf921d168eefe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b98607f0136f602cfb510d5def01175') in 0.0122831 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs/Trees/elongated tree.prefab
-  artifactKey: Guid(1c24bab945ee8164ba75c6fc6d2fa148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs/Trees/elongated tree.prefab using Guid(1c24bab945ee8164ba75c6fc6d2fa148) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f66dbe42593007b3ca73ad5af5c6175') in 0.0118426 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs/Trees/tree orange foliage.prefab
-  artifactKey: Guid(7a3134ee04abb294291489477a09cec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs/Trees/tree orange foliage.prefab using Guid(7a3134ee04abb294291489477a09cec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f34d1877813a529193621223cde14c32') in 0.0114692 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs/Trees/tree without leaves 1.prefab
-  artifactKey: Guid(49c16e62d01dc124c96fe6a68b31a5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs/Trees/tree without leaves 1.prefab using Guid(49c16e62d01dc124c96fe6a68b31a5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8096e3462832d2410b1ca23517e55d5') in 0.0112153 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs/Trees/dry palm tree.prefab
-  artifactKey: Guid(afe706e7fb34aa04aa74bdcd9b705929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs/Trees/dry palm tree.prefab using Guid(afe706e7fb34aa04aa74bdcd9b705929) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a986091bcd31f0fdf3f586d95643741') in 0.0127983 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Prefabs/Trees/tree swing.prefab
-  artifactKey: Guid(20c219df061c967429db241b1ea3a026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Prefabs/Trees/tree swing.prefab using Guid(20c219df061c967429db241b1ea3a026) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ede25e80a4bd525c8771784a7a3dcd7') in 0.0124794 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.678668 seconds.
-  path: Assets/Palmov Island/Low Poly Environment Park/Models/Grass/grass 2.fbx
-  artifactKey: Guid(8253ca105f4ae554994c59ec48e47051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Environment Park/Models/Grass/grass 2.fbx using Guid(8253ca105f4ae554994c59ec48e47051) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c76523035a08b4a8824ab71c54927a4d') in 0.0280897 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 54.926610 seconds.
-  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Grounds/asphalt ground side turn.prefab
-  artifactKey: Guid(e8ee45b4eb4aab0488c87f728162a76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Grounds/asphalt ground side turn.prefab using Guid(e8ee45b4eb4aab0488c87f728162a76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c64c66aaeabc7dac3e96e6a59f7635f7') in 0.0127602 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Grounds/asphalt ground wide side turn.prefab
-  artifactKey: Guid(76936ea7ba69fb74796f558756bf1b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Grounds/asphalt ground wide side turn.prefab using Guid(76936ea7ba69fb74796f558756bf1b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '091727ba55d8ca4eebe02bb5461a843f') in 0.0127267 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Grounds/land.prefab
-  artifactKey: Guid(152ad28a5365dbf46b6a3fd76ff6e9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Grounds/land.prefab using Guid(152ad28a5365dbf46b6a3fd76ff6e9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94dd2642ebb96e4abc26030624542f9e') in 0.0119501 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.926 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.14 ms, found 9 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 696ms
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.112 seconds
-Domain Reload Profiling: 3041ms
-	BeginReloadAssembly (241ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (102ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (46ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (579ms)
-		LoadAssemblies (409ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (258ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (226ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (2113ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1876ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (230ms)
-			ProcessInitializeOnLoadAttributes (1397ms)
-			ProcessInitializeOnLoadMethodAttributes (222ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 2.64 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10420 unused Assets / (8.1 MB). Loaded Objects now: 11170.
-Memory consumption went from 363.0 MB to 354.9 MB.
-Total: 16.202900 ms (FindLiveObjects: 1.271600 ms CreateObjectMapping: 1.058500 ms MarkObjects: 9.157000 ms  DeleteObjects: 4.715400 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (6.4 MB). Loaded Objects now: 11170.
-Memory consumption went from 354.9 MB to 348.5 MB.
-Total: 10.992500 ms (FindLiveObjects: 0.509300 ms CreateObjectMapping: 0.236800 ms MarkObjects: 8.734200 ms  DeleteObjects: 1.511300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.922 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.04 ms, found 9 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 679ms
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.116 seconds
-Domain Reload Profiling: 3043ms
-	BeginReloadAssembly (221ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (91ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (640ms)
-		LoadAssemblies (445ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (275ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (230ms)
-			ResolveRequiredComponents (32ms)
-	FinalizeReload (2117ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1886ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (242ms)
-			ProcessInitializeOnLoadAttributes (1391ms)
-			ProcessInitializeOnLoadMethodAttributes (226ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 3.88 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10420 unused Assets / (8.0 MB). Loaded Objects now: 11173.
-Memory consumption went from 363.0 MB to 355.0 MB.
-Total: 15.176000 ms (FindLiveObjects: 1.141800 ms CreateObjectMapping: 0.924500 ms MarkObjects: 8.889800 ms  DeleteObjects: 4.219200 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (5.9 MB). Loaded Objects now: 11173.
-Memory consumption went from 354.4 MB to 348.5 MB.
-Total: 10.938700 ms (FindLiveObjects: 0.682200 ms CreateObjectMapping: 0.373500 ms MarkObjects: 8.184100 ms  DeleteObjects: 1.698000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 218.394304 seconds.
-  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/bottle.prefab
-  artifactKey: Guid(5c255520e756e46468e29dd841e33bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/bottle.prefab using Guid(5c255520e756e46468e29dd841e33bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4018edbf421d98e7ca5c05e68d9ac601') in 0.1041945 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/table.prefab
-  artifactKey: Guid(53a63332f91d2e84181ed13474aa44fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/table.prefab using Guid(53a63332f91d2e84181ed13474aa44fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51fdb1604ac8262e7005b051b4b966c8') in 0.0627671 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/chair.prefab
-  artifactKey: Guid(deaad61e72908fc4b908f8c5b4351620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/chair.prefab using Guid(deaad61e72908fc4b908f8c5b4351620) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dae6730fee52d4a64392536542bf5511') in 0.0427402 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/tennis net.prefab
-  artifactKey: Guid(cfc867ea1208300428bf1427a8ab9d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/tennis net.prefab using Guid(cfc867ea1208300428bf1427a8ab9d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd28ca52da00b9d44fa7f8de7f838415') in 0.0265172 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/box with bottles.prefab
-  artifactKey: Guid(87b365e5fc281404a8b2cb1011e450c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/box with bottles.prefab using Guid(87b365e5fc281404a8b2cb1011e450c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e2160a9a322facbc557775743450402') in 0.0276242 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/lamppost.prefab
-  artifactKey: Guid(cabe52ea39b70dc4a9a866680afc2fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/lamppost.prefab using Guid(cabe52ea39b70dc4a9a866680afc2fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e713c099b9f2d0d3a387d155876e077') in 0.0250545 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/trash can.prefab
-  artifactKey: Guid(1c281df18e0b13e44b9e14e080883a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Palmov Island/Low Poly Houses Free Pack/Prefabs/Environment/trash can.prefab using Guid(1c281df18e0b13e44b9e14e080883a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f211b84565613943a934f6ce3fcf920a') in 0.0611053 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.961 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.54 ms, found 9 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 704ms
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.234 seconds
-Domain Reload Profiling: 3197ms
-	BeginReloadAssembly (240ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (101ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (612ms)
-		LoadAssemblies (439ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (264ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (231ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (2235ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1993ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (307ms)
-			ProcessInitializeOnLoadAttributes (1429ms)
-			ProcessInitializeOnLoadMethodAttributes (228ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 2.96 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 48 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 10420 unused Assets / (8.2 MB). Loaded Objects now: 11176.
-Memory consumption went from 363.0 MB to 354.8 MB.
-Total: 16.663500 ms (FindLiveObjects: 1.048200 ms CreateObjectMapping: 0.901100 ms MarkObjects: 10.050700 ms  DeleteObjects: 4.661800 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (6.3 MB). Loaded Objects now: 11176.
-Memory consumption went from 354.8 MB to 348.5 MB.
-Total: 12.800000 ms (FindLiveObjects: 0.920000 ms CreateObjectMapping: 0.401700 ms MarkObjects: 9.549600 ms  DeleteObjects: 1.927400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0

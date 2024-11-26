@@ -1,11 +1,9 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using NaughtyAttributes;
+using System.Collections.Generic;
 using MoreMountains.Tools;
 using MoreMountains.TopDownEngine;
-using Random = UnityEngine.Random;
+using NaughtyAttributes;
 
 [System.Serializable]
 public class EnemyWave
@@ -23,8 +21,7 @@ public class EnemyWave
         [SerializeField] private MMSimpleObjectPooler enemyPooler; // Pool de enemigo específico
         public int enemiesPerSecond; // Cantidad de enemigos spawneados por segundo
 
-        [MinMaxSlider(0, 1)]
-        public Vector2
+        [MinMaxSlider(0, 1)] public Vector2
             spawnDurationRange; // Rango de duración del spawneo de este pool en porcentaje de la duración total de la wave
 
         public MMSimpleObjectPooler EnemyPooler => enemyPooler;
@@ -248,21 +245,21 @@ public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>
 
     private void UpdateWaveProgressionUI()
     {
-        if(levelFinished) return;
+        if (levelFinished) return;
         if (GUIManager.Instance != null)
             GUIManager.Instance.UpdateWaveProgression(GetWaveProgression());
     }
 
     private void UpdateWaveNumberUI()
     {
-        if(levelFinished) return;
+        if (levelFinished) return;
         if (GUIManager.Instance != null)
             GUIManager.Instance.UpdateWaveNumber(currentWaveIndex + 1);
     }
 
     private void UpdateWaveDurationUI()
     {
-        if(levelFinished) return;
+        if (levelFinished) return;
         if (GUIManager.Instance != null)
             GUIManager.Instance.UpdateWaveTime(formattedTime);
     }
@@ -289,19 +286,28 @@ public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>
     {
         Debug.Log("Level Completed!");
         LevelCompleted.Trigger();
-        if(GUIManager.Instance is not null)
+        if (GUIManager.Instance is not null)
             GUIManager.Instance.ShowWinPanel();
     }
 
     private void OnLevelFailed()
     {
-        
         isSpawning = false;
         levelFinished = true;
         Debug.Log("Level Failed!");
         LevelFailed.Trigger();
-        if(GUIManager.Instance is not null)
+        if (GUIManager.Instance is not null)
             GUIManager.Instance.ShowLosePanel();
- 
+    }
+
+    private void OnDrawGizmos()
+    {
+        if (spawnCenter != null)
+        {
+            // Cambiar el color del Gizmo a rojo
+            Gizmos.color = Color.red;
+            // Dibujar una esfera en el centro de spawn con el radio de spawn
+            Gizmos.DrawWireSphere(spawnCenter.position, spawnRadius);
+        }
     }
 }

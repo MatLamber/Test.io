@@ -140,8 +140,7 @@ namespace MoreMountains.TopDownEngine
 	/// The game manager is a persistent singleton that handles points and time
 	/// </summary>
 	[AddComponentMenu("TopDown Engine/Managers/Game Manager")]
-	public class GameManager : 	MMPersistentSingleton<GameManager>, 
-		MMEventListener<MMGameEvent>, 
+	public class GameManager : 	MMPersistentSingleton<GameManager>,MMEventListener<MMGameEvent>,
 		MMEventListener<TopDownEngineEvent>, 
 		MMEventListener<TopDownEnginePointEvent>
 	{
@@ -191,6 +190,9 @@ namespace MoreMountains.TopDownEngine
 		protected InventoryInputManager _inventoryInputManager;
 		protected int _initialMaximumLives;
 		protected int _initialCurrentLives;
+
+
+		[SerializeField] private GameObject enemySpawner;
 
 		/// <summary>
 		/// On Awake we initialize our list of points of entry
@@ -530,6 +532,9 @@ namespace MoreMountains.TopDownEngine
 				case TopDownEngineEventTypes.PauseNoMenu:
 					Pause(PauseMethods.NoPauseMenu, false);
 					break;
+				case TopDownEngineEventTypes.GameStart:
+					EnableEnemySpawner();
+					break;
 			}
 		}
 
@@ -569,6 +574,14 @@ namespace MoreMountains.TopDownEngine
 			this.MMEventStopListening<MMGameEvent> ();
 			this.MMEventStopListening<TopDownEngineEvent> ();
 			this.MMEventStopListening<TopDownEnginePointEvent> ();
+		}
+
+		public void EnableEnemySpawner()
+		{
+			if (enemySpawner is not null)
+			{
+				enemySpawner.SetActive(true);
+			}
 		}
 	}
 }
