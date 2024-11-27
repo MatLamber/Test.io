@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using DG.Tweening;
 using MoreMountains.Tools;
 using TMPro;
 using UnityEngine.EventSystems;
@@ -65,8 +66,14 @@ namespace MoreMountains.TopDownEngine
 		[SerializeField] private GameObject bottomPanel;
 		[SerializeField] private TextMeshProUGUI moneyText;
 
-		[SerializeField] private GameObject panel;
-		
+		[SerializeField] private GameObject turretUpgradePanel;
+		[SerializeField] private Button upgradeTurretButton;
+		private Vector3 turretUpgradePanelOffset = new Vector3(0, 300, 0);
+		private bool showingUpgradePanel;
+		private int currentTurretID;
+		public Button UpgradeTurretButton => upgradeTurretButton;
+		public int CurrentTurretID => currentTurretID;
+
 		/// <summary>
 		/// Statics initialization to support enter play modes
 		/// </summary>
@@ -409,9 +416,24 @@ namespace MoreMountains.TopDownEngine
 				moneyText.text = money.ToString();
 		}
 
-		public void ShowPopUpPanel(Vector3 position)
+		public void ShowPopUpPanel(Vector3 position, int turretID)
 		{
-			panel.transform.position = position;
+			turretUpgradePanel.SetActive(true);
+			if(!DOTween.IsTweening(turretUpgradePanel) && !showingUpgradePanel)
+				turretUpgradePanel.transform.DOScale(Vector3.one, 0.3f).SetEase(Ease.OutBack);
+			showingUpgradePanel = true;
+			turretUpgradePanel.transform.position = position + turretUpgradePanelOffset;
+			currentTurretID = turretID;
+		}
+
+		public void HidePopUpPanel()
+		{
+			if(!DOTween.IsTweening(turretUpgradePanel) && showingUpgradePanel)
+				turretUpgradePanel.transform.DOScale(Vector3.zero, 0.1f).OnComplete(() =>
+				{
+					turretUpgradePanel.SetActive(false);
+					showingUpgradePanel =false;
+				}).SetEase(Ease.InBack);
 		}
 	}
 }
