@@ -246,31 +246,36 @@ namespace MoreMountains.TopDownEngine
         {
             List<Vector3> spawnPositions = new List<Vector3>();
 
-            if (Flipped)
+            if (SpawnTransforms.Count > 0)
             {
-                if (FlipWeaponOnCharacterFlip)
+                foreach (Transform spawnTransform in SpawnTransforms)
                 {
-                    spawnPositions.Add(this.transform.position - this.transform.rotation * _flippedProjectileSpawnOffset);
-                }
-                else
-                {
-                    spawnPositions.Add(this.transform.position - this.transform.rotation * ProjectileSpawnOffset);
+                    spawnPositions.Add(spawnTransform.position);
                 }
             }
             else
             {
-                spawnPositions.Add(this.transform.position + this.transform.rotation * ProjectileSpawnOffset);
-            }
+                if (Flipped)
+                {
+                    if (FlipWeaponOnCharacterFlip)
+                    {
+                        spawnPositions.Add(this.transform.position - this.transform.rotation * _flippedProjectileSpawnOffset);
+                    }
+                    else
+                    {
+                        spawnPositions.Add(this.transform.position - this.transform.rotation * ProjectileSpawnOffset);
+                    }
+                }
+                else
+                {
+                    spawnPositions.Add(this.transform.position + this.transform.rotation * ProjectileSpawnOffset);
+                }
 
-            if (WeaponUseTransform != null)
-            {
-                spawnPositions.Clear();
-                spawnPositions.Add(WeaponUseTransform.position);
-            }
-
-            foreach (Transform spawnTransform in SpawnTransforms)
-            {
-                spawnPositions.Add(spawnTransform.position);
+                if (WeaponUseTransform != null)
+                {
+                    spawnPositions.Clear();
+                    spawnPositions.Add(WeaponUseTransform.position);
+                }
             }
 
             return spawnPositions;
