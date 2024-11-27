@@ -14,6 +14,8 @@ public class TurretManager : MonoBehaviour
     private int currentTurretPrice;
     private string playerTagName = "Player";
     private Button upgradeButton;
+    private bool isUpgradeable;
+    private PlayerController playerController;
 
     private void Start()
     {
@@ -31,6 +33,7 @@ public class TurretManager : MonoBehaviour
         if (currentTurret < 0 || currentTurret >= turrets.Count) return;
         
         unlockableSignal.SetActive(false);
+        UpdatePlayerMoney(-currentTurretPrice);
         for (int i = 0; i < turrets.Count; i++)
             turrets[i].SetActive(i == currentTurret);
         currentTurret++;
@@ -42,8 +45,13 @@ public class TurretManager : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (!other.CompareTag(playerTagName)) return;
-       if (Camera.main != null) GUIManager.Instance.ShowPopUpPanel(Camera.main.WorldToScreenPoint(transform.position),turretID );
+        PassInfoToUI();
+        playerController = other.GetComponent<PlayerController>();
+        if (playerController == null) return;
+        CheckIfUpgradeable(playerController);
     }
+
+
 
     private void OnTriggerExit(Collider other)
     {
@@ -55,15 +63,46 @@ public class TurretManager : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
         if (!other.CompareTag(playerTagName)) return;
-        if (Camera.main != null) GUIManager.Instance.ShowPopUpPanel(Camera.main.WorldToScreenPoint(transform.position), turretID);
-        /*PlayerController playerController = other.GetComponent<PlayerController>();
+        PassInfoToUI(); 
+        playerController = other.GetComponent<PlayerController>();
         if (playerController == null) return;
-        if (playerController.GetMoney() < currentTurretPrice) return;
+        CheckIfUpgradeable(playerController);
+        /*if (playerController.GetMoney() < currentTurretPrice) return;
         currentTurretPrice -= 1;
         playerController.UpdateMoney(-1);
         if (currentTurretPrice == 0)
         {
             UpgradeTurret();
         }*/
+    }
+    
+    private void PassInfoToUI()
+    {
+        string turretLevelText;
+        string turretPriceText;
+        if (currentTurret >= turrets.Count)
+        {
+            turretLevelText = $"TURRET LV MAX";
+            turretPriceText = $"MAX";
+        }
+        else
+        {
+            turretLevelText = $"TURRET LV {currentTurret + 1}";
+            turretPriceText = $"{currentTurretPrice}";
+        }
+        
+        if (Camera.main != null) GUIManager.Instance.ShowPopUpPanel(Camera.main.WorldToScreenPoint(transform.position),turretID, turretLevelText, turretPriceText );
+    }
+    
+    private void CheckIfUpgradeable(PlayerController playerController)
+    {
+        isUpgradeable =!((currentTurret < 0 || currentTurret >= turrets.Count) || playerController.GetMoney() < currentTurretPrice) ;
+        upgradeButton.interactable = isUpgradeable;
+    }
+
+    private void UpdatePlayerMoney(int price)
+    {
+        if (playerController == null) return;
+        playerController.UpdateMoney(price);
     }
 }
