@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using DG.Tweening;
+using MoreMountains.TopDownEngine;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -56,19 +57,21 @@ public class TurretManager : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (!other.CompareTag(playerTagName)) return;
-        buyPopUp.SetActive(true);
-        buyPopUp.transform.DOScale(Vector3.one, 0.3f).SetEase(Ease.OutBack);
+       // buyPopUp.SetActive(true);
+       // buyPopUp.transform.DOScale(Vector3.one, 0.3f).SetEase(Ease.OutBack);
+       GUIManager.Instance.ShowPopUpPanel(  Camera.main.WorldToScreenPoint(transform.position));
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (!other.CompareTag(playerTagName)) return;
-        buyPopUp.transform.DOScale(Vector3.zero, 0.3f).SetEase(Ease.InBack).OnComplete(() => buyPopUp.SetActive(false));
+       // if (!other.CompareTag(playerTagName)) return;
+        //buyPopUp.transform.DOScale(Vector3.zero, 0.3f).SetEase(Ease.InBack).OnComplete(() => buyPopUp.SetActive(false));
     }
 
     private void OnTriggerStay(Collider other)
     {
         if (!other.CompareTag(playerTagName)) return;
+        GUIManager.Instance.ShowPopUpPanel(  Camera.main.WorldToScreenPoint(transform.position));
         /*PlayerController playerController = other.GetComponent<PlayerController>();
         if (playerController == null) return;
         if (playerController.GetMoney() < currentTurretPrice) return;
