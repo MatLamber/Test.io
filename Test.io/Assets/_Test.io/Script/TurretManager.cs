@@ -1,14 +1,18 @@
+using System;
 using System.Collections.Generic;
+using DG.Tweening;
+using MoreMountains.Tools;
 using MoreMountains.TopDownEngine;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TurretManager : MonoBehaviour
+public class TurretManager : MonoBehaviour, MMEventListener<WaveStartEvent>, MMEventListener<WaveEndedEvent>
 {
     [SerializeField] private List<GameObject> turrets;
     [SerializeField] private List<int> turretPrices;
     [SerializeField] private GameObject unlockableSignal;
-    [SerializeField] private GameObject buyPopUp;
+    [SerializeField] private SphereCollider upgradeZoneCollider;
+    [SerializeField] private BoxCollider turretCollider;
     [SerializeField] private int turretID;
     private int currentTurret;
     private int currentTurretPrice;
@@ -104,5 +108,33 @@ public class TurretManager : MonoBehaviour
     {
         if (playerController == null) return;
         playerController.UpdateMoney(price);
+    }
+
+    private void OnEnable()
+    {
+        this.MMEventStartListening<WaveStartEvent>();
+        this.MMEventStartListening<WaveEndedEvent>();
+    }
+
+    private void OnDisable()
+    {
+        this.MMEventStopListening<WaveStartEvent>();
+        this.MMEventStopListening<WaveEndedEvent>();
+    }
+
+    public void OnMMEvent(WaveStartEvent eventType)
+    {
+        unlockableSignal.transform.DOScale(Vector3.zero, 0.1f).SetEase(Ease.InBack).OnComplete(() => unlockableSignal.SetActive(false));
+        upgradeZoneCollider.enabled = false;
+    }
+
+    public void OnMMEvent(WaveEndedEvent eventType)
+    {
+        if (currentTurret == 0)
+        {
+            unlockableSignal.SetActive(true);
+            unlockableSignal.transform.DOScale(Vector3.one, 0.3f).SetEase(Ease.OutBack);
+        }
+        upgradeZoneCollider.enabled = true;
     }
 }

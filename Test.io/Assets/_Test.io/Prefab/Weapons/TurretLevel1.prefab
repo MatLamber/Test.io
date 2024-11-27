@@ -769,7 +769,7 @@ MonoBehaviour:
   Spread: {x: 0, y: 0, z: 0}
   RotateWeaponOnSpread: 0
   RandomSpread: 1
-  SpawnPosition: {x: 3.6574001, y: 0.87, z: 0}
+  SpawnPosition: {x: 3.6574001, y: 1.1700001, z: 0}
   ObjectPooler: {fileID: 5503150111318282379}
   SpawnFeedbacks: []
   TestShootButton: 0
@@ -785,7 +785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0514d297deadac74fb15a7b7326ff0d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AimControl: 2
+  AimControl: 1
   AimControlActive: 1
   RotationMode: 0
   WeaponRotationSpeed: 1
