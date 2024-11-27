@@ -21,34 +21,17 @@ public class EnemyWave
         [SerializeField] private MMSimpleObjectPooler enemyPooler; // Pool de enemigo específico
         public int enemiesPerSecond; // Cantidad de enemigos spawneados por segundo
 
-        [MinMaxSlider(0, 1)] public Vector2
+        [MinMaxSlider(0, 1)]
+        public Vector2
             spawnDurationRange; // Rango de duración del spawneo de este pool en porcentaje de la duración total de la wave
 
         public MMSimpleObjectPooler EnemyPooler => enemyPooler;
     }
 }
 
-public struct LevelCompleted
-{
-    public static LevelCompleted e;
 
-    public static void Trigger()
-    {
-        MMEventManager.TriggerEvent(e);
-    }
-}
 
-public struct LevelFailed
-{
-    public static LevelFailed e;
-
-    public static void Trigger()
-    {
-        MMEventManager.TriggerEvent(e);
-    }
-}
-
-public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>
+public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>, MMEventListener<WaveStartEvent>
 {
     public List<EnemyWave> waves; // Lista de waves
     public Transform spawnCenter; // Centro del área de spawneo
@@ -66,6 +49,7 @@ public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>
     private List<Coroutine> activeCoroutines = new List<Coroutine>();
 
     private bool levelFinished;
+    private bool isOnWave;
 
     void Start()
     {
@@ -80,17 +64,11 @@ public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>
         formattedTime = FormatTime(waveTimer);
         UpdateWaveDurationUI();
 
-        // Si el tiempo de la oleada se acaba y quedan muchos enemigos por matar, fallar el nivel
-        if (waveTimer <= 0)
+        if (waveTimer <= 0 && isOnWave)
         {
-            if (enemiesKilledInWave < waves[currentWaveIndex].enemiesToKill)
-            {
-                OnLevelFailed();
-            }
-            else
-            {
-                StartNextWave();
-            }
+            isOnWave = false;
+            WaveEndedEvent.Trigger();
+            DeactivateAllEnemies(); // Desactivar todos los enemigos activos cuando se termina la oleada
         }
     }
 
@@ -119,11 +97,11 @@ public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>
         if (currentWaveIndex >= waves.Count)
         {
             Debug.Log("All waves completed!");
-            OnLevelCompleted();
             isSpawning = false;
             return;
         }
 
+        isOnWave = true;
         enemiesKilledInWave = 0;
         EnemyWave currentWave = waves[currentWaveIndex];
         waveTimer = currentWave.duration;
@@ -182,8 +160,9 @@ public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>
                     Enemy enemyScript = enemyObject.GetComponent<Enemy>();
                     if (enemyScript != null)
                     {
-                        activeEnemies.Add(enemyScript); // Añadir el script Enemy a la lista de enemigos activos
-                        // Desactivar el enemigo después del tiempo restante
+                        activeEnemies
+                            .Add(enemyScript); // Añadir el script Enemy a la lista de enemigos activos                        // Desactivar el enemigo después del tiempo restante
+                        enemyScript.SetTarget(spawnCenter);
                         StartCoroutine(DeactivateAfterTime(enemyScript, remainingWaveTime));
                     }
                 }
@@ -218,6 +197,19 @@ public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>
         }
     }
 
+    void DeactivateAllEnemies()
+    {
+        foreach (var enemy in activeEnemies)
+        {
+            if (enemy != null)
+            {
+                enemy.gameObject.SetActive(false);
+            }
+        }
+
+        activeEnemies.Clear();
+    }
+
     public void OnMMEvent(EnemyDeathEvent eventType)
     {
         UpdateWaveProgression(eventType);
@@ -229,13 +221,6 @@ public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>
         activeEnemies.Remove(eventType.Enemy);
         enemiesKilledInWave++;
         currentEnemiesToKill--;
-
-        if (currentEnemiesToKill <= 0)
-        {
-            isSpawning = false;
-            Debug.Log("Wave completed!");
-            StartNextWave();
-        }
     }
 
     private int GetWaveProgression()
@@ -275,29 +260,13 @@ public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>
     private void OnEnable()
     {
         this.MMEventStartListening<EnemyDeathEvent>();
+        this.MMEventStartListening<WaveStartEvent>();
     }
 
     private void OnDisable()
     {
         this.MMEventStopListening<EnemyDeathEvent>();
-    }
-
-    private void OnLevelCompleted()
-    {
-        Debug.Log("Level Completed!");
-        LevelCompleted.Trigger();
-        if (GUIManager.Instance is not null)
-            GUIManager.Instance.ShowWinPanel();
-    }
-
-    private void OnLevelFailed()
-    {
-        isSpawning = false;
-        levelFinished = true;
-        Debug.Log("Level Failed!");
-        LevelFailed.Trigger();
-        if (GUIManager.Instance is not null)
-            GUIManager.Instance.ShowLosePanel();
+        this.MMEventStopListening<WaveStartEvent>();
     }
 
     private void OnDrawGizmos()
@@ -309,5 +278,10 @@ public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>
             // Dibujar una esfera en el centro de spawn con el radio de spawn
             Gizmos.DrawWireSphere(spawnCenter.position, spawnRadius);
         }
+    }
+
+    public void OnMMEvent(WaveStartEvent startEventType)
+    {
+        StartNextWave();
     }
 }

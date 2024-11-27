@@ -135,6 +135,46 @@ namespace MoreMountains.TopDownEngine
 			PointOfEntryIndex = pointOfEntryIndex;
 		}
 	}
+	
+	public struct LevelCompleted
+	{
+		public static LevelCompleted e;
+
+		public static void Trigger()
+		{
+			MMEventManager.TriggerEvent(e);
+		}
+	}
+
+	public struct LevelFailed
+	{
+		public static LevelFailed e;
+
+		public static void Trigger()
+		{
+			MMEventManager.TriggerEvent(e);
+		}
+	}
+
+	public struct WaveStartEvent
+	{
+		public static WaveStartEvent e;
+		
+		public static void Trigger()
+		{
+			MMEventManager.TriggerEvent(e);
+		}
+	}
+
+	public struct WaveEndedEvent
+	{
+		public static WaveEndedEvent e;
+
+		public static void Trigger()
+		{
+			MMEventManager.TriggerEvent(e);
+		}
+	}
 
 	/// <summary>
 	/// The game manager is a persistent singleton that handles points and time

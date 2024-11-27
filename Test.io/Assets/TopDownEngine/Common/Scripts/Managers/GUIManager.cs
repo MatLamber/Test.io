@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using DG.Tweening;
@@ -12,7 +13,7 @@ namespace MoreMountains.TopDownEngine
     /// Handles all GUI effects and changes
     /// </summary>
     [AddComponentMenu("TopDown Engine/Managers/GUI Manager")]
-    public class GUIManager : MMSingleton<GUIManager>
+    public class GUIManager : MMSingleton<GUIManager>, MMEventListener<WaveStartEvent>, MMEventListener<WaveEndedEvent>
     {
         /// the main canvas
         [Tooltip("the main canvas")] public Canvas MainCanvas;
@@ -79,6 +80,9 @@ namespace MoreMountains.TopDownEngine
         private int currentTurretID;
         public Button UpgradeTurretButton => upgradeTurretButton;
         public int CurrentTurretID => currentTurretID;
+
+
+        [SerializeField] private GameObject inBetweenWavesPanel;
 
         /// <summary>
         /// Statics initialization to support enter play modes
@@ -465,5 +469,34 @@ namespace MoreMountains.TopDownEngine
                     showingUpgradePanel = false;
                 }).SetEase(Ease.InBack);
         }
+
+        public void StartNextWave()
+        {
+            WaveStartEvent.Trigger();
+        }
+
+        public void OnMMEvent(WaveStartEvent eventType)
+        {
+            inBetweenWavesPanel.SetActive(false);
+        }
+        
+        public void OnMMEvent(WaveEndedEvent eventType)
+        {
+            inBetweenWavesPanel.SetActive(true);
+        }
+
+        private void OnEnable()
+        {
+            this.MMEventStartListening<WaveStartEvent>();
+            this.MMEventStartListening<WaveEndedEvent>();
+        }
+
+        private void OnDisable()
+        {
+            this.MMEventStopListening<WaveStartEvent>();
+            this.MMEventStopListening<WaveEndedEvent>();
+        }
+
+   
     }
 }

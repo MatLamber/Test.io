@@ -48,7 +48,7 @@ public class Enemy : MonoBehaviour
 
     private void Start()
     {
-        target = GameObject.FindGameObjectWithTag("Player").transform;
+        //target = GameObject.FindGameObjectWithTag("Player").transform;
 
         // Configura la primera animación
     }
@@ -208,5 +208,10 @@ public class Enemy : MonoBehaviour
             }
             yield return new WaitForSeconds(attackSpeed);
         }
+    }
+
+    public void SetTarget(Transform targetTransform)
+    {
+        target = targetTransform;
     }
 }

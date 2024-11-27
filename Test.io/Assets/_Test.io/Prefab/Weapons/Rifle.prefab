@@ -378,7 +378,7 @@ MonoBehaviour:
   ObstacleMask:
     serializedVersion: 2
     m_Bits: 256
-  ScanRadius: 4
+  ScanRadius: 6.5
   LineOfFireBoxcastSize: {x: 0.1, y: 0.1}
   DurationBetweenScans: 0.1
   DetectionOriginOffset: {x: 0, y: 0, z: 0}
