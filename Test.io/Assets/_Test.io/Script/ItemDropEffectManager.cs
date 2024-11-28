@@ -64,7 +64,6 @@ public class ItemDropEffectManager : MonoBehaviour
 
     private void AllowMoveToPlayer()
     {
-        Debug.Log("Move");
         foreach (Transform obj in explosionObjects)
         {
             obj.GetComponent<Rigidbody>().isKinematic = true;
@@ -73,7 +72,7 @@ public class ItemDropEffectManager : MonoBehaviour
         moveToPlayerAllowed = true;
     }
 
-    private void Update()
+    private void LateUpdate()
     {
         
         gameObject.SetActive(!AreAllChildrenInactive());

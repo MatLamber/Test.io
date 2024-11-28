@@ -69,7 +69,10 @@ namespace MoreMountains.TopDownEngine
         [SerializeField] private GameObject losePanel;
 
         [SerializeField] private GameObject bottomPanel;
+        
         [SerializeField] private TextMeshProUGUI moneyText;
+        [SerializeField] private TextMeshProUGUI greenGemsText;
+        
 
         [SerializeField] private GameObject turretUpgradePanel;
         [SerializeField] private Button upgradeTurretButton;
@@ -80,9 +83,11 @@ namespace MoreMountains.TopDownEngine
         private int currentTurretID;
         public Button UpgradeTurretButton => upgradeTurretButton;
         public int CurrentTurretID => currentTurretID;
-
-
+        
+        
         [SerializeField] private GameObject inBetweenWavesPanel;
+
+        [SerializeField] private GameObject playerUpgradePanel;
 
         /// <summary>
         /// Statics initialization to support enter play modes
@@ -447,6 +452,12 @@ namespace MoreMountains.TopDownEngine
             if (moneyText != null)
                 moneyText.text = money.ToString();
         }
+        
+        public void UpdateGreenGemsText(int greenGems)
+        {
+            if (greenGemsText != null)
+                greenGemsText.text = greenGems.ToString();
+        }
 
         public void ShowPopUpPanel(Vector3 position, int turretID, string turretLevel, string turretPrice)
         {
@@ -473,6 +484,11 @@ namespace MoreMountains.TopDownEngine
         public void StartNextWave()
         {
             WaveStartEvent.Trigger();
+        }
+
+        public void ShowPlayerUpgradePanel()
+        {
+            playerUpgradePanel.SetActive(true);
         }
 
         public void OnMMEvent(WaveStartEvent eventType)

@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61333a6ea51234cf29e23719d6ecc295, type: 3}
   m_Name: DefaultStats
   m_EditorClassIdentifier: 
-  money: 1500
+  money: 0
+  greenGem: 1500

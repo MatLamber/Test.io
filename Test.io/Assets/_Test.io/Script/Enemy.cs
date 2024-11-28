@@ -214,4 +214,9 @@ public class Enemy : MonoBehaviour
     {
         target = targetTransform;
     }
+
+    public void TriggerSpawnCurrencyEvent()
+    {
+        SpawnCurrencyEvent.Trigger(transform.position);
+    }
 }

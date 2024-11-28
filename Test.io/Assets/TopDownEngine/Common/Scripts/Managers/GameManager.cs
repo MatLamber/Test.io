@@ -47,6 +47,12 @@ namespace MoreMountains.TopDownEngine
 		GameStart
 	}
 
+	public enum CurrencyType
+	{
+		Coin,
+		GreenGem
+	}
+
 	/// <summary>
 	/// A type of events used to signal level start and end (for now)
 	/// </summary>
@@ -170,6 +176,43 @@ namespace MoreMountains.TopDownEngine
 	{
 		public static WaveEndedEvent e;
 
+		public static void Trigger()
+		{
+			MMEventManager.TriggerEvent(e);
+		}
+	}
+
+
+	public struct AddCurrencyEvent
+	{
+		public static AddCurrencyEvent e;
+		public CurrencyType CurrencyType;
+		public int Amount;
+
+		public static void Trigger(CurrencyType currencyType, int amount)
+		{
+			e.CurrencyType = currencyType;
+			e.Amount = amount;
+			MMEventManager.TriggerEvent(e);
+		}
+	}
+
+	public struct SpawnCurrencyEvent
+	{
+		public static SpawnCurrencyEvent e;
+		public Vector3 Position;
+		
+		public static void Trigger(Vector3 position)
+		{
+			e.Position = position;
+			MMEventManager.TriggerEvent(e);
+		}
+	}
+
+	public struct PlayerUpgradeUnlockedEvent
+	{
+		public static PlayerUpgradeUnlockedEvent e;
+		
 		public static void Trigger()
 		{
 			MMEventManager.TriggerEvent(e);
