@@ -10,7 +10,7 @@ public class CurrencyObject : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if(!other.CompareTag(playerTagName)) return;
-        AddCurrencyEvent.Trigger(currencyType,100);
+        AddCurrencyEvent.Trigger(currencyType,50);
         gameObject.SetActive(false);
 
     }
