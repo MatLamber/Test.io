@@ -32,6 +32,7 @@ public class ChestUpgradeManager : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
+        if (!other.CompareTag(playerTagName)) return;
         CheckIfCanOpen();
     }
 

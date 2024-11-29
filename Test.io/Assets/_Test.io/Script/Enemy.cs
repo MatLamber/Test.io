@@ -32,6 +32,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private Transform enemyModel;
     [SerializeField] private Transform landingPosition;
+    [SerializeField] private float lovelLevelToAdd;
     [Header("Parametros del animator")] private string walkParamater = "Walk";
     private string flinchParameter = "Flinch";
     private string flailParameter = "Flail";
@@ -163,7 +164,7 @@ public class Enemy : MonoBehaviour
                 break;
         }
 
-
+        AddLoveLevelEvent.Trigger(lovelLevelToAdd);
         EnemyDeathEvent.Trigger(this);
     }
 
@@ -175,6 +176,7 @@ public class Enemy : MonoBehaviour
         animator.SetTrigger(dieParameter);
         enemyModel.DOJump(landingPosition.position, 1, 1, 0.5f).SetEase(Ease.OutQuad);
         isOnAttackRange = false;
+        AddLoveLevelEvent.Trigger(lovelLevelToAdd);
         EnemyDeathEvent.Trigger(this);
     }
 

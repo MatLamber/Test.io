@@ -458,6 +458,7 @@ MonoBehaviour:
   animator: {fileID: 7908746333122290361}
   enemyModel: {fileID: 3471352602253778914}
   landingPosition: {fileID: 6057328677437756387}
+  lovelLevelToAdd: 0.3
 --- !u!114 &5372524445921380997
 MonoBehaviour:
   m_ObjectHideFlags: 0

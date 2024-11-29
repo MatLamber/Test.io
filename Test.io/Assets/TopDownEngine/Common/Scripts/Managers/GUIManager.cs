@@ -13,7 +13,7 @@ namespace MoreMountains.TopDownEngine
     /// Handles all GUI effects and changes
     /// </summary>
     [AddComponentMenu("TopDown Engine/Managers/GUI Manager")]
-    public class GUIManager : MMSingleton<GUIManager>, MMEventListener<WaveStartEvent>, MMEventListener<WaveEndedEvent>
+    public class GUIManager : MMSingleton<GUIManager>, MMEventListener<WaveStartEvent>, MMEventListener<WaveEndedEvent>, MMEventListener<AddLoveLevelEvent>
     {
         /// the main canvas
         [Tooltip("the main canvas")] public Canvas MainCanvas;
@@ -88,6 +88,8 @@ namespace MoreMountains.TopDownEngine
         [SerializeField] private GameObject inBetweenWavesPanel;
 
         [SerializeField] private GameObject playerUpgradePanel;
+
+        [SerializeField] private Slider loveSlider;
 
         /// <summary>
         /// Statics initialization to support enter play modes
@@ -429,7 +431,7 @@ namespace MoreMountains.TopDownEngine
 
         IEnumerator ShowWinPanelCoroutine()
         {
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(0.5f);
             if (winPanel != null)
                 winPanel.SetActive(true);
         }
@@ -491,6 +493,19 @@ namespace MoreMountains.TopDownEngine
             playerUpgradePanel.SetActive(true);
         }
 
+        public void UpdateLoveSlider(float love)
+        {
+            if (loveSlider != null)
+                loveSlider.value += love;
+        }
+
+        public bool CheckIfLoveSliderIsFull()
+        {
+            if (loveSlider != null)
+                return loveSlider.value == loveSlider.maxValue;
+            return false;
+        }
+
         public void OnMMEvent(WaveStartEvent eventType)
         {
             inBetweenWavesPanel.SetActive(false);
@@ -498,21 +513,37 @@ namespace MoreMountains.TopDownEngine
         
         public void OnMMEvent(WaveEndedEvent eventType)
         {
-            inBetweenWavesPanel.SetActive(true);
+            if (CheckIfLoveSliderIsFull())
+            {
+                ShowWinPanel();
+            }
+            else
+            {
+                inBetweenWavesPanel.SetActive(true);
+            }
+                
+        }
+        
+        
+        public void OnMMEvent(AddLoveLevelEvent eventType)
+        {
+            UpdateLoveSlider(eventType.LoveValue);
         }
 
         private void OnEnable()
         {
             this.MMEventStartListening<WaveStartEvent>();
             this.MMEventStartListening<WaveEndedEvent>();
+            this.MMEventStartListening<AddLoveLevelEvent>();
         }
 
         private void OnDisable()
         {
             this.MMEventStopListening<WaveStartEvent>();
             this.MMEventStopListening<WaveEndedEvent>();
+            this.MMEventStopListening<AddLoveLevelEvent>();
         }
 
-   
+
     }
 }

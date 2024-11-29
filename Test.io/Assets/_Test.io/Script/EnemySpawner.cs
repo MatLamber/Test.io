@@ -51,6 +51,8 @@ public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>, MME
     private bool levelFinished;
     private bool isOnWave;
 
+    [SerializeField] private float loveLevelToAdd;
+
     void Start()
     {
         StartNextWave();
@@ -68,6 +70,7 @@ public class EnemySpawner : MonoBehaviour, MMEventListener<EnemyDeathEvent>, MME
         {
             isOnWave = false;
             WaveEndedEvent.Trigger();
+            AddLoveLevelEvent.Trigger(loveLevelToAdd);
             DeactivateAllEnemies(); // Desactivar todos los enemigos activos cuando se termina la oleada
         }
     }

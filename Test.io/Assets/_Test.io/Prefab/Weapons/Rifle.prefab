@@ -252,7 +252,7 @@ MonoBehaviour:
   TriggerMode: 1
   DelayBeforeUse: 0
   DelayBeforeUseReleaseInterruption: 0
-  TimeBetweenUses: 0.3
+  TimeBetweenUses: 0.4
   TimeBetweenUsesReleaseInterruption: 0
   UseBurstMode: 0
   BurstLength: 3
@@ -410,7 +410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8b1174ff4d3dcb4da6a6d4e0ae5bb77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DelayBeforeShootAfterAcquiringTarget: 0.1
+  DelayBeforeShootAfterAcquiringTarget: 0.3
   OnlyAutoShootIfOwnerIsIdle: 0
 --- !u!1 &5921904208959545825
 GameObject:

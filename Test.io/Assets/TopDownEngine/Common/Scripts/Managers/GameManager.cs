@@ -219,6 +219,17 @@ namespace MoreMountains.TopDownEngine
 		}
 	}
 
+	public struct AddLoveLevelEvent
+	{
+		public static AddLoveLevelEvent e;
+		public float LoveValue;
+		public static void Trigger(float loveValue)
+		{
+			e.LoveValue = loveValue;
+			MMEventManager.TriggerEvent(e);
+		}
+	}
+
 	/// <summary>
 	/// The game manager is a persistent singleton that handles points and time
 	/// </summary>
@@ -666,5 +677,6 @@ namespace MoreMountains.TopDownEngine
 				enemySpawner.SetActive(true);
 			}
 		}
+		
 	}
 }
